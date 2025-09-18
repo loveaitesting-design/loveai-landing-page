@@ -4,7 +4,8 @@ import PolicyLayout from '@/components/PolicyLayout';
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Shield, Eye, FileText, Lock, Users, Cookie, Phone, Mail } from 'lucide-react';
-
+import { AccessibilityProvider } from "@/components/AccessibilityProvider";
+import { AccessibilityWidget } from "@/components/AccessibilityWidget";
 function page() {
   const { t, ready } = useTranslation();
   const [isMounted, setIsMounted] = useState(false);
@@ -19,6 +20,8 @@ function page() {
 
   return (
     <PolicyLayout>
+       <AccessibilityProvider>
+                                  <AccessibilityWidget/>
       <div className="pt-[72px]" style={{ background: 'white' }}>
         {/* Header Section */}
         <div className="container mx-auto px-4 py-12 text-center">
@@ -289,6 +292,7 @@ function page() {
         </div>
         </div>
       </div>
+      </AccessibilityProvider>
     </PolicyLayout>
   );
 }

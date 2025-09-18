@@ -160,7 +160,7 @@ const PromoBanner: React.FC<PromoBannerProps> = ({
           </div>
           
           {/* CTA Button */}
-            <a href="https://www.loveai.co.il" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.loveai.co.il/login" target="_blank" rel="noopener noreferrer">
                      <Button 
                        variant="modern"
                        size="lg"

@@ -3,7 +3,8 @@ import PolicyLayout from "@/components/PolicyLayout";
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Heart, Shield, Lock, AlertTriangle, Flag, Users } from 'lucide-react';
-
+import { AccessibilityProvider } from "@/components/AccessibilityProvider";
+import { AccessibilityWidget } from "@/components/AccessibilityWidget";
 export default function Page() {
   const { t } = useTranslation();
   const [isMounted, setIsMounted] = useState(false);
@@ -335,6 +336,8 @@ export default function Page() {
   // );
   return (
     <PolicyLayout>
+       <AccessibilityProvider>
+                                  <AccessibilityWidget/>
       <div
         className="pt-[72px] min-h-screen"
         style={{ background: 'white' }}
@@ -619,6 +622,7 @@ export default function Page() {
           </div>
         </div>
       </div>
+      </AccessibilityProvider>
     </PolicyLayout>
   );
 }

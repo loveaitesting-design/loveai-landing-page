@@ -13,6 +13,8 @@ import { Separator } from '@/components/ui/separator';
 import {  Crown, Heart, Star, Gift, Zap } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 import Link from "next/link";
+import { AccessibilityProvider } from "@/components/AccessibilityProvider";
+import { AccessibilityWidget } from "@/components/AccessibilityWidget";
 
 export default function PricingPage() {
   const [isYearly, setIsYearly] = React.useState(false);
@@ -94,6 +96,8 @@ export default function PricingPage() {
 
   return (
     <PolicyLayout>
+      <AccessibilityProvider>
+        <AccessibilityWidget/>
       <div className="mt-10 sm:mt-10 lg:mt-10">
         <div className="min-h-screen bg-gradient-subtle">
           <div className="container mx-auto px-4 py-16">
@@ -245,6 +249,7 @@ export default function PricingPage() {
           </div>
         </div>
       </div>
+      </AccessibilityProvider>
     </PolicyLayout>
   );
 }

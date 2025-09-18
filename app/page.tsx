@@ -88,6 +88,10 @@ const FloatingHearts = dynamic(
     ssr: false, // ❗ animations should only run client-side
   }
 );
+
+import { AccessibilityWidget } from "@/components/AccessibilityWidget"; 
+import { AccessibilityProvider } from "@/components/AccessibilityProvider";
+
 const Features = dynamic(() => import("@/components/Features/Features"));
 const Testimonials = dynamic(
   () => import("@/components/Testinomials/Testimonials")
@@ -102,6 +106,9 @@ export default function LoveAiLanding() {
 
   return (
     <div className="max-w-[100dvw] overflow-hidden mx-auto">
+            <AccessibilityProvider>
+
+      <AccessibilityWidget/>
       <NavComponent />
       <FloatingHearts />
       <BannerSection />
@@ -122,6 +129,7 @@ export default function LoveAiLanding() {
       <SuccessStoriesSection />
       {/* <DownloadSection /> */}
       <Footer />
+      </AccessibilityProvider>
     </div>
   );
 }

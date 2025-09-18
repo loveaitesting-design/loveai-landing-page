@@ -874,7 +874,8 @@ import React, { useState, useEffect } from 'react';
 import { Heart, Users, Gift, Award, Plus, Clock, CheckCircle, FileImage, FileText, Video, Upload, Globe, X, Trash2, Eye } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import PolicyLayout from '@/components/PolicyLayout';
-
+import { AccessibilityProvider } from "@/components/AccessibilityProvider";
+import { AccessibilityWidget } from "@/components/AccessibilityWidget";
 interface GoodDeed {
   id: string;
   title: string;
@@ -1635,28 +1636,14 @@ const GoodDeeds = () => {
 
   return (
     <PolicyLayout>
+       <AccessibilityProvider>
+                                  <AccessibilityWidget/>
       <div className="space-y-8">
         {/* Header */}
-        <div className="text-center mt-8">
-          {/* Language Selector - Top Right */}
-          <div className="flex justify-end mb-6">
-            <div className="relative">
-              <select
-                value={i18n.language}
-                onChange={(e) => handleLanguageChange(e.target.value)}
-                className="border border-gray-300 rounded-md px-3 py-2 pr-8 text-sm appearance-none bg-white"
-              >
-                {languages.map((lang) => (
-                  <option key={lang.code} value={lang.code}>
-                    {lang.flag} {lang.name}
-                  </option>
-                ))}
-              </select>
-              <Globe className="absolute right-2 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-400 pointer-events-none" />
-            </div>
-          </div>
+        <div className="text-center mt-20">
+      
 
-          <h1 className="text-4xl font-bold text-gray-900 mb-3">{t('title')}</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-3 mt-8">{t('title')}</h1>
           <p className="text-gray-600 text-lg mb-8">{t('subtitle')}</p>
 
           {/* Stats - Centered */}
@@ -1709,6 +1696,7 @@ const GoodDeeds = () => {
 
       {/* Modal */}
       <GoodDeedModal />
+      </AccessibilityProvider>
     </PolicyLayout>
   );
 };

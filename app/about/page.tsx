@@ -3,7 +3,8 @@ import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import PolicyLayout from '@/components/PolicyLayout';
 import { Code, Globe, Heart, LightbulbIcon, Medal, Server } from "lucide-react"
-
+import { AccessibilityProvider } from "@/components/AccessibilityProvider";
+import { AccessibilityWidget } from "@/components/AccessibilityWidget";
 export default function AboutPage() {
   const { t, i18n } = useTranslation();
   const [isMounted, setIsMounted] = useState(false);
@@ -284,6 +285,9 @@ const SectionCard = ({ title, children, emoji = "" }) => (
   );
   return (
     <PolicyLayout>
+            <AccessibilityProvider>
+                      <AccessibilityWidget/>
+              
    <div id="about" className="min-h-screen bg-white px-4 py-24 ">
         <div className="max-w-7xl mx-auto px-4 md:px-8">
             {/* Header */}
@@ -566,6 +570,7 @@ const SectionCard = ({ title, children, emoji = "" }) => (
     
       </div>
       </div>
+      </AccessibilityProvider>
     </PolicyLayout>
   );
 }

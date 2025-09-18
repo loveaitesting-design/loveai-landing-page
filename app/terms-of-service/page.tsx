@@ -3,7 +3,8 @@ import PolicyLayout from "@/components/PolicyLayout";
 import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { Mail, Phone, Search, ClipboardList } from "lucide-react";
-
+import { AccessibilityProvider } from "@/components/AccessibilityProvider";
+import { AccessibilityWidget } from "@/components/AccessibilityWidget";
 function TermsOfUsePage() {
   const { t } = useTranslation();
   const [isMounted, setIsMounted] = useState(false);
@@ -18,6 +19,8 @@ function TermsOfUsePage() {
 
   return (
     <PolicyLayout>
+       <AccessibilityProvider>
+                                  <AccessibilityWidget/>
       {/* <div className="pt-[72px]" style={{ background: 'linear-gradient(to right, #FFDFDF, #D5F8FF)' }}> */}
       <div className="pt-[72px]" style={{ background: "white" }}>
         {/* Header Section */}
@@ -441,6 +444,7 @@ function TermsOfUsePage() {
           </div>
         </div>
       </div>
+      </AccessibilityProvider>
     </PolicyLayout>
   );
 }

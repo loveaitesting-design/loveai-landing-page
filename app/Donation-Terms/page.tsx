@@ -6,7 +6,8 @@ import Link from "next/link";
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
-
+import { AccessibilityProvider } from "@/components/AccessibilityProvider";
+import { AccessibilityWidget } from "@/components/AccessibilityWidget";
 interface TimelineStep {
   id: number;
   icon: string;
@@ -271,6 +272,8 @@ export default function KindnessJourneyPage({ kindnessScore = 180 }: Props) {
       `}</style>
 
       <PolicyLayout>
+         <AccessibilityProvider>
+                                    <AccessibilityWidget/>
         {/* Page wrapper: single consistent gentle background with floating hearts */}
         <div className={`pt-[72px] min-h-screen bg-gradient-to-b from-pink-50 via-sky-50 to-pink-50 relative overflow-hidden ${isRTL ? 'rtl' : 'ltr'}`}>
           
@@ -650,6 +653,7 @@ export default function KindnessJourneyPage({ kindnessScore = 180 }: Props) {
           </section>
 
         </div>
+        </AccessibilityProvider>
       </PolicyLayout>
     </>
   );

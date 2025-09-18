@@ -85,7 +85,8 @@ import PolicyLayout from '@/components/PolicyLayout';
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import Image from 'next/image';
-
+import { AccessibilityProvider } from "@/components/AccessibilityProvider";
+import { AccessibilityWidget } from "@/components/AccessibilityWidget";
 function Verify() {
   const { t } = useTranslation();
   const [isMounted, setIsMounted] = useState(false);
@@ -140,6 +141,8 @@ function Verify() {
       `}</style>
       
       <PolicyLayout>
+         <AccessibilityProvider>
+                                    <AccessibilityWidget/>
         <div className="pt-[72px]" style={{ background: 'white' }}>
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 mt-[46px] pb-[46px]">
             <div className="flex flex-col lg:flex-row lg:items-start gap-12 lg:gap-24 mb-6">
@@ -187,6 +190,7 @@ function Verify() {
             </div>
           </div>
         </div>
+        </AccessibilityProvider>
       </PolicyLayout>
     </>
   );
