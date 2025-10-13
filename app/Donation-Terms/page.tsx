@@ -8,6 +8,7 @@ import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import { AccessibilityProvider } from "@/components/AccessibilityProvider";
 import { AccessibilityWidget } from "@/components/AccessibilityWidget";
+import SEOHead from '@/components/seo/SEOHead';
 interface TimelineStep {
   id: number;
   icon: string;
@@ -114,7 +115,7 @@ interface Props {
   kindnessScore?: number;
 }
 
-export default function KindnessJourneyPage({ kindnessScore = 180 }: Props) {
+export default function KindnessJourneyPage({ kindnessScore = 48 }: Props) {
   const { t, i18n } = useTranslation();
   const isRTL = i18n.language === 'he';
   const [isMounted, setIsMounted] = useState(false);
@@ -274,6 +275,8 @@ export default function KindnessJourneyPage({ kindnessScore = 180 }: Props) {
       <PolicyLayout>
          <AccessibilityProvider>
                                     <AccessibilityWidget/>
+                                                <SEOHead title="LoveAi - Find Real Love with AI" url="https://www.loveai.co.il/" />
+                                    
         {/* Page wrapper: single consistent gentle background with floating hearts */}
         <div className={`pt-[72px] min-h-screen bg-gradient-to-b from-pink-50 via-sky-50 to-pink-50 relative overflow-hidden ${isRTL ? 'rtl' : 'ltr'}`}>
           
@@ -381,7 +384,7 @@ export default function KindnessJourneyPage({ kindnessScore = 180 }: Props) {
                   transition={{ delay: .4, duration: .6 }} 
                   className="mt-8 flex justify-center"
                 >
-                  <Link href="https://www.loveai.co.il/signup" className="inline-block">
+                  <Link href="https://www.loveai.co.il/login" className="inline-block">
                     <motion.button
                       whileHover={{ scale: 1.04, boxShadow: "0 8px 30px rgba(0,162,224,0.18)" }}
                       className="inline-flex items-center gap-3 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 hover:shadow-2xl hover:shadow-pink-500/50 hover:scale-110 text-gray-900 font-semibold px-6 py-3 rounded-full shadow-lg"
@@ -638,7 +641,7 @@ export default function KindnessJourneyPage({ kindnessScore = 180 }: Props) {
                 <p className="text-gray-700 mb-8">{isMounted ? t('kindnessJourney.finalCta.subtitle') : fallbackContent.finalCtaSubtitle}</p>
 
                 <div>
-                  <Link href="https://www.loveai.co.il/signup">
+                  <Link href="https://www.loveai.co.il/login">
                     <motion.button 
                       whileHover={{ scale: 1.04 }} 
                       className="px-8 py-4 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500  hover:shadow-pink-500/50 hover:scale-110 rounded-full font-semibold shadow-lg text-white hover:shadow-xl transition-shadow"

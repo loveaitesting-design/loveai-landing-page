@@ -7,6 +7,7 @@ import { useTranslation } from 'react-i18next';
 import Image from 'next/image';
 import { AccessibilityProvider } from "@/components/AccessibilityProvider";
 import { AccessibilityWidget } from "@/components/AccessibilityWidget";
+import SEOHead from '@/components/seo/SEOHead';
 function BlogPage() {
   const { t } = useTranslation();
   const [isMounted, setIsMounted] = useState(false);
@@ -119,6 +120,8 @@ function BlogPage() {
     <PolicyLayout>
        <AccessibilityProvider>
                                   <AccessibilityWidget/>
+                                        <SEOHead title="LoveAi - Find Real Love with AI" url="https://www.loveai.co.il/" />
+
       <div className="pt-[72px]" style={{ background: 'white' }}>
         {/* Main Content */}
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 mt-[46px] pb-[46px]">

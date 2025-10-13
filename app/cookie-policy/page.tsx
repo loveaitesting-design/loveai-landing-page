@@ -6,6 +6,9 @@ import PolicyLayout from '@/components/PolicyLayout';
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { CheckCircle2, CircleSlash, Settings,Mail, Phone ,Cookie,Zap,BarChart2,Megaphone} from "lucide-react";
+import SEOHead from "@/components/seo/SEOHead";
+import { AccessibilityProvider } from "@/components/AccessibilityProvider";
+import AccessibilityWidget from "@/components/AccessibilityWidget";
 
 export default function CookiePolicyPage() {
   const [isMounted, setIsMounted] = useState(false);
@@ -39,6 +42,9 @@ export default function CookiePolicyPage() {
 
   return (
     <PolicyLayout>
+      <AccessibilityProvider>
+              <AccessibilityWidget/>
+            <SEOHead title="LoveAi - Find Real Love with AI" url="https://www.loveai.co.il/" />
       <div className="pt-[72px]" style={{ background: 'white' }}>
         {/* Header Section */}
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -413,6 +419,7 @@ export default function CookiePolicyPage() {
           </div>
         </div>
       </div>
+      </AccessibilityProvider>
     </PolicyLayout>
   )
 }

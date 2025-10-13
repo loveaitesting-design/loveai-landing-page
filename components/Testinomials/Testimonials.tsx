@@ -3,6 +3,7 @@ import { Badge } from "@/components/ui/badge";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { useTranslation } from 'react-i18next';
 import { Heart, Star, Quote, CheckCircle, MapPin } from "lucide-react";
+import SEOHead from "../seo/SEOHead";
 
 const Testimonials = () => {
   const { t, i18n } = useTranslation();
@@ -246,7 +247,9 @@ const Testimonials = () => {
   const testimonials = generateTestimonials(language);
 
   return (
+    
     <section id="testimonials" className="py-20 bg-white to-pink-50 relative overflow-hidden">
+            <SEOHead title="LoveAi - Find Real Love with AI" url="https://www.loveai.co.il/" />
       {/* Background decorations */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-sky-200/20 rounded-full blur-3xl"></div>

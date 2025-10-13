@@ -21,6 +21,7 @@ import {
 } from "lucide-react";
 import { AccessibilityProvider } from "@/components/AccessibilityProvider";
 import { AccessibilityWidget } from "@/components/AccessibilityWidget";
+import SEOHead from '@/components/seo/SEOHead';
 export default function CareerPage() {
   const { t } = useTranslation();
   const formRef = useRef<HTMLFormElement>(null);
@@ -180,6 +181,7 @@ const whyWorkWithUsCards = [
     <PolicyLayout>
        <AccessibilityProvider>
                                   <AccessibilityWidget/>
+                                        <SEOHead title="LoveAi - Find Real Love with AI" url="https://www.loveai.co.il/" />
       <div className="pt-[72px] min-h-screen bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16 max-w-9xl">
           <h1 className="text-4xl sm:text-5xl font-bold text-sky-400 mb-6 text-center">

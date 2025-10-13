@@ -4,12 +4,16 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { ExternalLink, MessageCircle, Mail } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import SEOHead from '../seo/SEOHead';
 
  const AdBanner = () => {
   const { t, i18n } = useTranslation();
 
   return (
-    <Card className="w-full border border-blue-200 bg-gradient-to-br from-blue-50 to-indigo-50">
+    
+    <Card id="features" className="w-full border border-blue-200 bg-gradient-to-br from-blue-50 to-indigo-50">
+            <SEOHead title="LoveAi - Find Real Love with AI" url="https://www.loveai.co.il/" />
+
       <CardContent className="p-6">
         {/* Header */}
         <div className="flex items-center justify-between mb-4">

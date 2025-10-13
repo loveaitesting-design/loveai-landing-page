@@ -215,7 +215,7 @@ const LoveAIBanner = ({ language }: LoveAIBannerProps) => {
                   className="bg-white text-primary hover:bg-white/90 text-lg px-8 py-4 rounded-xl font-bold shadow-lg transition-all duration-300 hover:shadow-xl hover:scale-105"
                   onClick={(e) => {
                     e.stopPropagation();
-                    window.open("https://www.loveai.co.il/signup", "_blank", "noopener,noreferrer");
+                    window.open("https://www.loveai.co.il/login", "_blank", "noopener,noreferrer");
                   }}
                 >
                   <div

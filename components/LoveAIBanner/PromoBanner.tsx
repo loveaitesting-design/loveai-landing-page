@@ -174,7 +174,7 @@ const PromoBanner: React.FC<PromoBannerProps> = ({
           {/* App Store Badges */}
           <div className="flex gap-4 items-center mt-6">
             <a 
-              href="https://play.google.com/store/apps/details?id=com.dating.loveai" 
+                          href="https://play.google.com/store/apps/details?id=com.dating.loveai" 
               target="_blank" 
               rel="noopener noreferrer"
               className="hover:scale-105 transition-transform duration-300 animate-fade-in delay-700"
@@ -186,7 +186,7 @@ const PromoBanner: React.FC<PromoBannerProps> = ({
               />
             </a>
             <a 
-              href="https://play.google.com/store/apps/details?id=com.dating.loveai" 
+              href="https://www.apple.com/app-store/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="hover:scale-105 transition-transform duration-300 animate-fade-in delay-800"

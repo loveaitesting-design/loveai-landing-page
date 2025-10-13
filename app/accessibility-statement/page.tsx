@@ -7,6 +7,7 @@ import Link from "next/link"
 import { useTranslation } from 'react-i18next';
 import { AccessibilityProvider } from "@/components/AccessibilityProvider";
 import { AccessibilityWidget } from "@/components/AccessibilityWidget";
+import SEOHead from '@/components/seo/SEOHead';
 // Define the type for our fallback content
 type FallbackContent = {
   [key: string]: string;
@@ -135,6 +136,8 @@ function Page() {
     <PolicyLayout>
        <AccessibilityProvider>
                             <AccessibilityWidget/>
+                                  <SEOHead title="LoveAi - Find Real Love with AI" url="https://www.loveai.co.il/" />
+
       <div className="pt-[72px]" style={{ background: 'white' }}>
         {/* Header Section */}
           <div className="text-center mb-12 mt-6">

@@ -15,6 +15,7 @@ import {
 } from "lucide-react";
 import { AccessibilityProvider } from "@/components/AccessibilityProvider";
 import { AccessibilityWidget } from "@/components/AccessibilityWidget";
+import SEOHead from "@/components/seo/SEOHead";
 export default function SafetyTipsPage() {
   const [isMounted, setIsMounted] = useState(false);
   const { t } = useTranslation();
@@ -31,6 +32,8 @@ export default function SafetyTipsPage() {
     <PolicyLayout>
        <AccessibilityProvider>
                                   <AccessibilityWidget/>
+                                              <SEOHead title="LoveAi - Find Real Love with AI" url="https://www.loveai.co.il/" />
+                                  
       {/* <div className="pt-[72px]" style={{ background: 'linear-gradient(to right, #FFDFDF, #D5F8FF)' }}> */}
                   <div className="pt-[72px]" style={{ background: 'white' }}>
 

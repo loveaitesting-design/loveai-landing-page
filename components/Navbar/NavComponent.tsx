@@ -5,6 +5,7 @@ import { Search, ChevronDown, Globe, Menu, X } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import i18n from "../../i18n";
 import { useRouter, usePathname } from "next/navigation";
+import SEOHead from "../seo/SEOHead";
 
 export default function NavComponent() {
   const { t, ready } = useTranslation();
@@ -59,7 +60,7 @@ export default function NavComponent() {
     about: "About",
     search: "Search...",
     login: "Login",
-    "signin":"Sign In",
+    signin:"Sign In",
     register: "Register",
     language: "Language",
   };
@@ -73,7 +74,7 @@ export default function NavComponent() {
     about: "אודות",
     search: "חיפוש...",
     login: "התחברות",
-    "signin":"התחבר",
+    signin:"התחבר",
     register: "הרשמה",
     language: "שפה",
   };
@@ -211,6 +212,8 @@ export default function NavComponent() {
   return (
     <>
       <nav className={`w-full fixed top-0 left-0 z-50 bg-[#ffffff] bg-opacity-50 backdrop-blur-md px-4 sm:px-6 py-4 flex items-center justify-between ${isRTL ? 'rtl' : 'ltr'}`}>
+              <SEOHead title="LoveAi - Find Real Love with AI" url="https://www.loveai.co.il/" />
+
         {/* Left: Logo + Name (Right in RTL) */}
         <div className={`flex items-center space-x-2 ${isRTL ? 'mr-4 sm:mr-20' : 'ml-4 sm:ml-20'}`}>
           <a
@@ -334,15 +337,34 @@ export default function NavComponent() {
             )}
           </div>
 
-          <a href="https://www.loveai.co.il/login" target="_blank">
+          {/* <a href="https://www.loveai.co.il/login" target="_blank">
             <button className="bg-sky-400 text-white rounded-full px-4 py-1.5 font-semibold hover:bg-sky-500 transition focus:outline-none focus:ring-0"
               style={{ 
                 fontFamily: isRTL ? "Arial, 'Noto Sans Hebrew', 'David Libre', sans-serif" : 'inherit'
               }}
             >
-              {getTranslation("signin")}
+              {t("signin")}
             </button>
-          </a>
+          </a> */}
+          <a 
+    href="https://www.loveai.co.il/login" 
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex items-center justify-center"
+  >
+    <button 
+      className="bg-sky-400 text-white rounded-full px-6 py-2 text-sm font-semibold hover:bg-sky-500 active:bg-sky-600 transition-all duration-200 shadow-sm hover:shadow-md focus:outline-none focus:ring-0 whitespace-nowrap"
+      style={{ 
+        fontFamily: isRTL ? "Arial, 'Noto Sans Hebrew', 'David Libre', sans-serif" : 'inherit',
+        minHeight: '40px',
+        display: 'inline-flex',
+        alignItems: 'center',
+        justifyContent: 'center'
+      }}
+    >
+      {getTranslation("signin")}
+    </button>
+  </a>
         </div>
 
         {/* Mobile Menu Button */}
@@ -522,7 +544,7 @@ export default function NavComponent() {
                   </button>
                 </a>
                 <a
-                  href="https://www.loveai.co.il/signup"
+                  href="https://www.loveai.co.il/login"
                   target="_blank"
                   className="block"
                 >

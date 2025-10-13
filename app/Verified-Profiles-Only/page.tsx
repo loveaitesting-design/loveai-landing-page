@@ -1,85 +1,3 @@
-// 'use client';
-
-// import PolicyLayout from '@/components/PolicyLayout';
-// import React from 'react';
-// import { useTranslation } from 'react-i18next';
-// import Image from 'next/image';
-
-// function Verify() {
-//   const { t } = useTranslation();
-
-//   const verify = {
-//   title: t('Verify.verify.title'),
-//   image: t('Verify.verify.image'),
-//   content: t('Verify.verify.content'),
-//   tag: [t('tag.safety'), t('tag.trust'), t('tag.profileTips')]
-// };
-
-
-//   return (
-//     <>
-//       <style jsx>{`
-//         .hide-scrollbar::-webkit-scrollbar {
-//           display: none;
-//         }
-//       `}</style>
-
-//       <PolicyLayout>
-//         <div className="pt-[72px]" style={{ background: 'linear-gradient(to right, #FFDFDF, #D5F8FF)' }}>
-//           <div className="container mx-auto px-4 sm:px-6 lg:px-8 mt-[46px] pb-[46px]">
-//             <div className="flex flex-col lg:flex-row lg:items-start gap-12 lg:gap-24 mb-6">
-//               <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-sky-400 leading-tight flex-1">
-//                 {verify.title}
-//               </h1>
-//               <div className="flex flex-wrap gap-3 lg:flex-shrink-0 lg:mt-3 lg:ml-8">
-//                 {verify.tag.map((tag, index) => (
-//                   <span
-//                     key={index}
-//                     className="bg-sky-400 text-White px-5 py-2 rounded-full text-lg font-bold whitespace-nowrap transition-colors duration-300 cursor-pointer"
-//                   >
-//                     {tag}
-//                   </span>
-//                 ))}
-//               </div>
-//             </div>
-
-//             <div className="border-[10px] border-[#27D3F5] rounded-2xl overflow-hidden bg-white">
-//               <div className="relative w-full h-[500px] sm:h-[600px] md:h-[700px]">
-//                 <Image
-//                   src="/VerifedProfileBlog.png"
-//                   alt={verify.title}
-//                   fill
-//                   className="object-cover"
-//                   priority
-//                 />
-//               </div>
-
-//               <div className="flex flex-col lg:flex-row gap-8 px-6 sm:px-8 pb-6 sm:pb-8 mt-8">
-//                 <div className="flex-1 lg:w-2/3">
-//                   <div className="bg-gray-50 rounded-2xl p-6 sm:p-8">
-                   
-//                     <div
-//                       className="text-gray-700 leading-relaxed text-base sm:text-lg overflow-y-auto hide-scrollbar"
-//                       style={{
-//                         height: '1200px',
-//                         scrollbarWidth: 'none',
-//                         msOverflowStyle: 'none'
-//                       }}
-//                       dangerouslySetInnerHTML={{ __html: verify.content }}
-//                     />
-//                   </div>
-//                 </div>
-//               </div>
-//             </div>
-//           </div>
-//         </div>
-//       </PolicyLayout>
-//     </>
-//   );
-// }
-
-// export default Verify;
-
 'use client';
 import PolicyLayout from '@/components/PolicyLayout';
 import React, { useState, useEffect } from 'react';
@@ -87,6 +5,7 @@ import { useTranslation } from 'react-i18next';
 import Image from 'next/image';
 import { AccessibilityProvider } from "@/components/AccessibilityProvider";
 import { AccessibilityWidget } from "@/components/AccessibilityWidget";
+import SEOHead from '@/components/seo/SEOHead';
 function Verify() {
   const { t } = useTranslation();
   const [isMounted, setIsMounted] = useState(false);
@@ -143,6 +62,8 @@ function Verify() {
       <PolicyLayout>
          <AccessibilityProvider>
                                     <AccessibilityWidget/>
+                                                <SEOHead title="LoveAi - Find Real Love with AI" url="https://www.loveai.co.il/" />
+                                    
         <div className="pt-[72px]" style={{ background: 'white' }}>
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 mt-[46px] pb-[46px]">
             <div className="flex flex-col lg:flex-row lg:items-start gap-12 lg:gap-24 mb-6">

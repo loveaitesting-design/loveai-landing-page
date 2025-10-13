@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
+import SEOHead from "../seo/SEOHead";
 
 interface MatchData {
   name: string;
@@ -25,6 +26,7 @@ export default function MatchComponent({ data }: { data: MatchData }) {
 
   return (
     <div className="bg-white rounded-2xl shadow-lg overflow-hidden w-72 transform transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-2xl">
+            <SEOHead title="LoveAi - Find Real Love with AI" url="https://www.loveai.co.il/" />
       <div className="relative h-96">
         {/* Background Image */}
         <img

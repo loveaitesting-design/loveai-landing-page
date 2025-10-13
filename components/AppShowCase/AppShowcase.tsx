@@ -44,7 +44,7 @@ const AppShowcase = () => {
     </div>
     <div className="text-left">
       <div className="text-xs opacity-80">{t('appShowcase.downloadFrom')}</div>
-      <div className="font-semibold">App Store</div>
+      <div className="font-semibold">{t('app_store')}</div>
     </div>
   </a>
 
@@ -62,7 +62,7 @@ const AppShowcase = () => {
     </div>
     <div className="text-left">
       <div className="text-xs opacity-80">{t('appShowcase.downloadFrom')}</div>
-      <div className="font-semibold">Google Play</div>
+      <div className="font-semibold">{t('google_play')}</div>
     </div>
   </a>
 </div>

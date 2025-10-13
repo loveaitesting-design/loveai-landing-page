@@ -17,6 +17,7 @@ import {
 } from "lucide-react";
 import { AccessibilityProvider } from "@/components/AccessibilityProvider";
 import { AccessibilityWidget } from "@/components/AccessibilityWidget";
+import SEOHead from '@/components/seo/SEOHead';
 export default function HelpCenterPage() {
   const { t } = useTranslation();
   const [isMounted, setIsMounted] = useState(false);
@@ -66,6 +67,8 @@ export default function HelpCenterPage() {
     <PolicyLayout>
        <AccessibilityProvider>
                                   <AccessibilityWidget/>
+                                              <SEOHead title="LoveAi - Find Real Love with AI" url="https://www.loveai.co.il/" />
+                                  
       <div className="pt-[72px] min-h-screen bg-white/10">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16 max-w-8xl">
           <div className="flex items-center justify-center mb-6">

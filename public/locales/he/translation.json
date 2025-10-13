@@ -6,8 +6,11 @@
   "pricing": "תמחור",
   "about": "עלינו",
   "login": "התחבר",
+  "signin":"התחבר",
   "register": "הרשמה",
   "language": "שפה",
+  "google_play": "גוגל פליי",
+    "app_store": "חנות האפליקציות",
   "welcome_message": "ברוכים הבאים ל-LoveAI!",
   "about_title1": "על ",
   "about_title2": "Love Ai",
@@ -239,7 +242,27 @@
     "review_text1": "הצהרה זו נבדקת ומעודכנת לפחות פעם ב-",
     "review_text2": "12 חודשים",
     "review_text3": ".",
-    "review_text4": "נסקרה לאחרונה: 01-אוג-2025."
+    "review_text4": "נסקרה לאחרונה: 01-אוג-2025.",
+   "openButton": "פתח הגדרות נגישות (Alt + A)",
+  "close": "סגור",
+  "fontSize": "גודל גופן",
+  "fontSizeSmall": "קטן",
+  "fontSizeLarge": "גדול מאוד",
+  "highContrast": "ניגודיות גבוהה",
+  "reducedMotion": "תנועה מופחתת",
+  "screenReaderMode": "מצב קורא מסך",
+  "focusIndicators": "אינדיקטורי פוקוס משופרים",
+  "soundEnabled": "צליל מופעל",
+  "largeCursor": "סמן גדול",
+  "keyboardNavigation": "ניווט מקלדת",
+  "language": "שפה",
+  "resetSettings": "אפס הגדרות",
+  "toggle": "החלף {{setting}}",
+  "announcements": {
+    "enabled": "{{setting}} הופעל",
+    "disabled": "{{setting}} כובה",
+    "settingsReset": "ההגדרות אופסו לברירת המחדל"
+  }
   },
   "community_guidelines": {
     "headText": "קווים מנחים לקהילה",
@@ -1306,7 +1329,7 @@
     "section10": {
       "title": "צור קשר",
       "description": "לשאלות לגבי מדיניות קובצי cookie:",
-      "email": "cookies@loveai.com",
+      "email": "cookies@loveai.co.il",
       "phone": "+972-3-123-4567"
     }
   },
@@ -1828,7 +1851,8 @@
       "cancelAnytime": "ביטול בכל עת",
       "support247": "תמיכה 24/7"
     },
-     "visit_now":"Visit Now",
+     "visit_now": "בקר עכשיו",
+
 "title": "מעשים טובים",
   "subtitle": "עשו מעשים טובים, אספו לבבות זהב ועזרו לקהילה",
   "goldHearts": "לבבות זהב",
@@ -1898,5 +1922,60 @@
       "title": "פעולה סביבתיתית",
       "description": "ארגנתי אירוע ניקיון פארק קהילתי"
     }
+  },
+  "default_ad": {
+    "title": "הפרסומת שלך יכולה להופיע כאן!",
+    "description": "פנה אל קהל אינטליגנטי ואיכותי של אנשי מקצוע ואנשים משכילים מכל רחבי הארץ. אתר היכרויות מוביל עם הציבור הישראלי הטוב ביותר.",
+    "company": "פרסום פרימיום",
+    "whatsapp": "וואטסאפ",
+    "email": "שלח אימייל"
+  },
+    "data": "נתונים",
+  "loading": "טוען",
+   "whatsapp1": "וואטסאפ",
+  "default_ad_title": "הפרסומת שלך יכולה להופיע כאן!",
+  "default_ad_description": "פנה לקהל אינטליגנטי ואיכותי של אנשי מקצוע ואנשים משכילים מכל רחבי הארץ. אתר היכרויות מוביל עם הטובים שבציבור הישראלי.",
+  "default_company_name": "פרסום פרימיום",
+  "by": "מאת",
+  "premium_ad_space": "מקום פרסום פרימיום",
+  "of": "מתוך",
+  "priority": "עדיפות",
+  "demo_slide1_love_smarter": "LoveAi – אפליקציית היכרויות רצינית,",
+  "demo_slide1_live_deeper": "מופעלת על ידי AI וערכים משותפים,",
+  "demo_slide1_match_by_values": "לא החלקות אינסופיות.",
+  "demo_slide1_ai_platform_desc": "פלטפורמת ההיכרויות שלנו המופעלת על ידי AI משתמשת בטכנולוגיה מתקדמת כדי לחבר אותך עם שותפים תואמים שחולקים את תחומי העניין שלך. היכרויות חכמות לאנשים אמיתיים, התאמה מבוססת AI לקשרים עמוקים יותר, פרטיות במקום הראשון. משתמשים מאומתים. כוונות אמיתיות.",
+  "demo_slide1_start_now": "מצא את ההתאמה המושלמת שלך – התחל עכשיו!",
+  "demo_slide1_learn_more": "גלה אהבה אמיתית מופעלת על ידי AI",
+  "demo_slide1_matches_this_week": "10,000+ התאמות השבוע",
+
+  "demo_slide2_love_smarter": "פגוש את נפש התאומה שלך היום,",
+  "demo_slide2_live_deeper": "קשרים אמיתיים, מערכות יחסים אמיתיות,",
+  "demo_slide2_match_by_values": "התחל את סיפור האהבה שלך.",
+  "demo_slide2_ai_platform_desc": "הצטרף לאלפי רווקים שמוצאים מערכות יחסים משמעותיות. אלגוריתם ההתאמה החכם שלנו לומד את ההעדפות שלך כדי לחבר אותך עם האנשים הנכונים בזמן הנכון.",
+  "demo_slide2_start_now": "הצטרף עכשיו ומצא אהבה!",
+  "demo_slide2_learn_more": "ראה איך זה עובד",
+  "demo_slide2_matches_this_week": "10,000+ חיבורים חדשים",
+
+  "demo_slide3_love_smarter": "ההתאמה המושלמת שלך מחכה,",
+  "demo_slide3_live_deeper": "המקום שבו אנשים אותנטיים נפגשים,",
+  "demo_slide3_match_by_values": "אהבה ללא פשרות.",
+  "demo_slide3_ai_platform_desc": "חווה היכרויות מחודשות. התחבר למשתמשים מאומתים שחולקים את הערכים, תחומי העניין ומטרות החיים שלך. תגיד שלום לחיבורים אמיתיים.",
+  "demo_slide3_start_now": "התחל את המסע שלך היום!",
+  "demo_slide3_learn_more": "גלה סיפורי הצלחה",
+  "demo_slide3_matches_this_week": "10,000+ זוגות מאושרים",
+
+  "demo_slide4_love_smarter": "מצא אהבה שנמשכת,",
+  "demo_slide4_live_deeper": "התאמה חכמה לאנשים אמיתיים,",
+  "demo_slide4_match_by_values": "מערכות יחסים משמעותיות מתחילות כאן.",
+  "demo_slide4_ai_platform_desc": "נבנה עבור אלה שרציניים לגבי מציאת אהבה. הפלטפורמה שלנו נותנת עדיפות לאיכות על פני כמות, ומחברת אותך עם אנשים שבאמת תואמים את אורח החיים והערכים שלך.",
+  "demo_slide4_start_now": "צור את הפרופיל שלך עכשיו!",
+  "demo_slide4_learn_more": "למד על ההתאמה החכמה שלנו",
+  "demo_slide4_matches_this_week": "10,000+ חברים פעילים",
+  "cookie": {
+    "title": "🍪 הסכמה לעוגיות",
+    "description": "אנו משתמשים בעוגיות כדי לשפר את חוויית הגלישה שלך, להגיש תוכן מותאם אישית ולנתח את התנועה שלנו. על ידי לחיצה על \"קבל הכל\", אתה מסכים לשימוש שלנו בעוגיות.",
+    "acceptAll": "קבל הכל",
+    "rejectAll": "דחה הכל"
   }
+
 }
