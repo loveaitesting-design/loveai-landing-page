@@ -74,48 +74,49 @@ const Contact = () => {
     e.preventDefault();
 
     try {
+      // const serviceID = "service6fp6d";
+      // const templateID = "templatzckl5"; // SAME template for both emails
+      // const publicKey = "tnkPrRuWDqL1";
+
       const serviceID = "service_ud6fp6d";
       const templateID = "template_05zckl5";
       const publicKey = "tnkPfeMRqrRuWDqL1";
 
-      const supportEmail = "loveaitesting@gmail.com";
-      const userEmail = formData.email;
-
       const emailPromises = [];
 
-      // Send to support
+      // Email 1: Send to support team (loveaitesting@gmail.com)
       emailPromises.push(
         emailjs.send(
           serviceID,
           templateID,
           {
+            to_email: "loveaitesting@gmail.com", // Support email
             from_name: formData.name,
             from_email: formData.email,
-            subject: formData.subject,
-            message: formData.message,
-            recipient_name: "Support Team",
+            subject: `New Support Request from ${formData.name}`,
+            message: `Name: ${formData.name}\nEmail: ${formData.email}\nSubject: ${formData.subject}\n\nMessage:\n${formData.message}`,
+            to_name: "Support Team",
           },
           publicKey
         )
       );
 
-      // Send to user
-      if (userEmail.toLowerCase() !== supportEmail.toLowerCase()) {
-        emailPromises.push(
-          emailjs.send(
-            serviceID,
-            templateID,
-            {
-              from_name: "LoveAI Support",
-              from_email: supportEmail,
-              subject: "We received your message",
-              message: `Hi ${formData.name},\n\nWe received your message:\n\n${formData.message}\n\nOur team will contact you soon.`,
-              recipient_name: formData.name,
-            },
-            publicKey
-          )
-        );
-      }
+      // Email 2: Send confirmation to user (tanvighelani11@gmail.com)
+      emailPromises.push(
+        emailjs.send(
+          serviceID,
+          templateID, // SAME template
+          {
+            to_email: formData.email, // User's email (tanvighelani11@gmail.com)
+            from_name: "LoveAI Support",
+            from_email: "loveaitesting@gmail.com",
+            subject: "We received your message",
+            message: `Hi ${formData.name},\n\nThank you for contacting us. We have received your message regarding:\n\nSubject: ${formData.subject}\n\nYour message:\n"${formData.message}"\n\nOur support team will review your request and get back to you soon.\n\nBest regards,\nLoveAI Support Team`,
+            to_name: formData.name,
+          },
+          publicKey
+        )
+      );
 
       await Promise.all(emailPromises);
 
@@ -123,12 +124,11 @@ const Contact = () => {
       setIsPopupOpen(true);
       setFormData({ name: "", email: "", subject: "", message: "" });
     } catch (error) {
-      console.error(error);
+      console.error("Email error:", error);
       setPopupMessage("Failed to send message. Please try again.");
       setIsPopupOpen(true);
     }
   };
-
   return (
     <PolicyLayout>
       <AccessibilityProvider>
