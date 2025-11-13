@@ -1338,6 +1338,29 @@
     "title": "תנאי שימוש",
     "subtitle": "תנאי שימוש עבור אתר Love AI",
     "lastUpdate": "עדכון אחרון: 4.9.2025",
+    "eula": {
+      "title": "תנאי שימוש (EULA)",
+      "welcome": "ברוכים הבאים ל-LoveAi. תנאי השימוש הללו מסדירים את השימוש שלך באפליקציה ובשירותי המנוי שלנו.",
+      "section1": {
+        "title": "1. מנוי וחידוש",
+        "content": "המנוי מתחדש באופן אוטומטי אלא אם בוטל לפחות 24 שעות לפני סיום התקופה הנוכחית. התשלום יחויב בחשבון ה-Apple ID שלך עם אישור הרכישה."
+      },
+      "section2": {
+        "title": "2. ביטול",
+        "content": "ניתן לנהל ולבטל מנויים בהגדרות החשבון שלך בחנות האפליקציות (App Store) בכל עת לאחר הרכישה."
+      },
+      "section3": {
+        "title": "3. פרטיות",
+        "content": "אנא עיין במדיניות הפרטיות שלנו למידע על אופן הטיפול שלנו בנתונים שלך:",
+        "link": "https://www.loveai.co.il./privacy-policy"
+      },
+      "section4": {
+        "title": "4. הסכם רישיון משתמש קצה (EULA) סטנדרטי",
+        "content": "בשימוש באפליקציה זו, אתה מסכים להסכם רישיון המשתמש הקצה הסטנדרטי של Apple:",
+        "link": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+      },
+      "effectiveDate": "תאריך תחולה: 01-נובמבר-2025"
+    },
     "section1": {
       "title": "הסכמה לתנאים",
       "content1": "השימוש באתר Love AI מהווה הסכמה לתנאי השימוש הבאים. אם אינכם מסכימים לתנאים אלה, אנא הימנעו משימוש בשירות.",
@@ -1979,35 +2002,64 @@
     "rejectAll": "דחה הכל"
   },
   "contact": {
-  "title": "צור קשר",
-  "subtitle": "אנחנו כאן כדי לעזור! פנה אלינו בכל שאלה או בעיה",
-  "form": {
-    "name": "שם מלא",
-    "email": "כתובת אימייל",
-    "subject": "נושא",
-    "message": "הודעה",
-    "send": "שלח הודעה"
+    "title": "צור קשר",
+    "subtitle": "אנחנו כאן כדי לעזור! פנה אלינו בכל שאלה או בעיה",
+    "form": {
+      "name": "שם מלא",
+      "email": "כתובת אימייל",
+      "subject": "נושא",
+      "message": "הודעה",
+      "send": "שלח הודעה"
+    },
+    "info": {
+      "title": "פרטי קשר",
+      "description": "ניתן לפנות אלינו במספר דרכים",
+      "emailLabel": "אימייל",
+      "email": "support@loveai.co.il",
+      "phoneLabel": "טלפון",
+      "phone": "+972-50-755-5200",
+      "addressLabel": "כתובת",
+      "address": "תל אביב, ישראל",
+      "hoursLabel": "שעות פעילות",
+      "hours": "א׳-ה׳: 9:00-18:00"
+    },
+    "supportTypes": {
+      "title": "סוגי תמיכה",
+      "general": "שאלות כלליות",
+      "technical": "תמיכה טכנית",
+      "billing": "שאלות חיוב",
+      "safety": "דיווח בטיחות"
+    },
+    "support": "תמיכה",
+    "success": "ההודעה נשלחה בהצלחה!"
   },
-  "info": {
-    "title": "פרטי קשר",
-    "description": "ניתן לפנות אלינו במספר דרכים",
-    "emailLabel": "אימייל",
-    "email": "support@loveai.co.il",
-    "phoneLabel": "טלפון",
-    "phone": "+972-50-755-5200",
-    "addressLabel": "כתובת",
-    "address": "תל אביב, ישראל",
-    "hoursLabel": "שעות פעילות",
-    "hours": "א׳-ה׳: 9:00-18:00"
-  },
-  "supportTypes": {
-    "title": "סוגי תמיכה",
-    "general": "שאלות כלליות",
-    "technical": "תמיכה טכנית",
-    "billing": "שאלות חיוב",
-    "safety": "דיווח בטיחות"
-  },
-  "support": "תמיכה",
-  "success": "ההודעה נשלחה בהצלחה!"
+  "payment": {
+    "completePayment": "השלם תשלום",
+    "youSelected": "בחרת ב",
+    "plan": "תוכנית",
+    "billing": "חיוב",
+    "annual": "שנתי",
+    "monthly": "חודשי",
+    "total": "סה״כ",
+    "creditCard": "כרטיס אשראי",
+    "googlePay": "גוגל פֵּיי",
+    "testMode": "מצב בדיקה",
+    "cardDetails": "פרטי כרטיס",
+    "processing": "מעבד...",
+    "pay": "שלם",
+    "testCard": "כרטיס בדיקה",
+    "testCardInstructions": "כל תאריך עתידי | כל 3 ספרות",
+    "googlePayDescription": "שלם באופן מאובטח עם חשבון Google Pay שלך. מהיר ונוח.",
+    "processingGooglePay": "מעבד Google Pay...",
+    "initializingGooglePay": "מאתחל Google Pay...",
+    "settingUpGooglePay": "מכין את Google Pay. אנא המתן רגע...",
+    "testModeDescription": "זה ידמה תשלום מוצלח ללא חיוב כרטיס. מושלם לבדיקת התהליך!",
+    "completeTestPayment": "השלם תשלום בדיקה",
+    "cancel": "ביטול",
+    "close": "סגור",
+    "googlePaySuccess": "תשלום Google Pay הצליח! נרשמת ל",
+    "paymentSuccessful": "תשלום הצליח! נרשמת ל",
+    "googlePayNotAvailable": "Google Pay לא זמין",
+    "googlePayNotAvailableDesc": "Google Pay אינו זמין בדפדפן או באזור שלך. אנא נסה שיטת תשלום אחרת."
   }
 }
