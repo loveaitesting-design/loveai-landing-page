@@ -60,7 +60,7 @@ export default function NavComponent() {
     about: "About",
     search: "Search...",
     login: "Login",
-    signin:"Sign In",
+    signin: "Sign In",
     register: "Register",
     language: "Language",
   };
@@ -74,7 +74,7 @@ export default function NavComponent() {
     about: "אודות",
     search: "חיפוש...",
     login: "התחברות",
-    signin:"התחבר",
+    signin: "התחבר",
     register: "הרשמה",
     language: "שפה",
   };
@@ -82,22 +82,28 @@ export default function NavComponent() {
   const getTranslation = (key: string): string => {
     if (!ready || !isMounted) {
       if (i18n.language === "he") {
-        return hebrewFallback[key as keyof typeof hebrewFallback] || fallbackNav[key as keyof typeof fallbackNav];
+        return (
+          hebrewFallback[key as keyof typeof hebrewFallback] ||
+          fallbackNav[key as keyof typeof fallbackNav]
+        );
       }
       return fallbackNav[key as keyof typeof fallbackNav];
     }
-    
+
     const translation = t(key);
-    
+
     console.log(`Translation for '${key}' in '${i18n.language}':`, translation);
-    
+
     if (translation === key) {
       if (i18n.language === "he") {
-        return hebrewFallback[key as keyof typeof hebrewFallback] || fallbackNav[key as keyof typeof fallbackNav];
+        return (
+          hebrewFallback[key as keyof typeof hebrewFallback] ||
+          fallbackNav[key as keyof typeof fallbackNav]
+        );
       }
       return fallbackNav[key as keyof typeof fallbackNav];
     }
-    
+
     return translation;
   };
 
@@ -105,13 +111,14 @@ export default function NavComponent() {
     const currentLang = languages.find((lang) => lang.code === i18n.language);
     setSelectedLanguage(currentLang ? currentLang.name : "English");
     setIsMounted(true);
-    
+
     if (typeof window !== "undefined") {
       const html = document.documentElement;
       if (i18n.language === "he") {
         html.dir = "rtl";
         html.lang = "he";
-        html.style.fontFamily = "Arial, 'Noto Sans Hebrew', 'David Libre', sans-serif";
+        html.style.fontFamily =
+          "Arial, 'Noto Sans Hebrew', 'David Libre', sans-serif";
       } else {
         html.dir = "ltr";
         html.lang = i18n.language;
@@ -126,7 +133,8 @@ export default function NavComponent() {
       if (i18n.language === "he") {
         html.dir = "rtl";
         html.lang = "he";
-        html.style.fontFamily = "Arial, 'Noto Sans Hebrew', 'David Libre', sans-serif";
+        html.style.fontFamily =
+          "Arial, 'Noto Sans Hebrew', 'David Libre', sans-serif";
       } else {
         html.dir = "ltr";
         html.lang = i18n.language;
@@ -194,7 +202,8 @@ export default function NavComponent() {
       if (lang === "he") {
         html.dir = "rtl";
         html.lang = "he";
-        html.style.fontFamily = "Arial, 'Noto Sans Hebrew', 'David Libre', sans-serif";
+        html.style.fontFamily =
+          "Arial, 'Noto Sans Hebrew', 'David Libre', sans-serif";
       } else {
         html.dir = "ltr";
         html.lang = lang;
@@ -211,11 +220,22 @@ export default function NavComponent() {
 
   return (
     <>
-      <nav className={`w-full fixed top-0 left-0 z-50 bg-[#ffffff] bg-opacity-50 backdrop-blur-md px-4 sm:px-6 py-4 flex items-center justify-between ${isRTL ? 'rtl' : 'ltr'}`}>
-              <SEOHead title="LoveAi - Find Real Love with AI" url="https://www.loveai.co.il/" />
+      <nav
+        className={`w-full fixed top-0 left-0 z-50 bg-[#ffffff] bg-opacity-50 backdrop-blur-md px-4 sm:px-6 py-4 flex items-center justify-between ${
+          isRTL ? "rtl" : "ltr"
+        }`}
+      >
+        <SEOHead
+          title="LoveAi - Find Real Love with AI"
+          url="https://www.loveai.co.il/"
+        />
 
         {/* Left: Logo + Name (Right in RTL) */}
-        <div className={`flex items-center space-x-2 ${isRTL ? 'mr-4 sm:mr-20' : 'ml-4 sm:ml-20'}`}>
+        <div
+          className={`flex items-center space-x-2 ${
+            isRTL ? "mr-4 sm:mr-20" : "ml-4 sm:ml-20"
+          }`}
+        >
           <a
             href="#home"
             onClick={handleNavClick("home")}
@@ -230,15 +250,21 @@ export default function NavComponent() {
         </div>
 
         {/* Center: Navigation Links - Hidden on mobile */}
-        <div className={`hidden lg:flex space-x-10 font-semibold text-gray-700 ${isRTL ? 'space-x-reverse' : ''}`}>
+        <div
+          className={`hidden lg:flex space-x-10 font-semibold text-gray-700 ${
+            isRTL ? "space-x-reverse" : ""
+          }`}
+        >
           <a
             href="#home"
             onClick={handleNavClick("home")}
             className="hover:text-sky-600 transition-colors focus:outline-none focus:ring-0"
-            style={{ 
-              minWidth: '40px', 
-              textAlign: 'center',
-              fontFamily: isRTL ? "Arial, 'Noto Sans Hebrew', 'David Libre', sans-serif" : 'inherit'
+            style={{
+              minWidth: "40px",
+              textAlign: "center",
+              fontFamily: isRTL
+                ? "Arial, 'Noto Sans Hebrew', 'David Libre', sans-serif"
+                : "inherit",
             }}
           >
             {getTranslation("home")}
@@ -247,8 +273,10 @@ export default function NavComponent() {
             href="#features"
             onClick={handleNavClick("features")}
             className="hover:text-sky-600 transition-colors focus:outline-none focus:ring-0"
-            style={{ 
-              fontFamily: isRTL ? "Arial, 'Noto Sans Hebrew', 'David Libre', sans-serif" : 'inherit'
+            style={{
+              fontFamily: isRTL
+                ? "Arial, 'Noto Sans Hebrew', 'David Libre', sans-serif"
+                : "inherit",
             }}
           >
             {getTranslation("features")}
@@ -257,8 +285,10 @@ export default function NavComponent() {
             href="#matches"
             onClick={handleNavClick("matches")}
             className="hover:text-sky-600 transition-colors focus:outline-none focus:ring-0"
-            style={{ 
-              fontFamily: isRTL ? "Arial, 'Noto Sans Hebrew', 'David Libre', sans-serif" : 'inherit'
+            style={{
+              fontFamily: isRTL
+                ? "Arial, 'Noto Sans Hebrew', 'David Libre', sans-serif"
+                : "inherit",
             }}
           >
             {getTranslation("matches")}
@@ -267,8 +297,10 @@ export default function NavComponent() {
             href="#testimonials"
             onClick={handleNavClick("testimonials")}
             className="hover:text-sky-600 transition-colors focus:outline-none focus:ring-0"
-            style={{ 
-              fontFamily: isRTL ? "Arial, 'Noto Sans Hebrew', 'David Libre', sans-serif" : 'inherit'
+            style={{
+              fontFamily: isRTL
+                ? "Arial, 'Noto Sans Hebrew', 'David Libre', sans-serif"
+                : "inherit",
             }}
           >
             {getTranslation("testimonials")}
@@ -277,8 +309,10 @@ export default function NavComponent() {
             href="/pricing"
             onClick={handleNavClick("pricing")}
             className="hover:text-sky-600 transition-colors focus:outline-none focus:ring-0"
-            style={{ 
-              fontFamily: isRTL ? "Arial, 'Noto Sans Hebrew', 'David Libre', sans-serif" : 'inherit'
+            style={{
+              fontFamily: isRTL
+                ? "Arial, 'Noto Sans Hebrew', 'David Libre', sans-serif"
+                : "inherit",
             }}
           >
             {getTranslation("pricing")}
@@ -287,8 +321,10 @@ export default function NavComponent() {
             href="/about"
             onClick={handleNavClick("about")}
             className="hover:text-sky-600 transition-colors focus:outline-none focus:ring-0"
-            style={{ 
-              fontFamily: isRTL ? "Arial, 'Noto Sans Hebrew', 'David Libre', sans-serif" : 'inherit'
+            style={{
+              fontFamily: isRTL
+                ? "Arial, 'Noto Sans Hebrew', 'David Libre', sans-serif"
+                : "inherit",
             }}
           >
             {getTranslation("about")}
@@ -296,7 +332,11 @@ export default function NavComponent() {
         </div>
 
         {/* Right: Search, Language, Login, Register - Hidden on mobile (Left in RTL) */}
-        <div className={`hidden lg:flex items-center space-x-4 relative ${isRTL ? 'space-x-reverse' : ''}`}>
+        <div
+          className={`hidden lg:flex items-center space-x-4 relative ${
+            isRTL ? "space-x-reverse" : ""
+          }`}
+        >
           {/* Custom Language Selector */}
           <div className="relative" ref={dropdownRef}>
             <button
@@ -315,21 +355,31 @@ export default function NavComponent() {
 
             {/* Dropdown Menu */}
             {isLanguageOpen && (
-              <div className={`absolute top-full mt-2 ${isRTL ? 'left-0' : 'right-0'} bg-white rounded-xl shadow-lg border border-gray-100 py-2 min-w-[160px] animate-in slide-in-from-top-2 duration-200`}>
+              <div
+                className={`absolute top-full mt-2 ${
+                  isRTL ? "left-0" : "right-0"
+                } bg-white rounded-xl shadow-lg border border-gray-100 py-2 min-w-[160px] animate-in slide-in-from-top-2 duration-200`}
+              >
                 {languages.map((language) => (
                   <button
                     key={language.code}
                     onClick={() => handleLanguageSelect(language.name)}
                     className={`w-full flex items-center space-x-3 px-4 py-2 md:py-3 text-sm font-medium transition-colors duration-150 focus:outline-none focus:ring-0 ${
                       selectedLanguage === language.name
-                        ? `bg-sky-50 text-sky-600 ${isRTL ? 'border-l-2' : 'border-r-2'} border-sky-500`
+                        ? `bg-sky-50 text-sky-600 ${
+                            isRTL ? "border-l-2" : "border-r-2"
+                          } border-sky-500`
                         : "text-gray-700 hover:bg-gray-50"
-                    } ${isRTL ? 'space-x-reverse' : ''}`}
+                    } ${isRTL ? "space-x-reverse" : ""}`}
                   >
                     <span className="text-lg">{language.flag}</span>
                     <span>{language.name}</span>
                     {selectedLanguage === language.name && (
-                      <div className={`${isRTL ? 'mr-auto' : 'ml-auto'} w-2 h-2 bg-sky-500 rounded-full`}></div>
+                      <div
+                        className={`${
+                          isRTL ? "mr-auto" : "ml-auto"
+                        } w-2 h-2 bg-sky-500 rounded-full`}
+                      ></div>
                     )}
                   </button>
                 ))}
@@ -346,25 +396,32 @@ export default function NavComponent() {
               {t("signin")}
             </button>
           </a> */}
-          <a 
-    href="https://www.loveai.co.il/login" 
-    target="_blank"
-    rel="noopener noreferrer"
-    className="inline-flex items-center justify-center"
-  >
-    <button 
-      className="bg-sky-400 text-white rounded-full px-6 py-2 text-sm font-semibold hover:bg-sky-500 active:bg-sky-600 transition-all duration-200 shadow-sm hover:shadow-md focus:outline-none focus:ring-0 whitespace-nowrap"
-      style={{ 
-        fontFamily: isRTL ? "Arial, 'Noto Sans Hebrew', 'David Libre', sans-serif" : 'inherit',
-        minHeight: '40px',
-        display: 'inline-flex',
-        alignItems: 'center',
-        justifyContent: 'center'
-      }}
-    >
-      {getTranslation("signin")}
-    </button>
-  </a>
+          <a
+            href="https://www.loveai.co.il/login"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center"
+          >
+            <button
+              onClick={(e) => {
+                e.preventDefault(); // Prevent immediate navigation
+                localStorage.clear();
+                window.open("https://www.loveai.co.il/login", "_blank"); // Open after clearing
+              }}
+              className="bg-sky-400 text-white rounded-full px-6 py-2 text-sm font-semibold hover:bg-sky-500 active:bg-sky-600 transition-all duration-200 shadow-sm hover:shadow-md focus:outline-none focus:ring-0 whitespace-nowrap"
+              style={{
+                fontFamily: isRTL
+                  ? "Arial, 'Noto Sans Hebrew', 'David Libre', sans-serif"
+                  : "inherit",
+                minHeight: "40px",
+                display: "inline-flex",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              {getTranslation("signin")}
+            </button>
+          </a>
         </div>
 
         {/* Mobile Menu Button */}
@@ -394,16 +451,20 @@ export default function NavComponent() {
                     isSearchOpen && !isSearchClosing
                       ? "w-40 opacity-100"
                       : "w-0 opacity-0 pointer-events-none"
-                  } focus:w-56 ${isRTL ? 'text-right' : 'text-left'}`}
-                  style={{ 
-                    zIndex: 50, 
+                  } focus:w-56 ${isRTL ? "text-right" : "text-left"}`}
+                  style={{
+                    zIndex: 50,
                     position: "relative",
-                    direction: isRTL ? 'rtl' : 'ltr',
-                    fontFamily: isRTL ? "Arial, 'Noto Sans Hebrew', 'David Libre', sans-serif" : 'inherit'
+                    direction: isRTL ? "rtl" : "ltr",
+                    fontFamily: isRTL
+                      ? "Arial, 'Noto Sans Hebrew', 'David Libre', sans-serif"
+                      : "inherit",
                   }}
                 />
                 <button
-                  className={`absolute ${isRTL ? 'left-10' : 'right-10'} top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-700 transition-colors focus:outline-none focus:ring-0`}
+                  className={`absolute ${
+                    isRTL ? "left-10" : "right-10"
+                  } top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-700 transition-colors focus:outline-none focus:ring-0`}
                   style={{ zIndex: 999 }}
                   onClick={handleCloseSearch}
                   aria-label="Close search"
@@ -411,7 +472,9 @@ export default function NavComponent() {
                   <X size={18} />
                 </button>
                 <button
-                  className={`absolute ${isRTL ? 'left-3' : 'right-3'} top-1/2 -translate-y-1/2 text-gray-500 hover:text-sky-600 transition-colors focus:outline-none focus:ring-0`}
+                  className={`absolute ${
+                    isRTL ? "left-3" : "right-3"
+                  } top-1/2 -translate-y-1/2 text-gray-500 hover:text-sky-600 transition-colors focus:outline-none focus:ring-0`}
                   style={{ zIndex: 999 }}
                   aria-label="Search"
                 >
@@ -437,16 +500,24 @@ export default function NavComponent() {
         >
           <div
             ref={mobileMenuRef}
-            className={`absolute top-0 ${isRTL ? 'left-0' : 'right-0'} h-full w-80 bg-white shadow-xl transform transition-transform duration-300 ease-in-out z-[10000]`}
+            className={`absolute top-0 ${
+              isRTL ? "left-0" : "right-0"
+            } h-full w-80 bg-white shadow-xl transform transition-transform duration-300 ease-in-out z-[10000]`}
             onClick={(e) => e.stopPropagation()}
-            style={{ 
-              direction: isRTL ? 'rtl' : 'ltr',
-              fontFamily: isRTL ? "Arial, 'Noto Sans Hebrew', 'David Libre', sans-serif" : 'inherit'
+            style={{
+              direction: isRTL ? "rtl" : "ltr",
+              fontFamily: isRTL
+                ? "Arial, 'Noto Sans Hebrew', 'David Libre', sans-serif"
+                : "inherit",
             }}
           >
             <div className="p-6">
               {/* Close button */}
-              <div className={`flex ${isRTL ? 'justify-start' : 'justify-end'} mb-6`}>
+              <div
+                className={`flex ${
+                  isRTL ? "justify-start" : "justify-end"
+                } mb-6`}
+              >
                 <button
                   onClick={() => setIsMobileMenuOpen(false)}
                   className="p-2 rounded-md hover:bg-gray-100 transition-colors focus:outline-none focus:ring-0"
@@ -459,35 +530,45 @@ export default function NavComponent() {
               <div className="space-y-4 mb-8">
                 <a
                   href="#home"
-                  className={`block py-3 text-lg font-semibold text-gray-700 hover:text-sky-600 transition-colors focus:outline-none focus:ring-0 ${isRTL ? 'text-right' : 'text-left'}`}
+                  className={`block py-3 text-lg font-semibold text-gray-700 hover:text-sky-600 transition-colors focus:outline-none focus:ring-0 ${
+                    isRTL ? "text-right" : "text-left"
+                  }`}
                   onClick={handleNavClick("home")}
                 >
                   {getTranslation("home")}
                 </a>
                 <a
                   href="#features"
-                  className={`block py-3 text-lg font-semibold text-gray-700 hover:text-sky-600 transition-colors focus:outline-none focus:ring-0 ${isRTL ? 'text-right' : 'text-left'}`}
+                  className={`block py-3 text-lg font-semibold text-gray-700 hover:text-sky-600 transition-colors focus:outline-none focus:ring-0 ${
+                    isRTL ? "text-right" : "text-left"
+                  }`}
                   onClick={handleNavClick("features")}
                 >
                   {getTranslation("features")}
                 </a>
                 <a
                   href="#matches"
-                  className={`block py-3 text-lg font-semibold text-gray-700 hover:text-sky-600 transition-colors focus:outline-none focus:ring-0 ${isRTL ? 'text-right' : 'text-left'}`}
+                  className={`block py-3 text-lg font-semibold text-gray-700 hover:text-sky-600 transition-colors focus:outline-none focus:ring-0 ${
+                    isRTL ? "text-right" : "text-left"
+                  }`}
                   onClick={handleNavClick("matches")}
                 >
                   {getTranslation("matches")}
                 </a>
                 <a
                   href="#testimonials"
-                  className={`block py-3 text-lg font-semibold text-gray-700 hover:text-sky-600 transition-colors focus:outline-none focus:ring-0 ${isRTL ? 'text-right' : 'text-left'}`}
+                  className={`block py-3 text-lg font-semibold text-gray-700 hover:text-sky-600 transition-colors focus:outline-none focus:ring-0 ${
+                    isRTL ? "text-right" : "text-left"
+                  }`}
                   onClick={handleNavClick("testimonials")}
                 >
                   {getTranslation("testimonials")}
                 </a>
                 <a
                   href="/pricing"
-                  className={`block py-3 text-lg font-semibold text-gray-700 hover:text-sky-600 transition-colors focus:outline-none focus:ring-0 ${isRTL ? 'text-right' : 'text-left'}`}
+                  className={`block py-3 text-lg font-semibold text-gray-700 hover:text-sky-600 transition-colors focus:outline-none focus:ring-0 ${
+                    isRTL ? "text-right" : "text-left"
+                  }`}
                   onClick={handleNavClick("pricing")}
                 >
                   {getTranslation("pricing")}
@@ -495,7 +576,9 @@ export default function NavComponent() {
 
                 <a
                   href="/about"
-                  className={`block py-3 text-lg font-semibold text-gray-700 hover:text-sky-600 transition-colors focus:outline-none focus:ring-0 ${isRTL ? 'text-right' : 'text-left'}`}
+                  className={`block py-3 text-lg font-semibold text-gray-700 hover:text-sky-600 transition-colors focus:outline-none focus:ring-0 ${
+                    isRTL ? "text-right" : "text-left"
+                  }`}
                   onClick={handleNavClick("about")}
                 >
                   {getTranslation("about")}
@@ -504,7 +587,11 @@ export default function NavComponent() {
 
               {/* Mobile Language Selector */}
               <div className="mb-8">
-                <h3 className={`text-sm font-medium text-gray-500 mb-3 ${isRTL ? 'text-right' : 'text-left'}`}>
+                <h3
+                  className={`text-sm font-medium text-gray-500 mb-3 ${
+                    isRTL ? "text-right" : "text-left"
+                  }`}
+                >
                   {getTranslation("language")}
                 </h3>
                 <div className="space-y-2">
@@ -516,12 +603,16 @@ export default function NavComponent() {
                         selectedLanguage === language.name
                           ? "bg-sky-50 text-sky-600 border border-sky-200"
                           : "text-gray-700 hover:bg-gray-50"
-                      } ${isRTL ? 'space-x-reverse' : ''}`}
+                      } ${isRTL ? "space-x-reverse" : ""}`}
                     >
                       <span className="text-lg">{language.flag}</span>
                       <span>{language.name}</span>
                       {selectedLanguage === language.name && (
-                        <div className={`${isRTL ? 'mr-auto' : 'ml-auto'} w-2 h-2 bg-sky-500 rounded-full`}></div>
+                        <div
+                          className={`${
+                            isRTL ? "mr-auto" : "ml-auto"
+                          } w-2 h-2 bg-sky-500 rounded-full`}
+                        ></div>
                       )}
                     </button>
                   ))}
@@ -535,9 +626,12 @@ export default function NavComponent() {
                   target="_blank"
                   className="block"
                 >
-                  <button className="w-full text-gray-700 font-medium px-4 py-2 md:py-3 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors focus:outline-none focus:ring-0"
-                    style={{ 
-                      fontFamily: isRTL ? "Arial, 'Noto Sans Hebrew', 'David Libre', sans-serif" : 'inherit'
+                  <button
+                    className="w-full text-gray-700 font-medium px-4 py-2 md:py-3 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors focus:outline-none focus:ring-0"
+                    style={{
+                      fontFamily: isRTL
+                        ? "Arial, 'Noto Sans Hebrew', 'David Libre', sans-serif"
+                        : "inherit",
                     }}
                   >
                     {getTranslation("login")}
@@ -548,9 +642,12 @@ export default function NavComponent() {
                   target="_blank"
                   className="block"
                 >
-                  <button className="w-full bg-sky-400 text-white rounded-lg px-4 py-2 md:py-3 font-semibold hover:bg-sky-500 transition focus:outline-none focus:ring-0"
-                    style={{ 
-                      fontFamily: isRTL ? "Arial, 'Noto Sans Hebrew', 'David Libre', sans-serif" : 'inherit'
+                  <button
+                    className="w-full bg-sky-400 text-white rounded-lg px-4 py-2 md:py-3 font-semibold hover:bg-sky-500 transition focus:outline-none focus:ring-0"
+                    style={{
+                      fontFamily: isRTL
+                        ? "Arial, 'Noto Sans Hebrew', 'David Libre', sans-serif"
+                        : "inherit",
                     }}
                   >
                     {getTranslation("register")}
@@ -564,12 +661,12 @@ export default function NavComponent() {
 
       {/* Global CSS to remove all focus outlines */}
       <style jsx global>{`
-        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew:wght@400;500;600;700&display=swap');
-        
+        @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew:wght@400;500;600;700&display=swap");
+
         [dir="rtl"] {
-          font-family: Arial, 'Noto Sans Hebrew', 'David Libre', sans-serif !important;
+          font-family: Arial, "Noto Sans Hebrew", "David Libre", sans-serif !important;
         }
-        
+
         /* Remove focus outlines globally for navigation elements */
         nav a:focus,
         nav button:focus,
@@ -577,19 +674,22 @@ export default function NavComponent() {
           outline: none !important;
           box-shadow: none !important;
         }
-        
+
         /* Specifically target Tailwind's focus ring utilities */
         .focus\\:outline-none:focus {
           outline: 2px solid transparent !important;
           outline-offset: 2px !important;
         }
-        
+
         .focus\\:ring-0:focus {
-          --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color) !important;
-          --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(0px + var(--tw-ring-offset-width)) var(--tw-ring-color) !important;
-          box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000) !important;
+          --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0
+            var(--tw-ring-offset-width) var(--tw-ring-offset-color) !important;
+          --tw-ring-shadow: var(--tw-ring-inset) 0 0 0
+            calc(0px + var(--tw-ring-offset-width)) var(--tw-ring-color) !important;
+          box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow),
+            var(--tw-shadow, 0 0 #0000) !important;
         }
-        
+
         /* Ensure Hebrew text is properly aligned */
         [dir="rtl"] .space-x-reverse > :not([hidden]) ~ :not([hidden]) {
           --tw-space-x-reverse: 1;

@@ -216,8 +216,12 @@ export default function BannerSection() {
     target="_blank"
     className="block"
   >
-    <button className="flex items-center justify-center gap-2 bg-white hover:bg-gray-100 text-gray-800 font-semibold py-3 px-6 rounded-full shadow-md border transition">
-      <Heart size={30} className="text-pink-500" />
+    <button  className="flex items-center justify-center gap-2 bg-white hover:bg-gray-100 text-gray-800 font-semibold py-3 px-6 rounded-full shadow-md border transition">
+      <Heart    onClick={(e) => {
+                e.preventDefault(); // Prevent immediate navigation
+                localStorage.clear();
+                window.open("https://www.loveai.co.il/login", "_blank"); // Open after clearing
+              }}  size={30} className="text-pink-500" />
       {isMounted ? t(currentContent.learnMore) : currentContent.fallback.learnMore}
     </button>
   </a>
