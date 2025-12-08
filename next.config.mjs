@@ -1,8 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
   typescript: {
     ignoreBuildErrors: true,
   },
@@ -10,7 +7,7 @@ const nextConfig = {
   //   unoptimized: true,
   // },
   images: {
-    formats: ["image/avif", "image/webp"], // ✅ Use optimized formats
+    formats: ["image/avif", "image/webp"], // ✅ Use optimized formats  
     qualities: [75, 80, 85, 90, 95, 100],
   },
   // output: 'export',

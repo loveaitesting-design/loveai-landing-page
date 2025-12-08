@@ -15,5 +15,9 @@ module.exports = {
       href: 'https://www.loveai.co.il/he',
       hreflang: 'he',
     },
+    {
+      href: 'https://www.loveai.co.il/ru',
+      hreflang: 'ru',
+    },
   ],
 };
