@@ -1,0 +1,2082 @@
+{
+  "home": "Home",
+  "features": "Features",
+  "matches": "Matches",
+  "testimonials": "Testimonials",
+  "pricing": "Pricing",
+  "about": "About",
+  "login": "Login",
+  "signin": "Sign In",
+  "register": "Register",
+  "language": "Language",
+  "welcome_message": "Welcome to LoveAi!",
+  "about_title1": "About ",
+  "about_title2": "Love Ai",
+  "about_subtitle": "The story behind the most advanced dating platform in Israel",
+  "about_mission_title": "Our mission and uniqueness",
+  "about_mission_p1": "At LoveAi, we believe that finding love shouldn't rely on luck or chance. Our mission is to enhance the journey of discovering meaningful connections. We strive to make the search for love more personal and intuitive. By leveraging advanced AI algorithms, we ensure a more accurate matching experience. Join us in redefining how love is found!",
+  "about_mission_p2": "Our platform was established in 2023 by a team of top dating experts and skilled software engineers. Together, we developed a system that merges advanced artificial intelligence with profound psychological insights. This innovative approach allows us to match individuals in a way that transcends mere appearances or common interests. We focus on fostering deeper connections that resonate on a more meaningful level.",
+  "about_mission_p3": "We believe that a true connection happens when values, aspirations, and emotional factors align. Our algorithm learns from users in real time, continuously enhancing match quality. This dynamic approach ensures a personalized dating experience that truly resonates. We are committed to helping you find a partner who complements your unique journey.",
+  "about_success_title": "85% Success",
+  "about_success_desc": "Our match success rate is one of the highest in the industry",
+  "about_hightech_title": "High Tech",
+  "about_hightech_desc": "Deploying advanced AI methodologies for perfect matches",
+  "about_innovation_title": "Constant Innovation",
+  "about_innovation_desc": "Continuously enhancing and expanding our feature set.",
+  "about_global_title": "Global Deployment",
+  "about_global_desc": "Connecting hearts in 45 countries worldwide!",
+  "about_privacy_title": "Privacy and Security",
+  "about_privacy_desc": "We are dedicated to safeguarding your personal information and have implemented the following advanced security measures.",
+  "about_support_title": "24/7 Support",
+  "about_support_desc": "Our dedicated support team is available 24/7 to assist you with any questions or concerns.",
+  "about_research_title": "Constant Research",
+  "about_research_desc": "We prioritize ongoing research to gain deeper insights into the dynamics of relationships in the digital era.",
+  "advanced_features_title": "Why choose LoveAI?",
+  "advanced_features_subtitle": "Our platform combines romance and artificial intelligence to create the most advanced dating",
+  "advanced_features_card1_title": "AI-Powered Matching",
+  "advanced_features_card1_desc": "Our advanced algorithm learns your preferences over time to suggest more suitable matches.",
+  "advanced_features_card2_title": "Enhanced Privacy",
+  "advanced_features_card2_desc": "Control your visibility and share information only with those you choose to connect with.",
+  "advanced_features_card3_title": "Smart Communication",
+  "advanced_features_card3_desc": "Break the ice with AI-based conversation starters based on shared interests.",
+  "advanced_features_card4_title": "Compatibility Analysis",
+  "advanced_features_card4_desc": "View detailed compatibility reports and understand the potential of your relationship.",
+  "advanced_features_card5_title": "Community Events",
+  "advanced_features_card5_desc": "Join virtual and physical meetups to meet multiple matches in a relaxed environment.",
+  "advanced_features_card6_title": "Relationship Coaching",
+  "advanced_features_card6_desc": "Get personalized advice from relationship experts to improve your dating success.",
+  "ai_analysis_title": "Ai analysis",
+  "ai_analysis_desc1": "The ideal partner on",
+  "ai_analysis_desc2": "is one whose interests and values resonate with yours, creating a natural bond. The platform utilizes algorithms to examine your swiping behavior and messaging styles to recommend suitable matches. In the end, true connections flourish through shared experiences and meaningful interactions that go beyond mere algorithmic suggestions.",
+  "ai_analysis_cta": "Easily find your soulmate nearby",
+  "success_stories_title": "Success Stories",
+  "success_stories_subtitle": "Many couples have found their love through our platform. Here are some of their touching stories.",
+  "success_story_1_name": "Daniel and Shira",
+  "success_story_1_date": "June 2025",
+  "success_story_1_story": "We met a year ago through LoveAI and knew immediately that there was something special between us. The system suggested Shira as a perfect match for me and it was 100% right. Today we're engaged and planning a wedding!",
+  "success_story_2_name": "Noa and Maya",
+  "success_story_2_date": "June 2025",
+  "success_story_2_story": "I found my perfect match, Noa, on LoveAI six months ago. Our shared love for music brought us together instantly. Today, we're excitedly planning our first concert as a couple!",
+  "success_story_3_name": "Tamar",
+  "success_story_3_date": "April 2025",
+  "success_story_3_story": "LoveAI introduced me to Sani, and we clicked immediately over our love for art. In just a few months, we've created beautiful memories together. Now, we're dreaming of a future filled with creativity and love!",
+  "footer_description": "A cutting-edge dating platform that combines romantic connections with innovative AI technology.",
+  "footer_company": "Company",
+  "footer_about_us": "About Us",
+  "footer_careers": "Careers",
+  "footer_press": "Press",
+  "footer_blog": "Blog",
+  "footer_contact": "Contact",
+  "footer_resources": "Resources",
+  "footer_help_center": "Help Center",
+  "footer_dating_tips": "Dating Tips",
+  "footer_safety_tips": "Safety Tips",
+  "footer_verified_profiles_only": " Verified Profiles Only",
+  "footer_community_guidelines": "Community Guidelines",
+  "footer_legal": "Legal",
+  "footer_terms_of_service": "Terms of Service",
+  "footer_privacy_policy": "Privacy Policy",
+  "footer_cookie_policy": "Cookie Policy",
+  "footer_accessibility_statement": "Accessibility Statement",
+  "footer_donation_terms": "Donation Terms",
+  "footer_cta": "Your match might be one good deed away.",
+  "footer_join_now": "Join now",
+  "footer_start_connecting": "Start connecting.",
+  "footer_rights_reserved": "All rights reserved.",
+  "good_deeds_title": "Good Deeds",
+  "good_deeds_kindness_score": "Kindness Score: {{score}} pts",
+  "good_deeds_full_heart": "60 Points = 1 Full Gold Heart",
+  "good_deeds_half_heart": "30 Points = Half Heart",
+  "good_deeds_quarter_heart": "Less than 30 Points = Quarter Heart",
+  "good_deeds_earn_access": "Earn access through kindness or verified donations. Every good deed brings you closer to love",
+  "good_deeds_each_action": "Each kind action brings you closer to unlocking premium features.",
+  "isfor_title": "is for...",
+  "isfor_subtitle": "Discover a world where romance meets the magic of artificial intelligence, crafting an unparalleled dating experience that ignites passion and connection like never before.",
+  "isfor_card1_title": "Value-driven singles",
+  "isfor_card1_desc": "Our sophisticated algorithm evolves with you, intuitively understanding your unique preferences as time goes on.",
+  "isfor_card2_title": "Professionals over 40",
+  "isfor_card2_desc": "LoveAi app is designed specifically for professionals over 40, connecting you with like-minded individuals who value meaningful relationships and shared experiences.",
+  "isfor_card3_title": "People tired of the superficial",
+  "isfor_card3_desc": "Individuals seeking deeper, more meaningful connections are growing weary of shallow interactions.",
+  "isfor_card4_title": "Those who believe in connection with purpose",
+  "isfor_card4_desc": "For those who yearn for connections that spark passion and are woven with purpose.",
+  "findmatch_title": "Find Your Match Nearby",
+  "findmatch_subtitle": "Our advanced algorithm analyzes compatibility based on interests, values, and communication style to find your ideal candidate.",
+  "findmatch_search_placeholder": "Search by name...",
+  "findmatch_filter_everyone": "Everyone",
+  "findmatch_filter_men": "Men",
+  "findmatch_filter_women": "Women",
+  "findmatch_showing": "Showing {{count}} users",
+  "findmatch_showing_demo": "This are Demo profiles for illustration only.",
+  "kindness_journey_title": "Your Kindness Journey",
+  "kindness_step_create_profile": "Create your profile",
+  "kindness_step_do_good": "Do something good",
+  "kindness_step_earn_heart": "Earn your first golden heart",
+  "kindness_charities_title": "LoveAi Charities",
+  "download_now_title": "Download Now!",
+  "download_now_desc": "Connect, share content, engage, and explore on Love AI, the bold new Dating AI app that gives you everything you need and more.",
+  "download_on_app_store": "Download on App Store",
+  "get_it_on_google_play": "Get it on Google Play",
+  "downloadsection_ready": "Ready to meet your perfect match?",
+  "downloadsection_start": "Start your journey today.",
+  "downloadsection_download_now": "Download Now!",
+  "downloadsection_active_users": "Thousands already joined",
+  "downloadsection_daily_matches": "Growing every day",
+  "downloadsection_match_success_rate": "Match Success Rate",
+  "downloadsection_countries": "Countries",
+  "match_verified": "Verified",
+  "match_remove": "Remove",
+  "match_save": "Save",
+  "google_play": "Google Play",
+  "app_store": "App Store",
+  "match_favourite": "Favourite",
+  "match_interests": "Interests",
+  "match_occupation": "Occupation",
+  "banner_image_alt": "Banner {{index}}",
+  "banner_chat": "Chat",
+  "banner_dislike": "Dislike",
+  "banner_star": "Star",
+  "banner_age": "Age",
+  "banner_away_from_you": "away from you",
+  "demo_love_smarter": "LoveAi – A serious dating app,",
+  "demo_live_deeper": "Powered by AI and shared values,",
+  "demo_match_by_values": "Not endless swipes.",
+  "demo_ai_platform_desc": "Our AI-powered dating platform uses cutting-edge technology to connect you with compatible partners who share your interests, Smart Dating for Real People, AI-Powered Matching for Deeper Connections,Privacy-First. Verified Users. Real Intentions.",
+  "demo_start_now": "Find your perfect match – start now!",
+  "demo_learn_more": "Discover real love powered by AI",
+  "demo_matches_this_week": "10,000+ matches made this week",
+  "plan_basic": "Basic",
+  "plan_standard": "Standard",
+  "plan_premium": "Premium",
+  "pricingtoggle_monthly": "Monthly",
+  "pricingtoggle_yearly": "Yearly",
+  "pricing_choose_plan": "Choose the plan that's right for you",
+  "pricing_basic_desc": "For love seekers embarking on a journey",
+  "pricing_basic_save": "Save up to 20% on yearly subscription",
+  "pricing_basic_price": "49.99 ILS/Month and 599.88 ILS/Year",
+  "pricing_basic_feature_1": "5 Swipes Daily Limit",
+  "pricing_basic_feature_2": "Save up to 5 Favourite Profiles",
+  "pricing_basic_feature_3": "Add Your Story Limited Access",
+  "pricing_basic_feature_4": "Upload up to 20 Profile Photos",
+  "pricing_basic_feature_5": "Basic Filter Option",
+  "pricing_basic_feature_6": "Includes Chat Feature",
+  "pricing_basic_feature_7": "No Audio Call",
+  "pricing_basic_feature_8": "No Audio Call",
+  "pricing_basic_unlock_kindness": "Unlock also via kindness 💛",
+  "pricing_basic_cancel_anytime": "You can cancel anytime",
+  "pricing_basic_get_started": "GET STARTED",
+  "pricing_standard_unlock_kindness": "Unlock also via kindness 💛",
+  "pricing_standard_cancel_anytime": "You can cancel anytime",
+  "pricing_standard_title": "Standard",
+  "pricing_standard_subtitle": "For dreamers ready to find their match",
+  "pricing_standard_save_yearly": "Save up to 20% on yearly subscription",
+  "pricing_standard_price": "1199.88 ILS/Year And 99.99 ILS/Month",
+  "pricing_standard_feature_1": "20 Swipes Daily Limit",
+  "pricing_standard_feature_2": "Unlimited Favorites Access",
+  "pricing_standard_feature_3": "Your Story Limited Access",
+  "pricing_standard_feature_4": "Unlimited Profile Photos",
+  "pricing_standard_feature_5": "Advanced Filter Option",
+  "pricing_standard_feature_6": "Includes Chat Feature",
+  "pricing_standard_feature_7": "Unlimited Audio Call",
+  "pricing_standard_feature_8": "No Video Call",
+  "pricing_premium_title": "Premium",
+  "pricing_premium_subtitle": "Designed for Easygoing Love Seekers",
+  "pricing_premium_save_yearly": "Save up to 20% on yearly subscription",
+  "pricing_premium_price": "149.99 ILS/Month and 1799.88 ILS/Year",
+  "pricing_premium_feature_1": "Unlimited Swipes",
+  "pricing_premium_feature_2": "Unlimited Favorites Access",
+  "pricing_premium_feature_3": "Full Story Access",
+  "pricing_premium_feature_4": "Unlimited Profile Photos",
+  "pricing_premium_feature_5": "Advanced AI Filter",
+  "pricing_premium_feature_6": "Includes Chat Feature",
+  "pricing_premium_feature_7": "Unlimited Audio Call",
+  "pricing_premium_feature_8": "Unlimited Video Call",
+  "or": "Or",
+
+  "accessibility": {
+    "title": "Accessibility Statement",
+    "effective_date": "Effective Date: ",
+    "effective_date_value": "01-Aug-2025",
+    "intro1": "At ",
+    "intro2": "LOVEAI ",
+    "intro3": ", we are committed to ensuring that our digital services are ",
+    "intro4": "accessible to all users ",
+    "intro5": ", including people with disabilities. We strive to create an inclusive experience that reflects our values of ",
+    "intro6": "equality, respect, and usability ",
+    "intro7": "for everyone.",
+    "commitment_title": "🛠️ Our Commitment",
+    "commitment_subtitle1": "We are actively working to ensure our website and mobile app comply with the ",
+    "commitment_subtitle2": "Israeli Standard 5568",
+    "commitment_subtitle3": ", which aligns with the ",
+    "commitment_subtitle4": "Web Content Accessibility Guidelines (WCAG) 2.1",
+    "commitment_subtitle5": ", Level AA.",
+    "commitment_subtitle6": "This includes:",
+    "commitment_list1": "Text alternatives for images and icons",
+    "commitment_list2": "Keyboard navigation support",
+    "commitment_list3": "Sufficient color contrast",
+    "commitment_list4": "Screen reader compatibility",
+    "commitment_list5": "Accessible forms and buttons",
+    "commitment_list6": "Logical and consistent navigation",
+    "assistive_title": "🌍 Supported Assistive Technologies",
+    "assistive_subtitle": "Our platform supports common assistive technologies such as:",
+    "assistive_list1": "NVDA, VoiceOver, TalkBack (screen readers)",
+    "assistive_list2": "Keyboard-only browsing",
+    "assistive_list3": "Zoom/magnification tools",
+    "assistive_list4": "Speech-to-text services",
+    "improvements_title": "🧪 Ongoing Improvements",
+    "improvements_subtitle": "Accessibility is an ongoing effort. We regularly:",
+    "improvements_list1": "Conduct automated and manual audits",
+    "improvements_list2": "Train developers on inclusive design",
+    "improvements_list3": "Review feedback from real users with disabilities",
+    "improvements_list4": "Update UI/UX for better access and clarity",
+    "help_title": "📣 Need Help or Encounter a Barrier?",
+    "help_subtitle": "If you experience difficulty accessing any part of our service or wish to suggest improvements, we’d love to hear from you.",
+    "help_email": "accessibility@loveai.com",
+    "help_location": "Jerusalem, Israel",
+    "help_response": "We aim to respond to all accessibility-related inquiries within 7 business days.",
+    "legal_title": "⚖️ Legal Compliance",
+    "legal_subtitle": "This statement was prepared in accordance with:",
+    "legal_list1": "Israeli Equal Rights for Persons with Disabilities Law (חוק שוויון זכויות לאנשים עם מוגבלות)",
+    "legal_list2": "Israel Standard 5568",
+    "legal_list3": "WCAG 2.1 Level AA (W3C)",
+    "legal_list4": "and (if applicable)",
+    "review_title": "📆 Review Date",
+    "review_text1": "This statement is reviewed and updated at least once every ",
+    "review_text2": "12 months",
+    "review_text3": ".",
+    "review_text4": "Last Reviewed: 01-Aug-2025.",
+    "openButton": "Open Accessibility Settings (Alt + A)",
+    "close": "Close",
+    "fontSize": "Font Size",
+    "fontSizeSmall": "Small",
+    "fontSizeLarge": "Extra Large",
+    "highContrast": "High Contrast",
+    "reducedMotion": "Reduced Motion",
+    "screenReaderMode": "Screen Reader Mode",
+    "focusIndicators": "Enhanced Focus Indicators",
+    "soundEnabled": "Sound Enabled",
+    "largeCursor": "Large Cursor",
+    "keyboardNavigation": "Keyboard Navigation",
+    "language": "Language",
+    "resetSettings": "Reset Settings",
+    "toggle": "Toggle {{setting}}",
+    "announcements": {
+      "enabled": "{{setting}} enabled",
+      "disabled": "{{setting}} disabled",
+      "settingsReset": "Settings reset to default"
+    }
+  },
+  "community_guidelines": {
+    "headText": "Community Guidelines",
+    "main": {
+      "title": "",
+      "intro": {
+        "text1": "Here are ",
+        "bold": "Community Guidelines for LoveAi App Users in Israel",
+        "text2": ", designed to foster respectful, safe, and enjoyable interactions whether you're using apps like any local platform."
+      }
+    },
+    "sections": {
+      "1": {
+        "title": "❤️ 1. Respect Others’ Boundaries",
+        "desc1": {
+          "bold": "No means no ",
+          "text": "whether it's about meeting, messaging, or continuing a conversation."
+        },
+        "desc2": "Don't pressure anyone for photos, personal info, or fast responses."
+      },
+      "2": {
+        "title": "👥 2. Be Honest and Authentic",
+        "desc1": {
+          "text1": "Use ",
+          "bold": "real photos and accurate information ",
+          "text2": "no catfishing, filters to the point of deception, or fake names."
+        },
+        "desc2": "Don't impersonate IDF personnel, celebrities, or professionals to impress."
+      },
+      "3": {
+        "title": "🧼 3. Keep it Clean and Respectful",
+        "desc1": {
+          "text1": "Avoid sending ",
+          "bold": "explicit photos, vulgar messages, or offensive jokes ",
+          "text2": "especially before mutual interest is established."
+        },
+        "desc2": {
+          "text1": "Sexual content should only be shared ",
+          "bold": "if both parties agree and it's private."
+        }
+      },
+      "4": {
+        "title": "🕊️ 4. Zero Tolerance for Hate or Discrimination",
+        "desc1": "No racism, antisemitism, Islamophobia, homophobia, or hate speech.",
+        "desc2": "Respect religious and cultural backgrounds: secular, traditional, or religious—everyone deserves a safe space."
+      },
+      "5": {
+        "title": "🔒 5. Protect Privacy – Yours and Theirs",
+        "desc1": "Don't share someone's profile, photos, or private chats outside the app.",
+        "desc2": "No stalking, doxing, or using outside tools to track someone down without consent."
+      },
+      "6": {
+        "title": "🤝 6. Engage with Good Intentions",
+        "desc1": {
+          "text1": "Whether you're looking for a date, a relationship, or friendship ",
+          "bold": "be clear and upfront."
+        },
+        "desc2": "Don't waste others' time with games or fake interests."
+      },
+      "7": {
+        "title": "🚫 7. No Harassment or Spam",
+        "desc1": "Don't message someone repeatedly if they're not responding.",
+        "desc2": "Avoid copy-pasting messages to multiple people, selling services, or promoting businesses."
+      },
+      "8": {
+        "title": "📍 8. Meet Safely and Respectfully",
+        "desc1": {
+          "text1": "Arrange to meet in ",
+          "bold": "public places",
+          "text2": ", let friends know your plans, and never pressure someone to meet privately."
+        },
+        "desc2": "Respect someone's decision to delay meeting in person."
+      },
+      "9": {
+        "title": "👮‍♂️ 9. Report Suspicious or Harmful Behavior",
+        "desc1": {
+          "text1": "Use in-app tools to ",
+          "bold": "block or report anyone who threatens, scams, harasses, or violates these rules",
+          "text2": "."
+        },
+        "desc2": "Your report helps protect others too."
+      },
+      "10": {
+        "title": "🌐 10. Respect the Diversity of Israeli Society",
+        "desc1": {
+          "text1": "Whether someone is Jewish, Arab, Druze, Christian, religious, secular, LGBTQ+, or a new immigrant ",
+          "bold": "treat them with dignity",
+          "text2": "."
+        },
+        "desc2": "Open-mindedness is essential in Israel's culturally rich dating scene."
+      }
+    }
+  },
+
+  "dating_tips": {
+    "headText": "Dating Tips",
+    "main": {
+      "title": ""
+    },
+    "sections": {
+      "1": {
+        "title": "🇮🇱 1. Be Direct and Honest",
+        "desc1": {
+          "bold": "Israeli culture values directness ",
+          "text": "if you're interested, say it. If you're not, it's better to be upfront."
+        },
+        "desc2": "Avoid games or overly vague messages; clear communication is often appreciated."
+      },
+      "2": {
+        "title": "🗣️ 2. Be Open to Deep Conversations Early",
+        "desc1": {
+          "text1": "Israelis often dive into ",
+          "bold": "serious topics quickly",
+          "text2": ", such as politics, family, or beliefs."
+        },
+        "desc2": {
+          "text1": "Don't be surprised if someone brings up ",
+          "bold": "military service, religion, or future plans ",
+          "text2": "on the first few dates."
+        }
+      },
+      "3": {
+        "title": "🤝 3. Respect Equality",
+        "desc1": {
+          "text1": "Israeli dating is often more ",
+          "bold": "egalitarian ",
+          "text2": "many women expect equal treatment and independence."
+        },
+        "desc2": {
+          "bold": "Chivalry is fine",
+          "text": ", but don’t assume traditional gender roles."
+        }
+      },
+      "4": {
+        "title": "☕ 4. Keep It Casual (at First)",
+        "desc1": {
+          "text1": "First dates are usually ",
+          "bold": "low-pressure",
+          "text2": ": coffee shops, beach walks, or casual bars are common."
+        },
+        "desc2": "Dressing too fancy or going overboard on romance early can feel off-putting."
+      },
+      "5": {
+        "title": "💬 5. Small Talk Isn’t a Big Thing",
+        "desc1": {
+          "text1": "Get to the point. Israelis often ",
+          "bold": "skip small talk",
+          "text2": " and appreciate genuine interest."
+        },
+        "desc2": {
+          "text1": "Ask real questions—",
+          "bold1": "“What drives you?”",
+          "text2": " or ",
+          "bold2": "“What are your dreams?”",
+          "text3": " will get better reactions than just talking about the weather."
+        }
+      },
+      "6": {
+        "title": "🌍 6. Embrace Cultural Diversity",
+        "desc1": {
+          "text1": "Israel is a ",
+          "bold": "melting pot",
+          "text2": ": Jewish, Arab, Druze, Christian, secular, religious, Mizrahi, Ashkenazi, etc."
+        },
+        "desc2": "Be sensitive and curious about cultural, religious, and ethnic backgrounds."
+      },
+      "7": {
+        "title": "💡 7. Be Prepared for Strong Opinions",
+        "desc1": "Israelis often have strong views and don’t mind debate.",
+        "desc2": {
+          "text1": "Don’t take disagreements personally—",
+          "bold": "spirited conversation is part of the culture.",
+          "text2": ""
+        }
+      },
+      "8": {
+        "title": "💌 8. Show Real Interest",
+        "desc1": {
+          "text1": "Ask about their ",
+          "bold": "army service (IDF)",
+          "text2": " or travel experiences—many Israelis travel the world after the army."
+        },
+        "desc2": "It’s a common bonding point and shows that you respect their life story."
+      },
+      "9": {
+        "title": "🚫 9. Avoid Stereotypes",
+        "desc1": "Don’t assume things based on global media or outdated ideas.",
+        "desc2": {
+          "text1": "Each person is unique—get to know ",
+          "bold": "them",
+          "text2": ", not a stereotype."
+        }
+      },
+      "10": {
+        "title": "❤️ 10. Be Emotionally Available",
+        "desc1": {
+          "text1": "Israeli daters appreciate people who are ",
+          "bold": "emotionally present and genuine."
+        },
+        "desc2": {
+          "text1": "If you're into them—",
+          "bold": "say it, show it, mean it.",
+          "text2": ""
+        }
+      },
+      "11": {
+        "title": "🧠 11. Intelligence Is Attractive",
+        "desc1": {
+          "text1": "Israelis often value ",
+          "bold": "intellect, wit, and education",
+          "text2": "—being well-informed and thoughtful is seen as sexy."
+        },
+        "desc2": "Being able to discuss topics like tech, world affairs, culture, or philosophy adds points."
+      },
+      "12": {
+        "title": "🏞️ 12. Be Spontaneous and Adventurous",
+        "desc1": {
+          "text1": "Many Israelis love ",
+          "bold": "travel, hiking, beach days, and spontaneous getaways",
+          "text2": "."
+        },
+        "desc2": {
+          "text1": "Being open to ",
+          "bold": "unplanned experiences",
+          "text2": " can help create a strong bond quickly."
+        }
+      },
+      "13": {
+        "title": "🔊 13. Don’t Mistake Passion for Aggression",
+        "desc1": {
+          "text1": "Israelis are often ",
+          "bold": "loud, passionate, expressive",
+          "text2": ", and animated—even in everyday conversation."
+        },
+        "desc2": {
+          "text1": "What may seem intense or emotional is often ",
+          "bold": "just their natural way of communicating",
+          "text2": "."
+        }
+      },
+      "14": {
+        "title": "🍽️ 14. Food Is a Big Connector",
+        "desc1": {
+          "text1": "Invite them to share ",
+          "bold": "Israeli dishes",
+          "text2": " like shakshuka, hummus, sabich, or go on a food tour."
+        },
+        "desc2": {
+          "text1": "Cooking or eating together is a great way to bond—",
+          "bold": "bonus if you enjoy Middle Eastern flavors",
+          "text2": "."
+        }
+      },
+      "15": {
+        "title": "✡️ 15. Be Respectful of Religious Differences",
+        "desc1": {
+          "text1": "Some Israelis are ",
+          "bold1": "secular",
+          "text2": ", others ",
+          "bold2": "religious",
+          "text3": " (Judaism, Islam, Christianity, etc.)."
+        },
+        "desc2": {
+          "text1": "Be open-minded about ",
+          "bold": "Shabbat observance, kosher eating, modesty, or prayer",
+          "text2": "—even if it's not your lifestyle."
+        }
+      },
+      "16": {
+        "title": "💬 16. Humor Is a Love Language",
+        "desc1": {
+          "text1": "Israelis have a sharp, ",
+          "bold": "sarcastic, and often self-deprecating humor",
+          "text2": "."
+        },
+        "desc2": {
+          "text1": "A good joke or playful banter can break the ice—and ",
+          "bold": "don’t be afraid to tease a little",
+          "text2": "."
+        }
+      },
+      "17": {
+        "title": "🎉 17. Family Is Central",
+        "desc1": {
+          "text1": "Whether religious or secular, family is a ",
+          "bold": "big part of life",
+          "text2": " in Israel."
+        },
+        "desc2": {
+          "text1": "Expect questions about your family and be open to meeting theirs ",
+          "bold": "earlier than you might in other cultures",
+          "text2": "."
+        }
+      },
+      "18": {
+        "title": "🧳 18. Many Have Seen the World",
+        "desc1": "Many Israelis travel for months after the army—Asia, South America, or Europe.",
+        "desc2": {
+          "text1": "Share your travel stories too—",
+          "bold": "wanderlust and life experiences",
+          "text2": " are a major point of connection."
+        }
+      },
+      "19": {
+        "title": "💡 19. Confidence Beats Flashiness",
+        "desc1": {
+          "text1": "You don't need to flaunt money or status. Instead, ",
+          "bold": "confidence, stability, and self-awareness",
+          "text2": " go further."
+        },
+        "desc2": {
+          "text1": "Israelis admire people who ",
+          "bold": "know who they are and what they want",
+          "text2": "."
+        }
+      },
+      "20": {
+        "title": "🧏 20. Listen and Be Present",
+        "desc1": {
+          "text1": "Israelis often talk a lot, but they expect you to ",
+          "bold": "really listen",
+          "text2": " and engage."
+        },
+        "desc2": "Eye contact, follow-up questions, and active participation in conversation show you’re truly interested."
+      },
+      "bonus": {
+        "title": "🚀 Bonus Tip: Know a Bit of Hebrew (Even Just a Few Words)",
+        "desc1": "Saying “Shalom” (hello/peace), “Sababa” (cool), “Yalla” (let’s go), or “Toda” (thank you) makes a positive impression—even if they speak fluent English."
+      }
+    }
+  },
+  "privacy_policy": {
+    "headText": "Privacy Policy",
+    "mainText": {
+      "title": "This Privacy Policy applies from 1st August 2025.",
+      "description1": "Please ensure that you read this Privacy Policy carefully when viewing or using this Service. By clicking the 'join' / 'register' or similarly worded button on the bottom of the registration form on this website homepage, you confirm you have read and agree to the practices described in this Privacy Policy and consent to your data being processed."
+    },
+    "sections": {
+      "your_data_controller": {
+        "title": "Your Data Controller",
+        "desc1": "Upon signing up or checking in, you will receive the entire details of your selected data controller. If you have any questions or require assistance in the meantime, feel free to reach out to us at ",
+        "desc2": "dataprotection@loveai.com."
+      },
+      "where_policy_applies": {
+        "title": "Where This Privacy Policy Applies",
+        "desc1": "This Privacy Policy applies to this website, mobile version of the site, events and any services we operate under our brand, referred to as 'service' going forward in this Privacy Policy."
+      },
+      "what_information_we_collect": {
+        "title": "What Information We Collect (including cookies)",
+        "desc1": "We may collect and store information that you enter onto this website or mobile version of the site, or provide to us in another way. This includes personally identifiable, sensitive, and/or special information. Please refer to the tables below for full details.",
+        "desc2": "Information you provide us",
+        "desc3": "Description of Categories",
+        "account_info_bold": "Account Information",
+        "account_info_desc": "You provide us with personally identifiable information when you register, including your name, address, phone number, email address, and birthdate.",
+        "profile_info_bold": "Profile Information",
+        "profile_info_desc": "You can provide us additional details about yourself when you fill out your profile, like your gender, age, interests, sexual preferences, and other demographics like your town or city. In some nations, this information might be regarded as sensitive or unique.",
+        "profile_content_desc": "Posting images, videos, music, text, and other kinds of content—like conversations with other users—is permitted when using our service.",
+        "purchase_info_bold": "Purchase Information",
+        "purchase_info_desc": "Our PCI <br /> compliant payment service provider securely stores and holds the financial information you supply when you make a transaction.Data from surveys, marketing, and researchWe occasionally do (i) market research, focus groups, or surveys, and (ii) marketing campaigns, events, or competitions. By choosing to participate, you provide us with the data we need to handle your submission, participation, answers to our questions, and feedback.",
+        "customer_support_bold": "Data for Customer Support",
+        "customer_support_desc": "When you get in touch with us, you give us information that might be needed to help you with your question. Other people can also submit questions."
+      },
+      "how_we_use_information": {
+        "title": "How We Use This Information and Purposes For Processing",
+        "desc1": "Subject to the limitations set out in these limitations and Conditions, we and our agents, will use the information submitted by you (including without limitation information of a personal and sensitive nature) for the purposes of:",
+        "supply_products_bold": "supplying our products and services and managing our business",
+        "maintain_account_bold": "maintaining your member account, offering you customer service, and doing related administrative tasks",
+        "service_info_bold": "delivering service related information, promotions, special offers, and other marketing materials, related items,or websites that we think you might find interesting to you through email and mobile communications",
+        "analytics_bold": "carrying out analytics for websites, mobile devices, and ads",
+        "research_bold": "doing research and analysis regarding your usage of, or interest in, our product, services or content given by us or others",
+        "comply_terms_bold": "complying with Section 16 of the Terms and Conditions by registering you with and showing your profile on other network partner services that we run.",
+        "enforce_rights_bold": "executing or enforcing any rights in our Terms and Conditions",
+        "desc2": "We may undertake these data functions or utilize a third party supplier on our behalf, who is bound to use your personal information exclusively to execute the services for us.",
+        "desc3": "We do not process personal data using 'profiling' and 'automated decision-making'."
+      },
+      "how_we_share_information": {
+        "title": "How We Share This Information",
+        "desc1": "Your personal information may be shared and processed by us and our associated agents. Each entity authorised to process your personal information will do so in accordance with this Privacy Policy and shall use reasonable endeavours to comply with their obligations and responsibilities. For full details, please refer to the below table.",
+        "desc2": "Recipients Reasons for sharing When you voluntarily share information on the service for others to view (e.g., your public profile), you are sharing data with other members. Service providers and partners We share data with vendors and partners who assist us in running, promoting, and improving our service; they offer us services like analytics, advertising, payment processing, legal support, and security operations. Affiliates We may share data with affiliates or receive data from them for the purposes outlined in Section 4 of this policy. Law enforcement authorities Unless mandated by law or other legally binding regulations, your personal information will not be shared with local authorities or other governmental agencies."
+      },
+      "where_information_processed": {
+        "title": "Where This Information Processed & Data Transfers",
+        "desc1": "Any other nation where we, our affiliated agents, or our clients maintain facilities may keep and process the personal data gathered on this website. You grant your legal agreement to any transfer of your personal information, and you understand and accept that it may be used outside of the nation in which you currently reside.",
+        "desc2": "Because we operate a global service, the sharing of your data involves cross-border data transfers to the United States of America and other countries that may have different laws about data processing. When we transfer personal data outside of the EEA, the United Kingdom, Switzerland or other countries whose data protection laws have been deemed adequate by the European Commission or other competent governmental bodies, we typically rely on what are called standard contract clauses. These standard contractual clauses are commitments between companies transferring personal data, binding them to protect the privacy and security of your data."
+      },
+      "your_rights": {
+        "title": "Your Rights",
+        "desc1": "If you have any questions on your rights and how to exercise them, please contact us using the contact details laid out in this Privacy Policy.",
+        "desc2": "Your Rights <Br/>How to work it out<Br/>Portability, Access, or Knowledge Right to get a copy of the personal information we process about you or to be informed of it<Br/>By signing into your account, you can directly access and review certain data. You can also follow the steps outlined in this Privacy Policy to obtain a copy of your data.<Br/>Correction or Rectification Right to update or change your personal information if it is incorrect or lacking<Br/>Just upgrading your profile will allow you to update your data immediately within the service. Please use the contact information provided in this Privacy Policy to get in touch with us if you would want to correct any additional data.",
+        "desc3": "Deletion or Erasure Right to delete personal data<Br/> You can delete some of the data you provided us directly within the service. You can also close your account and we'll delete your data as laid out in this Privacy Policy. In any event, you can always contact us using the contact details laid out in this Privacy Policy. Objection (Opt-out) or Restriction Right to object to us processing personal data or to request that we temporarily or permanently stop processing personal data You can directly opt-out from certain of your personal data processing using the contact details laid out in this Privacy Policy.",
+        "supervisory_bold": "The supervisory authorities listed below are where you can file a complaint:",
+        "uk_jurisdiction": "UK Jurisdictions: UK Information Commissioner's Office (ICO). You can do this by visiting their 'Make a Complaint' page here.",
+        "eu_jurisdiction": "European Data Protection Supervisor is one of the EU's jurisdictions. By going to their 'Complaints' page, you can accomplish this.",
+        "us_jurisdiction": "US Jurisdictions: There is no single national authority for the US, however the FTC has jurisdiction over most commercial entities and has authority to issue and enforce federal privacy regulations. You can contact them by visiting their 'Contact' page here."
+      },
+      "info_you_provide": {
+        "title": "Information You Provide About Yourself",
+        "desc1": "This Privacy Policy only affects the use and disclosure of personal and other information we collect from you. In using the Service you may decide to post information about yourself and others and communicate with others or upload content which may include personally identifiable information, such as photographs or comments. Such user postings are governed by our Terms and Conditions. We may use automated decision making in regard to your personal data for some services and products and your user posting may appear on other services associated with the platform, or when searches are made on the subject of your posting. By disclosing personal information on a publicly viewable Service, such information becomes publicly visible and can be collected and used by others. We encourage you to exercise discretion and caution over any personal information you decide to post."
+      },
+      "how_we_protect": {
+        "title": "How We Protect Your Information",
+        "desc1": "If you have created a member account using our Service simply log into your account using your username and password and click on 'Profile'. You can then amend your personal information",
+        "desc2": "You may also delete or disable your account at any time by following the instructions contained on the 'Membership' page. Even if you delete or disable your account we may still retain certain information associated with your account for recordkeeping integrity requirements as well as to prevent fraud, collect any fees owed, enforce our terms and conditions, protect the interests of other users or to take other actions as permitted by law.",
+        "desc3": "An electronic copy of your personal information is also available for download by you on the 'Membership' page."
+      },
+      "data_retention": {
+        "title": "Data Retention",
+        "desc1": "Our Data Retention Policy is designed to help ensure compliance with legal obligations in relation to the retention and deletion of personal information. Personal information that is processed by the Service for any purpose or purposes shall not be kept for longer than is necessary to provide the member with dating services.",
+        "desc2": "Members have the right to download a copy of all the data we hold on them. This can be downloaded from the Membership page on the site. Members can also delete their profile online by contacting our online support team from the Membership page.",
+        "desc3": "As part of our commitment to keeping users safe, we have adapted our retention policy to privately retain information on deleted profiles for a reasonable length of time as may be required to comply with the appropriate law enforcement bodies in the event of cases of harassment, bullying or other criminal acts.",
+        "desc4": "Record Type Retention Period<Br/> Information about a computer and about visits to and use of this Service (including an IP address, geographical location, browser type and version, operating system, referral source, length of visit, page views and Service navigation paths)<Br/>Indefinitely or 2 years following Profile deletion Information provided when registering with our Service (including email address) <Br/>Indefinitely or 2 years following Profile deletion <Br/>Information provided when completing a profile on our Service (including a name, gender, date of birth and interests) Indefinitely or 2 years following Profile deletion Information provided for the purpose of subscribing to email notifications and/or newsletters and promotions (including a name and email address) Indefinitely or 2 years following Profile deletion <Br/>Information provided when using the services on the Service, or that is generated in the course of the use of those services (including the timing, frequency and pattern of service use) Indefinitely or 2 years following Profile deletion <Br/>Information relating to any subscriptions or financial transactions Indefinitely or 7 years following Profile deletion Any other personal information chosen to be sent Indefinitely or 2 years following Profile deletion"
+      },
+      "age_restriction": {
+        "title": "Age Restriction Policy",
+        "desc1": "This Service is restricted to users over the age of 18 (or the age of majority in those USA States where 18 is not the age of majority). Furthermore, legislation imposes restrictions on commercial services, including ours. In compliance with these, we do not target our services to any persons under the age of 18 and any information we may receive from users we suspect to be under the age of 18 will be removed from our systems."
+      },
+      "email_permissions": {
+        "title": "Email Permissions & Opting Out",
+        "desc1": "You agree to receive emails from us when you register, but you can opt out at any time. To limit the frequency of emails or to stop receiving them, just log in with your username and password and go to the settings section to change your preferences. The Settings feature allows you to control whether you want to receive, limit, or stop promotional emails and message notifications.",
+        "desc2": "Additionally, you have the option to unsubscribe by clicking the \"unsubscribe\" link included at the bottom of every email you receive from us."
+      },
+      "subscription_payment": {
+        "title": "Subscription Payment",
+        "desc1": "Member subscription may not be assigned or transferred to any other person or entity. Members should contact us should there be a change to any of the following details: expiration date of any credit card used in connection with The Service; home or billing address or if there has been an apparent breach of security, such as loss, theft, or unauthorized disclosure or use of an ID or password. Until we are notified, by conventional mail, email or submitting a ticket to the Helpdesk, the Member will remain liable for any unauthorized use of the services.",
+        "desc2": "In the event of a lost, stolen card or reported fraud, we will cooperate fully with any investigation by your issuing bank or law enforcement agency and will provide any data required which may include your personal information."
+      },
+      "changes_to_policy": {
+        "title": "Changes To This Privacy Policy",
+        "desc1": "This Privacy Policy may be amended by us from time to time at our sole discretion. These modifications will become effective once posted by us on the Website as indicated by the 'last updated date' at the start of this Privacy Policy. Your continued use of the Service after any such modifications constitutes your acceptance of the new Privacy Policy. If you do not agree with any modifications made in the new Privacy Policy then you must cease to use the Service with immediate effect."
+      },
+      "contact_us": {
+        "title": "How to Contact Us",
+        "desc1": "Our 24/7 customer support team is here to help. Contact us now by submitting a ticket here."
+      }
+    }
+  },
+  "safety_tips": {
+    "headText": "Safety Tips",
+    "mainText": {
+      "title": "",
+      "description": {
+        "part1": "Here are ",
+        "bold1": "essential safety tips for using LoveAi apps in Israel ",
+        "part2": ", combining ",
+        "bold2": "local cultural insights ",
+        "part3": "with ",
+        "bold3": "universal digital safety best practices ",
+        "part4": "especially useful for women, new users, and tourists: "
+      }
+    },
+    "sections": {
+      "1": {
+        "title": "🔒 1. Don't Share Personal Info Too Soon",
+        "desc1_bold": "Avoid sharing ",
+        "desc1_text": "your full name, address, workplace, or financial details early on",
+        "desc2_part1": "Israelis can be open, but ",
+        "desc2_bold": "don't mistake comfort for trust ",
+        "desc2_part2": "keep some distance until real connection is built."
+      },
+      "2": {
+        "title": "📍 2. Meet in Public Places Only",
+        "desc1_part1": "Always suggest a ",
+        "desc1_bold": "safe, public location ",
+        "desc1_part2": "for the first few dates: cafes, malls, beach bars, etc.",
+        "desc2": "Popular first-date spots in cities like Tel Aviv, Jerusalem, or Haifa have good crowds and security."
+      },
+      "3": {
+        "title": "🚖 3. Use Your Own Transportation",
+        "desc1_bold": "Avoid letting them pick you up ",
+        "desc1_text": "or drop you off at your home.",
+        "desc2_part1": "Use a trusted taxi, rideshare, or drive yourself so you can ",
+        "desc2_bold": "leave any time you want"
+      },
+      "4": {
+        "title": "📱 4. Use Messaging In-App First",
+        "desc1_part1": "Our Israeli dating apps like LoveAi have chat features ",
+        "desc1_bold": "use them before moving to VideoCall.",
+        "desc2": "Moving off-platform too fast can be a red flag."
+      },
+      "5": {
+        "title": "👮‍♀️ 5. Be Cautious of Military Impersonators",
+        "desc1_bold": "Some scammers pose as IDF soldiers ",
+        "desc1_text": "(common scam globally too).",
+        "desc2_part1": "While many people serve in the army in Israel, ",
+        "desc2_bold": "any overly emotional or dramatic story ",
+        "desc2_part2": "is suspicious especially if they ask for money or favors."
+      },
+      "6": {
+        "title": "⚠️ 6. Watch for Red Flags",
+        "subTitle": "Avoid people who:",
+        "desc1": [
+          "Rush the relationship too fast (“love bombing”) ",
+          "Avoid video calls or meeting in person",
+          "Ask for money or favors, no matter how small ",
+          "Give inconsistent stories about their life or work"
+        ]
+      },
+      "7": {
+        "title": "📞 7. Share Your Plans with a Friend",
+        "desc1": "Tell a close friend where you're going, who you're meeting, and what time to check in.",
+        "desc2_part1": "Use ",
+        "desc2_bold": "location sharing via WhatsApp ",
+        "desc2_part2": "during the date for extra safety."
+      },
+      "8": {
+        "title": "🧾 8. Check Their Social Media (Light Background Check)",
+        "desc1_part1": "Many Israelis are active on ",
+        "desc1_bold": "Instagram, Facebook, or LinkedIn ",
+        "desc1_part2": "look for consistency.",
+        "desc2": "If they're “too perfect” but have no social media or real life presence, be skeptical."
+      },
+      "9": {
+        "title": "👁️ 9. Stay Sober (or in Control)",
+        "desc1_part1": "Don't drink too much on first dates. If you do, ",
+        "desc1_bold": "watch your drink carefully",
+        "desc1_part2": ".",
+        "desc2_part1": "Tel Aviv bars are usually safe, but ",
+        "desc2_bold": "drink spiking exists ",
+        "desc2_part2": "always be alert."
+      },
+      "10": {
+        "title": "👤 10. Trust Your Gut",
+        "desc1": "Israelis often have strong intuition (חוש שישי – “sixth sense”). So do you.",
+        "desc2_part1": "if ",
+        "desc2_bold1": "something feels off ",
+        "desc2_part2": ", it probably is ",
+        "desc2_bold2": "don’t feel guilty for canceling or leaving early",
+        "desc2_part3": "."
+      },
+      "bonus": {
+        "title": "✅ Bonus: Report & Block Suspicious Users",
+        "subTitle": "All popular Israeli dating apps have options to:",
+        "desc1": "Block",
+        "desc2": "Report abuse or harassment",
+        "desc3": "Flag fake profiles or scams"
+      }
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "by": "By",
+    "related": "Related",
+    "close": "Close"
+  },
+  "tags": {
+    "dating": "Dating",
+    "relationships": "Relationships",
+    "dateIdeas": "Date Ideas",
+    "mindfulDating": "Mindful Dating"
+  },
+  "blog": {
+    "article1": {
+      "image": "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=800&h=400&fit=crop",
+      "author": "Mr Doron Aroussi",
+      "title": "Are We Official? How to Know if You're Dating or in a Relationship",
+      "content": "<div class=\"space-y-6\">\n  <p class=\"text-gray-700 leading-relaxed\">You see each other most days, you've met each other's friends, and you know the names of all their childhood pets. An extra toothbrush lives in your bathroom and their coffee order is as familiar as your own. It feels like a relationship, but you haven't actually said it out loud. We've all been there—stuck in the no-man's-land of dating vs relationship.</p>\n\n  <p class=\"text-gray-700 leading-relaxed\">Modern dating is filled with grey areas. There's an invisible scale, talking vs dating vs relationship, seeing someone vs <span class=\"underline text-blue-600\">being exclusive</span> vs being in a committed relationship. These blurred lines can be fun sometimes, but more often than not, they can make a bit stressful, and even a little anxiety-inducing. And despite all the alternate labels out there in 2025, it's still a relationship that many of us are after. <span class=\"underline text-blue-600\">82% of LoveAi members</span> surveyed are looking for commitment (marriage or a partner). Our 2025 <span class=\"underline text-blue-600\">dating trends report</span> found that the majority (59%) of women respondents are placing more value on stability—looking for a partner who is emotionally consistent, reliable, and has clear goals when it comes to their life.</p>\n\n  <p class=\"text-gray-700 leading-relaxed\">So it's natural that at some point, you might start wondering: <em>What does it mean to be in a relationship?</em> And more importantly, <em>are we in one?</em></p>\n\n  <p class=\"text-gray-700 leading-relaxed\">Whether you're hoping for clarity or looking for the language to bring it up, here's how to navigate that uncertain stage and figure out what comes next.</p>\n\n  <h3 class=\"bg-[#00A3E0] rounded-2xl px-6 py-4 text-xl font-bold text-gray-900 mb-4 inline-block\">First, let's talk about what counts as a relationship</h3>\n  <p class=\"text-gray-700 leading-relaxed mt-4\">Every relationship is different, but typically, the difference between dating and a relationship comes down to emotional commitment and shared intention. Understanding the meaning of dating versus being in a committed relationship can help you navigate those stages more clearly. Dating can be casual or exploratory, while a relationship usually signals a desire for a long-term connection. It’s not about how often you see each other, it’s about whether you’re planning on building some sort of future together.</p>\n  <p class=\"text-gray-700 leading-relaxed mt-4\">If you're still unsure what the difference is between dating and a relationship, check out our breakdown of dating stages here.</p>\n\n  <h3 class=\"bg-[#00A3E0] rounded-2xl px-6 py-4 text-xl font-bold text-gray-900 mb-4 inline-block\">So, how do you know if it's time to define the relationship?</h3>\n  <p class=\"text-gray-700 leading-relaxed\">There's no universal timeline. Some couples make it official after a few weeks; others follow the 'three month rule'. There's also no wrong answer, but if you're feeling anxious or uncertain, that's a good indicator it might be time to talk. Here are some signs you might be ready:</p>\n\n  <ul class=\"text-gray-700 leading-relaxed ml-6 space-y-2\">\n    <li>• You're spending a lot of time together and talking daily</li>\n    <li>• You're not seeing or messaging anyone else (and assume they aren't either)</li>\n    <li>• You're included in each other's plans and social lives</li>\n    <li>• You're physically affectionate in public and act like a couple</li>\n    <li>• You catch yourself using \"we\" instead of \"I\"</li>\n  </ul>\n\n  <p class=\"text-gray-700 leading-relaxed\">If any of these sound familiar, it might be time to move from \"just seeing each other\" to having a conversation about what you both want.</p>\n\n  <h3 class=\"bg-[#00A3E0] rounded-2xl px-6 py-4 text-xl font-bold text-gray-900 mb-4 inline-block\">How to bring it up (without the awkwardness)</h3>\n  <p class=\"text-gray-700 leading-relaxed\">Talking about where you stand can feel intimidating. But it doesn’t have to be a Big, Scary Talk. You can start light and still be clear. Try:</p>\n\n  <ul class=\"text-gray-700 leading-relaxed ml-6 space-y-2\">\n    <li>• “I’ve been really enjoying this. I’m curious how you’re feeling about us.”</li>\n    <li>• “It feels like we’re in a relationship, is that how you see it too?”</li>\n    <li>• “I’m at a point where I’m only dating you. I’d love to know where you’re at.”</li>\n  </ul>\n\n  <p class=\"text-gray-700 leading-relaxed\">It’s not about forcing a label or being clingy. It’s about checking if you’re aligned in how you feel, what you want, and how you see things evolving. A committed relationship doesn’t need to look any particular way, it just needs to feel right for both of you.</p>\n\n  <h3 class=\"bg-[#00A3E0] rounded-2xl px-6 py-4 text-xl font-bold text-gray-900 mb-4 inline-block\">What if they’re not ready to define it?</h3>\n  <p class=\"text-gray-700 leading-relaxed mt-4\">If they aren’t ready to call it a relationship, that doesn’t automatically mean bad news. They might need more time, and that can be okay. What matters is how they respond: are they honest, respectful, and open to revisiting the conversation? Or are they vague and avoidant? Stonewalling you, even?</p>\n  <p class=\"text-gray-700 leading-relaxed mt-4\">If you’re clear on what you want, it’s okay to say that. You deserve clarity and care in return. It’s not about rushing things, it’s about making sure your emotional needs are being met.</p>\n\n  <h3 class=\"bg-[#00A3E0] rounded-2xl px-6 py-4 text-xl font-bold text-gray-900 mb-4 inline-block\">You’re not overthinking it. You’re seeking connection.</h3>\n  <p class=\"text-gray-700 leading-relaxed mt-4\">When you’re doing all the same things an official couple does, but without the label, it can feel like you’re giving ‘the girlfriend experience’ without any of the benefits (as in security, reassurance, and commitment). It’s natural to want to understand what it means. Asking where you stand isn’t needy, it’s just honest communication. You can’t put your needs away in a box and lock them up, out of fear of being rejected—it never ends well pretending you want something different than what you actually want. So, if you’re stuck in the middle of dating vs relationship and not sure what to do next, pause, chat to some friends about it, and start the conversation. Defining the relationship isn’t about applying pressure, it’s about mutual understanding and compromise. And that’s a pretty solid foundation for whatever comes next.</p>\n</div>"
+    },
+    "article2": {
+      "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&h=400&fit=crop",
+      "author": "Mr Doron Aroussi",
+
+      "title": "How to Figure Out Your Values in a Relationship",
+      "content": "<div class=\"space-y-6\">\n  <p class=\"text-gray-700 leading-relaxed\">'Values' is a term society talks about constantly: politically, romantically, and religiously. They can look different for everyone—what matters most is making sure yours vibe with the person you're dating.</p>\n  \n  <p class=\"text-gray-700 leading-relaxed\">Take Gomez and Morticia Addams, for example. They've always been the best depiction in popular culture of a couple whose values align. Dark humor, passion, plus quality time and physical touch are their trademark love languages.</p>\n  \n  <p class=\"text-gray-700 leading-relaxed\">Research has found that partners, on average, share up to 89% of their traits, including deeper values such as religiosity and political leanings. It's a reminder of just how central values are when it comes to building something solid, but how do you actually figure out what's important to you in a relationship? And how do you make sure you're on the same page as your partner? Let's get into it.</p>\n  \n  <h3 class=\"bg-[#00A3E0] rounded-2xl px-6 py-4 text-xl font-bold text-gray-900  mb-4 inline-block\">What are relationship values?</h3>\n  \n  <p class=\"text-gray-700 leading-relaxed\">Relationship values are the fundamental beliefs that guide how you and your partner approach life together. These values influence everything from communication and conflict resolution to lifestyle choices and long-term goals.</p>\n  \n  <p class=\"text-gray-700 leading-relaxed\">\"It's not about sharing the same values, it's about being compatible enough and respected deeply,\" says associate therapist from Manhattan Wellness, Colette Sachs, LMSW. \"You might not need to agree on everything, but you do need to agree on how to handle conflict, and how you'll support each other's growth, which is at the foundation of the trajectory of your relationship.\"</p>\n  \n  <p class=\"text-gray-700 leading-relaxed\">Some common relationship values include:</p>\n  \n  <ul class=\"text-gray-700 leading-relaxed ml-6 space-y-2\">\n    <li>• <strong>Trust and honesty:</strong> Being truthful and transparent with your partner.</li>\n    <li>• <strong>Respect:</strong> Valuing each other's opinions, boundaries, and autonomy.</li>\n    <li>• <strong>Commitment:</strong> Prioritizing the relationship and making an effort to maintain it.</li>\n    <li>• <strong>Communication:</strong> Openly expressing feelings, needs, and concerns.</li>\n    <li>• <strong>Family and relationships with others:</strong> Deciding how much importance to place on extended family and friendships.</li>\n    <li>• <strong>Personal growth:</strong> Supporting each other's ambitions and self-improvement.</li>\n    <li>• <strong>Lifestyle and finances:</strong> Agreeing on spending habits, saving goals, and work-life balance.</li>\n  </ul>\n  \n  <p class=\"text-gray-700 leading-relaxed\">Getting clear on the values that matter most to you makes it easier to build a relationship that actually fits your beliefs—and your future.</p>\n  \n  <p class=\"text-gray-700 leading-relaxed\">Before discussing values with your partner, or even before setting up your LoveAi profile to communicate your values, it's essential to reflect on your own priorities. What <em>actually</em> matters to you? A bit of honest self-reflection now means way fewer awkward convos (and way more aligned connections) later.</p>\n  \n  <h3 class=\"bg-[#00A3E0] rounded-2xl px-6 py-4 text-xl font-bold text-gray-900  mb-4 inline-block\">How to identify your core relationship values</h3>\n  \n  <p class=\"text-gray-700 leading-relaxed\">\"A good starting point is to reflect on past relationships and what you have learnt about yourself through these experiences,\" says associate therapist from Manhattan Wellness, Jacqulyn Glintz, LMSW. \"Think about the relationships in your life that have been positive or healthy and why, and/or what you view as quality friendship traits, and how this could be correlated to desired qualities in a romantic relationship.\"</p>\n  \n  <p class=\"text-gray-700 leading-relaxed\">Here's how to get started:</p>\n  \n  <h4 class=\"text-lg font-bold text-gray-900 mt-6 mb-3\">1. Reflect on past experiences</h4>\n  \n  <p class=\"text-gray-700 leading-relaxed\">Think about your past relationships, romantic, platonic, and familial. What aspects of those relationships felt fulfilling? What issues led to conflict or dissatisfaction? Where did you feel a disconnect?</p>\n  \n  <p class=\"text-gray-700 leading-relaxed\">Identifying patterns in past relationships can help you determine what you value most and which values aren't a fit for you. Sometimes, figuring out what we <em>don't</em> want helps us recognize what we <em>do</em>.</p>\n  \n  <h4 class=\"text-lg font-bold text-gray-900 mt-6 mb-3\">2. Consider your life goals</h4>\n  \n  <p class=\"text-gray-700 leading-relaxed\">Where do you see yourself in five, ten, or even twenty years? What kind of lifestyle do you want?</p>\n  \n  <p class=\"text-gray-700 leading-relaxed\">If you're all about passport stamps and spontaneous getaways, someone who thrives on routine and predictability might not be the best match—and that's totally okay. If you value reading over nightlife, prioritize social justice and allyship, or love to cook, these are all reflections of your values. You may want a partner who aligns with them, too.</p>\n  \n  <h4 class=\"text-lg font-bold text-gray-900 mt-6 mb-3\">3. Make a list of non-negotiables</h4>\n  \n  <p class=\"text-gray-700 leading-relaxed\">Some values are flexible, while others are deal-breakers. Create a list of your must-have values in a relationship. These might include:</p>\n  \n  <ul class=\"text-gray-700 leading-relaxed ml-6 space-y-2\">\n    <li>• Monogamy, polyamory, or open relationship preferences</li>\n    <li>• Religious or spiritual beliefs</li>\n    <li>• Career ambitions</li>\n    <li>• Parenting or child-free preferences</li>\n    <li>• Financial attitudes</li>\n  </ul>\n  \n  <p class=\"text-gray-700 leading-relaxed\">Having clarity on these aspects will help you recognize potential deal-breakers early on.</p>\n  \n  <p class=\"text-gray-700 leading-relaxed\">\"Having a handful of shared values can lead to better alignment in a relationship,\" says Jacqulyn. \"However, I don't believe that a couple has to share the same values for a relationship to be successful. For instance, one partner may value religion and the other may not, but if the partner who is less religion-focused is willing to make time and space for religion because it's important to their partner, then it can work. I think in a relationship, it's not just about considering both your own needs, but also those of your partner.\"</p>\n  \n  <p class=\"text-gray-700 leading-relaxed\">The goal isn't to be exactly the same; it's to support each other in creating a relationship that honors both of your beliefs and aspirations. After all, we're all seeking to be heard, seen, and understood. Having a baseline understanding of each other's values is a good place to start in that pursuit.</p>\n</div>"
+    },
+    "article3": {
+      "image": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=600&h=400&fit=crop",
+      "author": "Jayesh Italiya",
+
+      "title": "5 Morning Date Ideas (That Aren't Coffee)",
+
+      "content": "<div class=\"space-y-6\">\n  <p class=\"text-gray-700 leading-relaxed\">Friday night dates? Very 2023. Brunch post-run with the person you've been seeing? That's where it's at. Morning dates are having a moment—and while coffee and a pastry are always a winner, there are other ideas that feel more intentional.</p>\n  \n  <p class=\"text-gray-700 leading-relaxed\">Whether you're an early bird or more of a lie-in-and-watch-TV type, we've rounded up 5 morning date ideas that go beyond the oat or almond conversation—but still involve breakfast.</p>\n  \n  <h3 class=\"bg-[#00A3E0] rounded-2xl px-6 py-4 text-xl font-bold text-gray-900 mb-4 mt-6 inline-block\">1. Sunrise hike with breakfast sandwiches</h3>\n  \n  <p class=\"text-gray-700 leading-relaxed\">Head to a park, a trail, or even a beach if you're lucky enough to live near one, and go for a walk. Strolling side by side takes the pressure off eye contact and small talk. Pack breakfast sandwiches—we're thinking warm, crusty brioche buns stuffed with soft scrambled eggs, melty cheese, and maybe crispy bacon or smashed avo if you're that way inclined, along with a thermos of chai or green juice. Best enjoyed cross-legged on a blanket, with no further plans for the rest of the day.</p>\n  \n  <h3 class=\"bg-[#00A3E0] rounded-2xl px-6 py-4 text-xl font-bold text-gray-900 mb-4 mt-6 inline-block\">2. Build a bagel bar</h3>\n  \n  <p class=\"text-gray-700 leading-relaxed\">Bagels are a breakfast/brunch must. But no-one wants to spend $15 on one. The fix? Create your own breakfast bagel bar at home. Lay out a DIY spread—think cream cheese, smoked salmon, sliced tomato, red onion, capers—or go completely rogue with things like hash browns, hot sauce, or even a fried egg if you're feeling bold. Toast, top, and taste-test your creations together. It's brunch energy without the queue or eye-watering bill at the end.</p>\n  \n  <h3 class=\"bg-[#00A3E0] rounded-2xl px-6 py-4 text-xl font-bold text-gray-900 mb-4 mt-6 inline-block\">3. Opening hour date</h3>\n  \n  <p class=\"text-gray-700 leading-relaxed\">Skip the chaotic midday rush and meet your date at your favorite gallery, museum, or botanical garden at opening hours. Being there early makes it feel like the world exists just for the two of you. Afterwards, find a nearby café for a late breakfast or brunch. It's the type of date that feels intentional without being over-planned, and way more memorable than your standard 10 a.m. flat white and croissant.</p>\n  \n  <h3 class=\"bg-[#00A3E0] rounded-2xl px-6 py-4 text-xl font-bold text-gray-900 mb-4 mt-6 inline-block\">4. A run, followed by a juice bar</h3>\n  \n  <p class=\"text-gray-700 leading-relaxed\">Science shows that we actually find people more attractive after engaging in a physical activity together, such as running. Yes, really. Research from the Social Behavior and Personality: An International Journal explains that we often associate physical exertion with sexual attractiveness. Not a 5k person? Try something different, like a morning fitness class or swim. It could be yoga, spin, pilates, boxing, or a trip to your local outdoor swimming pool—whatever makes you feel like your best self. Afterwards, hit up a smoothie or juice bar to cool down and pretend you're the kind of people who do this every Saturday, because nothing says chemistry like a post-workout buzz.</p>\n  \n  <h3 class=\"bg-[#00A3E0] rounded-2xl px-6 py-4 text-xl font-bold text-gray-900 mb-4 inline-block\">5. Pancake art challenge</h3>\n  \n  <p class=\"text-gray-700 leading-relaxed\">The most important ingredient you need for this activity is squeezy bottles (or just a very steady hand and a ladle). Set a timer and take turns creating your best pancake designs—think hearts, stars, your initials, your favorite football team, or something completely abstract. Of all the ideas for your next date day, this one's guaranteed to get you laughing. Stack them up, crown a winner (or declare it a draw), and take some snaps.</p>\n  \n  <p class=\"text-gray-700 leading-relaxed\">Whether you're watching the sunrise together or turning pancake batter into modern art, these ideas for date day are all about finding joy in the little things. Morning dates feel honest. Simple. And just that extra bit special.</p>\n</div>",
+
+      "publishDate": "March 5, 2024",
+      "readTime": "6 min read"
+    },
+    "article4": {
+      "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&h=400&fit=crop",
+      "author": "Chloe Laws",
+
+      "title": "Want to Build Trust in Your Relationship? Start with Transparency",
+      "content": "<div class=\"space-y-6\">\n  <p class=\"text-gray-700 leading-relaxed\">Friday night dates? Very 2023. Brunch post-run with the person you've been seeing? That's where it's at. Morning dates are having a moment—and while coffee and a pastry are always a winner, there are other ideas that feel more intentional.</p>\n  \n  <p class=\"text-gray-700 leading-relaxed\">Whether you're an early bird or more of a lie-in-and-watch-TV type, we've rounded up 5 morning date ideas that go beyond the oat or almond conversation—but still involve breakfast.</p>\n  \n  <h3 class=\"bg-[#00A3E0] rounded-2xl px-6 py-4 text-xl font-bold text-gray-900 mb-4 mt-6 inline-block\">1. Sunrise hike with breakfast sandwiches</h3>\n  \n  <p class=\"text-gray-700 leading-relaxed\">Head to a park, a trail, or even a beach if you're lucky enough to live near one, and go for a walk. Strolling side by side takes the pressure off eye contact and small talk. Pack breakfast sandwiches—we're thinking warm, crusty brioche buns stuffed with soft scrambled eggs, melty cheese, and maybe crispy bacon or smashed avo if you're that way inclined, along with a thermos of chai or green juice. Best enjoyed cross-legged on a blanket, with no further plans for the rest of the day.</p>\n  \n  <h3 class=\"bg-[#00A3E0] rounded-2xl px-6 py-4 text-xl font-bold text-gray-900 mb-4 mt-6 inline-block\">2. Build a bagel bar</h3>\n  \n  <p class=\"text-gray-700 leading-relaxed\">Bagels are a breakfast/brunch must. But no-one wants to spend $15 on one. The fix? Create your own breakfast bagel bar at home. Lay out a DIY spread—think cream cheese, smoked salmon, sliced tomato, red onion, capers—or go completely rogue with things like hash browns, hot sauce, or even a fried egg if you're feeling bold. Toast, top, and taste-test your creations together. It's brunch energy without the queue or eye-watering bill at the end.</p>\n  \n  <h3 class=\"bg-[#00A3E0] rounded-2xl px-6 py-4 text-xl font-bold text-gray-900 mb-4 mt-6 inline-block\">3. Opening hour date</h3>\n  \n  <p class=\"text-gray-700 leading-relaxed\">Skip the chaotic midday rush and meet your date at your favorite gallery, museum, or botanical garden at opening hours. Being there early makes it feel like the world exists just for the two of you. Afterwards, find a nearby café for a late breakfast or brunch. It's the type of date that feels intentional without being over-planned, and way more memorable than your standard 10 a.m. flat white and croissant.</p>\n  \n  <h3 class=\"bg-[#00A3E0] rounded-2xl px-6 py-4 text-xl font-bold text-gray-900 mb-4 mt-6 inline-block\">4. A run, followed by a juice bar</h3>\n  \n  <p class=\"text-gray-700 leading-relaxed\">Science shows that we actually find people more attractive after engaging in a physical activity together, such as running. Yes, really. Research from the Social Behavior and Personality: An International Journal explains that we often associate physical exertion with sexual attractiveness. Not a 5k person? Try something different, like a morning fitness class or swim. It could be yoga, spin, pilates, boxing, or a trip to your local outdoor swimming pool—whatever makes you feel like your best self. Afterwards, hit up a smoothie or juice bar to cool down and pretend you're the kind of people who do this every Saturday, because nothing says chemistry like a post-workout buzz.</p>\n  \n  <h3 class=\"bg-[#00A3E0] rounded-2xl px-6 py-4 text-xl font-bold text-gray-900 mb-4 inline-block\">5. Pancake art challenge</h3>\n  \n  <p class=\"text-gray-700 leading-relaxed\">The most important ingredient you need for this activity is squeezy bottles (or just a very steady hand and a ladle). Set a timer and take turns creating your best pancake designs—think hearts, stars, your initials, your favorite football team, or something completely abstract. Of all the ideas for your next date day, this one's guaranteed to get you laughing. Stack them up, crown a winner (or declare it a draw), and take some snaps.</p>\n  \n  <p class=\"text-gray-700 leading-relaxed\">Whether you're watching the sunrise together or turning pancake batter into modern art, these ideas for date day are all about finding joy in the little things. Morning dates feel honest. Simple. And just that extra bit special.</p>\n</div>"
+    },
+    "article5": {
+      "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=600&h=400&fit=crop",
+      "author": "Chloe Laws",
+      "title": "The Art of Slow Dating in a Fast-Paced World",
+      "content": "<div class=\"space-y-6\">\n    <p class=\"text-gray-700 leading-relaxed\">Ask any couple who's been together for a while, and they'll tell you the same thing: trust is everything when it comes to relationships. But it doesn't just arrive overnight. It's built slowly, intentionally, and through transparency.</p>\n    \n    <p class=\"text-gray-700 leading-relaxed\">It's an overlooked dynamic, but transparency in relationships is actually what turns surface-level connections into something deeper. Think of it as laying the groundwork for the way you show up for each other in the future—it might not be easy in the beginning, but it helps you avoid any miscommunication later down the line.</p>\n    \n    <p class=\"text-gray-700 leading-relaxed\">To find out more about what it means to be transparent, we consulted the experts at Manhattan Wellness to understand why it's key for all couples.</p>\n    \n    <h3 class=\"bg-[#00A3E0] rounded-2xl px-6 py-4 text-xl font-bold text-gray-900 mb-4 mt-6 inline-block\">First up, why is transparency important in relationships?</h3>\n    \n    <p class=\"text-gray-700 leading-relaxed\">\"Without transparency, people end up connecting with the idea of each other instead of the actual person,\" says associate therapist Colette Sachs. \"Being transparent builds a foundation for trust because it says, 'I'm going to let you see me, even if it's not perfect,' and that creates space for real emotional intimacy.\"</p>\n    \n    <p class=\"text-gray-700 leading-relaxed\">Think about the difference between saying, \"I'm just tired\" versus \"I'm feeling kind of anxious today, and I don't fully know why.\" The first keeps the conversation at surface-level, it's safe, but it doesn't invite connection or honesty. The second opens a window into what's really going on. It's vulnerable, maybe a little uncomfortable, but it creates understanding and more depth between you.</p>\n    \n    <p class=\"text-gray-700 leading-relaxed\">Over time, those moments of honesty add up, and your partner learns they can rely on what you say and not feel like they have to read between the lines. That kind of clarity builds trust, which makes everything else feel easier.</p>\n    \n    <h3 class=\"bg-[#00A3E0] rounded-2xl px-6 py-4 text-xl font-bold text-gray-900 mb-4 mt-6 inline-block\">What does transparency look like in relationships?</h3>\n    \n    <p class=\"text-gray-700 leading-relaxed\">Transparency is about going beyond what feels safe. It's saying what you actually mean, even if it feels hard.</p>\n    \n    <p class=\"text-gray-700 leading-relaxed\">\"Transparency in relationships looks like honesty, not only in your feelings and needs but around intentions,\" explains senior therapist Elizabeth Marks. \"It's having a level of vulnerability that conversations don't require anything outside of authenticity and consistency. Much like transparent glass, it is clear, and on both sides, you can feel seen.\"</p>\n    \n    <p class=\"text-gray-700 leading-relaxed\">For the person on the other side, transparency brings clarity and connection. They feel trusted, invited in, and emotionally safe, because they're connecting with the real you, not the filtered-down version. Over time, this dynamic becomes the norm.</p>\n    \n    <h3 class=\"bg-[#00A3E0] rounded-2xl px-6 py-4 text-xl font-bold text-gray-900 mb-4 mt-6 inline-block\">The difference between being transparent and oversharing</h3>\n    \n    <p class=\"text-gray-700 leading-relaxed\">We've all been there—that fear of saying too much and accidentally saying something that we later regret. It's a common worry, especially when you're meeting someone new or trying to make a good impression. But there's a big difference between being transparent and veering into TMI (too much information, if you didn't know!) territory.</p>\n    \n    <p class=\"text-gray-700 leading-relaxed\">\"Transparency is intentional and grounded, and it serves the relationship,\" explains Colette. \"Oversharing is often unfiltered and driven by anxiety or a need for validation. One invites connection, the other can overwhelm or blur boundaries. Think of transparency as thoughtful self-expression, not emotional dumping.\"</p>\n    \n    <p class=\"text-gray-700 leading-relaxed\">Transparency looks like being honest about what matters, when it matters, in a way that respects both your needs and your partner's capacity to receive it. For example, you probably don't want to launch into a tirade about why your colleague annoyed you today if your partner just got fired. Timing and knowing your audience are key, so choose moments that take into account emotional bandwidth.</p>\n    \n    <h3 class=\"bg-[#00A3E0] rounded-2xl px-6 py-4 text-xl font-bold text-gray-900 mb-4 mt-6 inline-block\">How transparency shows up, long-term</h3>\n    \n    <p class=\"text-gray-700 leading-relaxed\">\"From the very beginning of a relationship, it's important to share enough to be genuine and authentic, while also honoring the natural rhythm of getting to know someone,\" says senior therapist Emily Sterns. \"Transparency is less about immediate full disclosure and more about gradually revealing layers of yourself—being honest, yet thoughtful about timing and context,\" adds Emily.</p>\n    \n    <p class=\"text-gray-700 leading-relaxed\">The better you get at practicing transparency in relationships, the more natural it feels. It's in the small check-ins, the honest \"I don't know,\" and the quiet courage to let yourself be seen. Relationships are at their strongest when they feel safe, honest, and rooted in that type of consistency.</p>\n    \n    <p class=\"text-gray-700 leading-relaxed\"><strong>Find Your Next Date</strong></p>\n</div>"
+    }
+  },
+
+  "Verify": {
+    "verify": {
+      "title": "Here’s Why You Should Get Your LoveAi Profile Verified",
+      "image": "/VerifedProfileBlog.png?w=800&h=400&fit=crop",
+
+      "excerpt": "Getting verified makes dating safer and more trustworthy—here’s how and why you should do it.",
+      "content": "<span style=\"color: #27D3F5; font-weight: 500;\">LoveAi</span><h2 style=\"margin: 2rem 0 1rem; font-size: 1.5rem; font-weight: bold; color: #27D3F5;\">Here’s Why You Should Get Your LoveAi Profile Photos Verified.</h2><p style=\"margin-bottom: 1.5rem;\">Putting yourself out there, particularly when it comes to dating, can make you feel vulnerable. This can be especially true dating online, when you get to know people before meeting them in person. Sometimes you’re left wondering who’s behind the profile photos on a profile match the person using the account. When profile photos are verified, it confirms the photos of the person you’re seeing match them.</p><p style=\"margin-bottom: 1.5rem;\"><a href=\"#\" style=\"color: #27D3F5; text-decoration: underline; font-weight: 500;\">The process for getting your profile photos verified is simple.</a> Just tap the Verify button in your profile, then be shown one pose—pulled from a pool of 100 random poses that LoveAi provides—and asked to take a selfie mimicking that pose. You’ll receive a badge within minutes if your profile is confirmed for verification. If you don’t get verified the first time, don’t worry. You’ll be able to try the process again until you’re verified.</p><p style=\"margin-bottom: 1.5rem;\">You can also request another LoveAi user’s profile photos be verified if you’re concerned they’re misleading or fake. (You have to be verified to do this, so make sure to do that first.) If you’re questioning the authenticity of a match, you can ask them to verify their photos to complete the process. If they don’t act in this time period, their profile will be temporarily suspended until they do verify their profile photos, which means they can’t see other profiles, and no one can see theirs. If their photos are verified, they’ll receive the blue checkmark icon.</p><p style=\"margin-bottom: 1.5rem;\">Getting verified may just seem like an extra step, especially when you’re eager to get swiping, but there are actually several reasons to make sure your picture has that blue shield icon next to it. Read on to learn more.</p><h3 style=\"margin: 2rem 0 1rem; font-size: 1.25rem; font-weight: bold; color: #27D3F5;\">It allows you to swipe with confidence</h3><p style=\"margin-bottom: 1.5rem;\">LoveAi's mission has always been to provide a safe experience for making new connections online. We encourage LoveAi users to get their profile photos verified because the blue checkmark lets potential matches know you’ve taken the time to prove who you are. Anyone found to have attempted to scam another person on the app, will be banned from our community.</p><h3 style=\"margin: 2rem 0 1rem; font-size: 1.25rem; font-weight: bold; color: #27D3F5;\">It discourages catfishing</h3><p style=\"margin-bottom: 1.5rem;\"><a href=\"#\" style=\"color: #27D3F5; text-decoration: underline; font-weight: 500;\">Catfishing</a> is when a person on the app pretends to be someone they’re not for whatever reason (insecurities, attention, even asking for money). Verifying your profile photos—and requesting that matches do the same—discourages catfishing.</p><h3 style=\"margin: 2rem 0 1rem; font-size: 1.25rem; font-weight: bold; color: #27D3F5;\">It can help you get more matches</h3><p style=\"margin-bottom: 1.5rem;\">Getting your profile photos verified helps to build trust with potential matches and it demonstrates that you’re prioritizing making real connections. Both of these things can make you more attractive to other LoveAi daters and may ultimately help you get more matches.</p><h3 style=\"margin: 2rem 0 1rem; font-size: 1.25rem; font-weight: bold; color: #27D3F5;\">It makes a bold first impression</h3><p style=\"margin-bottom: 1.5rem;\">Having a blue checkmark on your account not only helps you make a solid first impression, but requesting verification for someone else’s profile photos also counts as a first move! Once you request photo verification on an account, they’ll get a notification that you’re interested. This gives your matches some extra fodder for those initial conversations once they complete the verification process themselves. (Maybe say something like, “Just making sure you weren’t too good to be true!”)</p><p style=\"margin-bottom: 1.5rem;\"><strong style=\"color: #111;\">Bottom line:</strong> verifying your LoveAi profile photos makes dating safer and less stressful for everyone. For more information on how to get verified, <a href=\"#\" style=\"color: #27D3F5; text-decoration: underline; font-weight: 500;\">see here</a>.</p><p style=\"margin-bottom: 1.5rem;\"><a href=\"#\" style=\"color: #27D3F5; text-decoration: underline; font-weight: 500;\">Download LoveAi</a></p>"
+    }
+  },
+  "tag": {
+    "safety": "Safety",
+    "trust": "Trust",
+    "profileTips": "Profile Tips"
+  },
+  "translation": {
+    "helpCenterTitle": "🛟 Help Center",
+    "welcome": "Welcome to the LoveAi Help Center! Here you’ll find answers to common questions, tips for using our platform, and a way to contact our support team. We’re here to help you have the best experience possible.",
+    "faqTitle": "Frequently Asked Questions",
+    "contactSupport": "Contact Support",
+    "submittedMsg": "Thank you for reaching out! Our team will respond to your inquiry soon.",
+    "name": "Your Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "submit": "Submit Request",
+    "faq": [
+      {
+        "q": "How do I reset my password?",
+        "a": "Go to the login page, click on \"Forgot Password?\", and follow the instructions to reset your password via email."
+      },
+      {
+        "q": "How do I report inappropriate behavior?",
+        "a": "Use the \"Report\" button on the user’s profile or chat. Our moderation team will review your report promptly."
+      },
+      {
+        "q": "How can I delete my account?",
+        "a": "Visit your account settings, scroll to the bottom, and click \"Delete Account\". Follow the confirmation steps to permanently remove your profile."
+      },
+      {
+        "q": "How do I update my profile information?",
+        "a": "Go to your profile page, click \"Edit Profile\", make your changes, and save. Your updates will be reflected immediately."
+      },
+      {
+        "q": "Is my data safe on LoveAi?",
+        "a": "Yes! We use end-to-end encryption and never share your personal data without your consent. Read our Privacy Policy for more details."
+      },
+      {
+        "q": "How do I block or unblock someone?",
+        "a": "Open the user’s profile or chat, click the \"Block\" button. To unblock, visit your blocked users list in settings and select \"Unblock\"."
+      },
+      {
+        "q": "Why was my profile rejected?",
+        "a": "Profiles may be rejected for violating our guidelines (e.g., inappropriate content, fake information). Please review our Community Guidelines and try again."
+      },
+      {
+        "q": "Need more help?",
+        "a": "Fill out the form below and our support team will get back to you as soon as possible."
+      }
+    ]
+  },
+  "Career": {
+    "career": {
+      "title": "Careers at LoveAi",
+      "subtitle": "Join our mission to revolutionize dating with AI! We're looking for passionate, creative, and talented people to help us build the future of meaningful connections.",
+      "openPositions": "Open Positions",
+      "applyNow": "Apply Now",
+      "applyButton": "Apply Now",
+      "thankYouMessage": "Thank you for applying! We'll review your application and get in touch soon.",
+      "fullName": "Full Name",
+      "email": "Email",
+      "position": "Position Applying For",
+      "selectPosition": "Select a position",
+      "uploadCV": "Upload CV (PDF, DOC, DOCX)",
+      "coverLetter": "Cover Letter / Message",
+      "coverLetterPlaceholder": "Tell us why you're a great fit!",
+      "submitApplication": "Submit Application",
+      "requirements": "Requirements",
+      "location": "Location"
+    },
+    "jobs": {
+      "frontend": {
+        "title": "Frontend React Developer",
+        "location": "Remote",
+        "description": "Build beautiful, scalable user interfaces for LoveAi using React and Next.js. Collaborate with designers and backend engineers to deliver a seamless dating experience.",
+        "requirements": {
+          "0": "2+ years experience with React",
+          "1": "Strong CSS/JS skills",
+          "2": "Familiarity with REST APIs"
+        }
+      },
+      "aiml": {
+        "title": "AI/ML Engineer",
+        "location": "Remote",
+        "description": "Design and implement AI-driven matchmaking and chat features. Work with NLP, recommendation systems, and user data to create smarter, safer connections.",
+        "requirements": {
+          "0": "Experience with Python & ML frameworks",
+          "1": "NLP or recommender systems background",
+          "2": "Passion for ethical AI"
+        }
+      },
+      "community": {
+        "title": "Community Manager",
+        "location": "Remote",
+        "description": "Grow and support the LoveAi user community. Organize events, moderate discussions, and be the voice of our users to the product team.",
+        "requirements": {
+          "0": "Excellent communication skills",
+          "1": "Experience with online communities",
+          "2": "Empathy and positivity"
+        }
+      }
+    }
+  },
+
+  "About": {
+    "about": {
+      "title": "LoveAi: The Future of Dating Powered by Artificial Intelligence",
+      "subtitle": "In today's fast-paced digital world, where swiping left and right has become second nature, <b>LoveAi</b> emerges as a refreshing, intelligent, and human-centered alternative. More than just another dating app, <b>LoveAi</b> is a <b>next-generation platform</b> that uses cutting-edge <b>artificial intelligence</b> 🤖 to help you find <b>meaningful, lasting connections</b>.",
+      "mission": "Our mission is simple yet powerful: to make dating <b>smarter</b>, <b>safer</b>, and <b>more enjoyable</b> for everyone 💞.",
+      "problemTitle": "The Problem with Traditional Dating Apps",
+      "aiChemistryTitle": "Meet LoveAi: Where AI Meets Chemistry",
+      "aiChemistryDescription": "At its core, <b>LoveAi</b> combines <b>machine learning</b>, <b>psychology</b>, and <b>emotional intelligence</b> to connect people in a way that's truly meaningful.<br />We're not just guessing who might be your match — we're analyzing thousands of signals to <i>intelligently</i> recommend people who align with your values, energy, and lifestyle.",
+      "aiChemistrySubtitle": "Let's explore what makes <b>LoveAi</b> truly next-gen:",
+      "intelligentMatchmaking": "1. Intelligent Matchmaking Engine",
+      "smartAssist": "2. Smart Assist: Say Goodbye to Awkward Chats",
+      "smartAssistDescription": "We've all been there — staring at a blank chat screen, not knowing what to say. 😶<br />Enter <b>Smart Assist</b> ✨ — your personal AI conversation guide.",
+      "smartAssistSubtitle": "Whether you're introverted or just tired of dry texting, Smart Assist helps you feel confident, charming, and authentic 💬🌟.",
+      "safetyFirst": "3. Safety First, Always",
+      "safetySubtitle": "We keep fake profiles, harassment, and catfishing out of the equation — so you can date with <b>confidence and trust</b> 💪❤️.",
+      "inclusiveDesign": "4. Inclusive & Diverse by Design",
+      "inclusiveSubtitle": "We believe <b>love has no limits</b> — and your dating app shouldn't either. 🤗",
+      "evolvingProfiles": "5. Profiles That Evolve With You",
+      "evolvingSubtitle": "It's not just a profile — it's a growing reflection of <b>your authentic self</b>. 🌱💖",
+      "techMagicTitle": "The Magic Behind the Tech",
+      "techMagicSubtitle": "With <b>LoveAi</b>, the technology <i>enhances</i> your love life — not replaces it.",
+      "realStoriesTitle": "Real Stories, Real Love",
+      "realStoriesSubtitle": "These aren't rare cases — they're happening <i>every day</i> on LoveAi.",
+      "missionTitle": "Our Mission: Connection With Purpose",
+      "missionDescription": "At LoveAi, our mission is to empower people to build genuine, meaningful relationships through the power of artificial intelligence and emotional intelligence. We believe that everyone deserves to feel seen, heard, and valued in their search for love.",
+      "missionSubtitle": "LoveAi is where <b>technology meets emotional intelligence</b>. We're committed to:",
+      "missionConclusion": "We're building more than a platform. We're building <i>a movement</i>.",
+      "comingSoonTitle": "Coming Soon: What's Next for LoveAi?",
+      "comingSoonSubtitle": "We're also working on <b>community features</b>, <b>relationship coaching</b>, and <b>intimacy-building tools</b> — so that your love life thrives <i>on and off</i> the app. 📱💞",
+      "whyWorksTitle": "Why LoveAi Works (When Others Don't)",
+      "whyWorksSubtitle": "With <b>LoveAi</b>, dating becomes:",
+      "whyWorksConclusion": "No gimmicks. Just meaningful connections.",
+      "readyTitle": "Ready to Meet Someone Real?",
+      "readyDescription": "You've tried the swipes. You've been ghosted. You've felt the burnout.<br />Now it's time for something new.",
+      "readySubtitle": "🌟 <b>Try LoveAi</b> — and discover the smarter way to connect.",
+      "readyEndDescription": "👉 Download now. Start your journey. Let the intelligence of <b>LoveAi</b> help you fall in love — your way.",
+      "finalTagline": "LoveSmarter. LoveSafer. LoveAi.",
+      "finalWelcome": "Welcome to the future of dating.<br />Welcome to <b>LoveAi</b>.",
+      "teamTitle": "About Our Team",
+      "teamDescription": "The LoveAi team is a passionate group of engineers, designers, data scientists, and relationship experts dedicated to building a smarter, safer, and more inclusive dating experience. We come from diverse backgrounds and cultures, united by a shared vision: to help people find genuine connections in a digital world.",
+      "teamEndDescription": "We believe that love is for everyone, and we're committed to making LoveAi a place where every user feels valued, respected, and inspired to connect."
+    },
+    "problemItems": [
+      "👀 <b>Superficial swiping</b>: Judging based solely on appearances, without depth.",
+      "😩 <b>User fatigue</b>: Endless scrolling, ghosting, and meaningless chats.",
+      "🤥 <b>Misleading profiles</b>: Fake photos, false claims, and deception.",
+      "💬 <b>Low-quality conversations</b>: Small talk and no real spark.",
+      "🛑 <b>Safety concerns</b>: Harassment, scams, or privacy risks."
+    ],
+    "problemConclusion": "These challenges have made dating apps feel like a chore instead of a joyful experience. That's where <b>LoveAi</b> comes in — reinventing the way you find love with <b>intelligence, empathy, and innovation</b> 💡.",
+    "intelligentItems": [
+      "🧬 <b>Personality profiling</b>: Using emotional and psychological cues (Big Five, Myers-Briggs, Attachment Style, etc.)",
+      "🎯 <b>Interest tracking</b>: Monitoring who you chat with, how deeply you engage, and your preferences over time.",
+      "🧘 <b>Values & lifestyle alignment</b>: Matching you with people who <i>fit</i> your core beliefs, habits, and emotional needs."
+    ],
+    "intelligentConclusion": "No more endless swiping. Just real, relevant matches that get better over time. 🔍💞",
+    "smartAssistItems": [
+      "💌 Icebreakers tailored to your mutual interests",
+      "🤝 Suggested questions to deepen the conversation",
+      "💡 Real-time help when chats get dull or confusing"
+    ],
+    "safetyItems": [
+      "✅ <b>Verified Profiles</b> with real-time facial recognition",
+      "🚫 <b>Toxic Behavior Detection</b> with AI moderation",
+      "🔐 <b>End-to-End Encryption</b> for private chats",
+      "📛 <b>Instant Report & Block</b> tools"
+    ],
+    "inclusiveItems": [
+      "🧑‍🤝‍🧑 <b>All gender identities and sexual orientations supported</b>",
+      "🧠 <b>Culturally aware AI matching</b>",
+      "🫂 <b>Accessible and respectful user experience</b>"
+    ],
+    "evolvingItems": [
+      "🔄 Your profile updates dynamically based on how you interact",
+      "📊 Compatibility scores improve the more you use the app",
+      "🧠 You gain <i>insights into your own dating style and patterns</i>"
+    ],
+    "techItems": [
+      "🧠 <b>Natural Language Processing (NLP)</b> — understands the tone, empathy, humor, and meaning behind your messages.",
+      "📈 <b>Machine Learning Algorithms</b> — get smarter with each interaction.",
+      "🧑‍💻 <b>Facial Recognition (for verification only)</b> — ensures authenticity.",
+      "❤️ <b>Sentiment Analysis</b> — identifies emotional cues to improve match quality.",
+      "🧠 <b>Ethically-trained Neural Networks</b> — prioritize human well-being, not addiction."
+    ],
+    "realStoriesItems": [
+      "💕 A couple who met over shared poetry interests and now run a blog together.",
+      "🏳️‍🌈 Two LGBTQ+ artists who connected through LoveAi's creative personality prompts.",
+      "🌍 A long-distance pair who discovered their emotional sync before ever meeting in person.",
+      "🧠 A shy developer who gained confidence using Smart Assist to express himself authentically."
+    ],
+    "missionItems": [
+      "✨ Discover who you are in relationships",
+      "💬 Communicate openly and clearly",
+      "🛡️ Stay safe and respected",
+      "🤝 Build deep, genuine connections"
+    ],
+    "missionCommitmentItems": [
+      "🧑‍🏫 <b>Education</b>: Tools that teach users about dating psychology and self-awareness.",
+      "🔎 <b>Transparency</b>: Your data, your control.",
+      "🧠 <b>Empowerment</b>: Encouraging healthy relationship patterns, not just matches."
+    ],
+    "comingSoonItems": [
+      "🎥 <b>AI-Enhanced Video Dates</b>: Smart lighting, background blur, and emotion tracking for virtual chemistry.",
+      "📓 <b>LoveAi Journal</b>: Reflect on your chats, patterns, and growth.",
+      "🎙️ <b>Voice Matching</b>: Because sometimes, voice sparks attraction.",
+      "🧪 <b>LoveLabs</b>: Try new beta features before anyone else."
+    ],
+    "whyWorksItems": [
+      "✅ It's built <i>on empathy</i>, not vanity",
+      "✅ It understands <i>who you are</i>, not just what you look like",
+      "✅ It improves <i>over time</i>, becoming your personal love guide",
+      "✅ It's <i>safe, inclusive, and emotionally intelligent</i>"
+    ],
+    "whyWorksBenefits": [
+      "💫 A journey of self-discovery",
+      "🌹 A chance to grow alongside someone special",
+      "🛡️ A safer and more respectful experience"
+    ],
+    "readyItems": [
+      "✅ Build a profile that reflects the real you",
+      "💌 Chat with people who match your vibe and values",
+      "🤖 Let AI help you express yourself better",
+      "🔒 Stay safe, supported, and seen"
+    ],
+    "teamItems": [
+      "🤝 <b>Collaboration</b>: We work closely together, blending technology and empathy in every feature.",
+      "🌍 <b>Diversity</b>: Our team represents many cultures, languages, and perspectives, ensuring LoveAi is welcoming for all.",
+      "💡 <b>Innovation</b>: We're always learning, experimenting, and improving to deliver the best experience possible.",
+      "🛡️ <b>Integrity</b>: User safety, privacy, and well-being are at the heart of every decision we make."
+    ]
+  },
+  "kindnessJourney": {
+    "title": "Your Kindness Journey with LoveAi",
+    "subtitle": "Because real love starts with real kindness.",
+    "joinButton": "Join Now & Start Earning Hearts",
+    "animationNote": "Animated floating hearts represent the kindness ripple ✨",
+    "howItWorks": {
+      "title": "🌟 How It Works — Your Path to Hearts",
+      "steps": {
+        "createProfile": {
+          "title": "Create Your Profile",
+          "description": "Set up your profile and share your story."
+        },
+        "doGood": {
+          "title": "Do Something Good",
+          "description": "Donate to one of our trusted Israeli charities."
+        },
+        "uploadProof": {
+          "title": "Upload Proof",
+          "description": "Submit your receipt via our secure system."
+        },
+        "earnHeart": {
+          "title": "Earn Your First Golden Heart",
+          "description": "Unlock rewards & premium features."
+        }
+      },
+      "hoverText": "Hover to fill"
+    },
+    "progress": {
+      "title": "❤️ Heart Points Progress",
+      "yourScore": "Your Kindness Score:",
+      "points": "pts",
+      "description": "Hearts unlock premium features and show your values to others."
+    },
+    "charities": {
+      "title": "🤝 LoveAi Approved Charities in Israel",
+      "list": {
+        "magenDavid": {
+          "name": "Magen David Adom",
+          "description": "Lifesaving emergency medical services"
+        },
+        "latet": {
+          "name": "Latet",
+          "description": "Fighting poverty & food support"
+        },
+        "saveChild": {
+          "name": "Save a Child's Heart",
+          "description": "Free heart surgeries for children"
+        },
+        "yadSarah": {
+          "name": "Yad Sarah",
+          "description": "Medical equipment & home care"
+        },
+        "eranIL": {
+          "name": "Asarot Batim",
+          "description": "Housing solutions for families in need"
+        },
+        "pitchonLev": {
+          "name": "Latet - Passover Campaign",
+          "description": "Holiday food packages for families"
+        },
+        "mesila": {
+          "name": "ALEH",
+          "description": "Care for children with severe disabilities"
+        }
+      },
+      "donateButton": "Donate & Earn",
+      "secureText": "Secure · Verified"
+    },
+    "whyKindness": {
+      "title": "💡 Why Kindness Matters in Love",
+      "content": "When you give, you show empathy, generosity, and compassion — the traits that make relationships last. LoveAi helps surface that kindness so it can connect you with people who share your values.",
+      "quote": "Kindness is the foundation of real relationships — LoveAi helps you show it."
+    },
+    "leaderboard": {
+      "title": "🏆 Kindness Leaderboard",
+      "seeAll": "See Full Leaderboard",
+      "heartsEarned": "Hearts earned:"
+    },
+    "finalCta": {
+      "title": "Start your kindness journey today. Make a difference. Find love.",
+      "subtitle": "It's free to start — you can donate anytime.",
+      "joinButton": "Join Now — It's Free"
+    }
+  },
+  "helpCenter": {
+    "title": "Help Center",
+    "subtitle": "Find answers to the most frequently asked questions",
+    "searchPlaceholder": "Search help center...",
+
+    "contact": {
+      "title": "Didn’t find what you were looking for?",
+      "subtitle": "Our support team is here to help you anytime",
+      "button": "Contact Us"
+    }
+  },
+  "cards": {
+    "gettingStarted": {
+      "title": "Getting Started",
+      "description": "Everything about creating a profile and getting started",
+      "items": {
+        "createProfile": "How to create a profile"
+      }
+    },
+    "findingMatches": {
+      "title": "Finding Matches",
+      "description": "How the algorithm works and how to find matches",
+      "items": {
+        "howAlgorithmWorks": "How the algorithm works"
+      }
+    },
+    "safety": {
+      "title": "Safety",
+      "description": "Staying safe online",
+      "items": {
+        "basicSafetyRules": "Basic safety rules"
+      }
+    },
+    "payments": {
+      "title": "Payments & Subscriptions",
+      "description": "Everything about premium subscriptions and payments",
+      "items": {
+        "subscriptionTypes": "Subscription types"
+      }
+    },
+    "technical": {
+      "title": "Technical Support",
+      "description": "Solving technical issues",
+      "items": {
+        "appNotLoading": "App not loading"
+      }
+    }
+  },
+  "popups": {
+    "createProfile": {
+      "title": "How to create a profile",
+      "content": "Complete guide to creating a successful profile:\n\n1. Registration - Click 'Join' on homepage\n2. Email verification - Check inbox and click link\n3. Fill basic details\n4. Add quality photos\n5. Write engaging biography\n\nRemember: Complete profile = more matches!"
+    },
+    "howAlgorithmWorks": {
+      "title": "How the algorithm works",
+      "content": "LoveAI algorithm uses artificial intelligence to find your perfect matches based on compatibility, preferences, and behavior patterns."
+    },
+    "basicSafetyRules": {
+      "title": "Basic safety rules",
+      "content": "Essential safety guidelines for online dating to protect yourself and have a positive experience."
+    },
+    "subscriptionTypes": {
+      "title": "Subscription types",
+      "content": "Essential safety guidelines for online dating to protect yourself and have a positive experience."
+    },
+    "appNotLoading": {
+      "title": "App not loading",
+      "content": "Troubleshooting steps for app loading issues."
+    }
+  },
+  "cookie_policy": {
+    "title": "Cookie Policy",
+    "last_updated_label": "Last updated:",
+    "last_updated_date": "August 22, 2025",
+    "intro": {
+      "main": "LoveAI website uses cookies to improve your browsing experience, provide personalized functionality, and analyze website usage. This page explains what cookies are, how we use them, and how you can manage them."
+    },
+    "section1": {
+      "title": "What are cookies?",
+      "description": "Cookies are small text files stored on your device when you visit websites. They help websites remember your information and provide a personalized experience."
+    },
+    "manage_title": "Manage Cookie Settings",
+    "essential": {
+      "title": "Essential Cookies",
+      "required": "Required",
+      "description": "These cookies are necessary for the basic functionality of the website",
+      "list1": "Login session memory",
+      "list2": "Language preferences",
+      "list3": "Shopping cart and security",
+      "list4": "Preventing security attacks"
+    },
+    "functional": {
+      "title": "Functional Cookies",
+      "optional": "Optional",
+      "description": "Cookies that enhance website functionality and customize it for you",
+      "list1": "Personal preference memory",
+      "list2": "User convenience settings",
+      "list3": "Search history",
+      "list4": "Personalized recommendations"
+    },
+    "analytics": {
+      "title": "Analytics Cookies",
+      "optional": "Optional",
+      "description": "Cookies that help us understand how users use the website",
+      "list1": "Website traffic measurement",
+      "list2": "User behavior analysis",
+      "list3": "Website performance improvement",
+      "list4": "Feature effectiveness testing"
+    },
+    "marketing": {
+      "title": "Marketing Cookies",
+      "optional": "Optional",
+      "description": "Cookies used to display relevant advertisements",
+      "list1": "Personalized advertising",
+      "list2": "Campaign effectiveness tracking",
+      "list3": "Social media sharing",
+      "list4": "Remarketing"
+    },
+    "buttons": {
+      "accept_all": "Accept All",
+      "reject_optional": "Reject Optional",
+      "save_settings": "Save Settings"
+    },
+    "section6": {
+      "title": "Third-Party Cookies",
+      "description": "We use third-party services that may place cookies on your device:",
+      "list1": "Google Analytics - for traffic analysis",
+      "list2": "Facebook Pixel - for targeted advertising",
+      "list3": "Stripe - for payment processing",
+      "list4": "Supabase - for database services"
+    },
+    "section7": {
+      "title": "Cookie Retention Period",
+      "description": "The duration cookies are stored on your device depends on the cookie type:",
+      "list1": "Session cookies: Deleted when browser is closed",
+      "list2": "Persistent cookies: Stored for a defined period (usually up to one year)",
+      "list3": "Security cookies: Stored for session duration or until user logs out"
+    },
+    "section8": {
+      "title": "Your Rights",
+      "list1": "Right to know which cookies are used on the site",
+      "list2": "Right to choose which cookies to allow",
+      "list3": "Right to delete existing cookies",
+      "list4": "Right to receive explanation about cookie usage",
+      "list5": "Right to change settings at any time"
+    },
+    "section9": {
+      "title": "Policy Updates",
+      "text": "We may update this cookie policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. We will notify you of any material changes by posting the new policy on our website."
+    },
+    "section10": {
+      "title": "Contact Us",
+      "description": "For questions about cookie policy:",
+      "email": "cookies@loveai.co.il",
+      "phone": "+972-3-123-4567"
+    }
+  },
+  "terms": {
+       "eula": {
+      "title": "Terms of Use (EULA)",
+      "welcome": "Welcome to LoveAi. These Terms of Use govern your use of our app and subscription services.",
+      "section1": {
+        "title": "1. Subscription & Renewal",
+        "content": "Subscriptions automatically renew unless canceled at least 24 hours before the end of the current period. Payment will be charged to your Apple ID account upon confirmation of purchase."
+      },
+      "section2": {
+        "title": "2. Cancellation",
+        "content": "You can manage and cancel subscriptions in your App Store account settings at any time after purchase."
+      },
+      "section3": {
+        "title": "3. Privacy",
+        "content": "Please refer to our Privacy Policy for information on how we handle your data:",
+        "link": "https://www.loveai.co.il./privacy-policy"
+      },
+      "section4": {
+        "title": "4. Standard EULA",
+        "content": "By using this app, you agree to the Apple Standard End User License Agreement (EULA):",
+        "link": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+      },
+      "effectiveDate": "Effective Date: 01-Nov-2025"
+    },
+    "title": "Terms of Use",
+    "subtitle": "Terms of Use for the Love AI website",
+    "lastUpdate": "Last update: 4.9.2025",
+    "section1": {
+      "title": "Agreement to the terms",
+      "content1": "Use of the Love AI website constitutes agreement to the following terms of use. If you do not agree to these terms, please refrain from using the service.",
+      "content2": "The Terms of Use may be updated from time to time. Continued use of the Site after changes are posted constitutes acceptance of the updated Terms."
+    },
+    "section2": {
+      "title": "Eligibility for use",
+      "ageRequirements": "Age and status requirements:",
+      "minimumAge": "Minimum age: 18 years",
+      "legalCapacity": "Full legal capacity to sign agreements",
+      "noProhibition": "There is no legal prohibition on the use of dating services",
+      "oneProfile": "Only one profile per person"
+    },
+    "section12": {
+      "title": "Child Safety and CSAM Prohibition",
+      "ageRequirements": "LoveAI strictly prohibits any form of Child Sexual Abuse Material (CSAM) or Child Sexual Abuse and Exploitation (CSAE).",
+      "minimumAge": "Any attempt to share, request, create, or distribute CSAM will result in: Immediate account termination Permanent ban",
+      "legalCapacity": "Reporting to law enforcement",
+      "noProhibition": "LoveAI is an 18+ platform. Minors are not allowed to use the service under any circumstances."
+    },
+    "section3": {
+      "title": "Rules of conduct and community",
+      "truthfulInfo": "Commitment to providing truthful information:",
+      "trueAccurate": "All information in the profile must be true and accurate",
+      "realPhotos": "Real and up-to-date photos of the user only",
+      "noFakeIdentity": "Do not use a fake identity or someone else's identity",
+      "updateInfo": "Updating information that has reasonably changed",
+      "respectfulBehavior": "Respectful behavior:",
+      "respectfulAttitude": "Respectful and courteous attitude towards all users",
+      "noHarassment": "No harassment, threats, or abusive behavior",
+      "respectDecisions": "Respecting others' decisions not to continue a relationship",
+      "protectPrivacy": "Protecting the privacy of other users",
+      "allowedContent": "Allowed content:",
+      "originalContent": "Original and non-offensive content",
+      "noSexualContent": "No sexually explicit or immodest content",
+      "noOffensiveLanguage": "No offensive, racist, or discriminatory language",
+      "noPersonalInfo": "No publication of personal information (phone, address, email)",
+      "noSocialLinks": "No links to other social networks"
+    },
+    "section4": {
+      "title": "Prohibitions of use",
+      "prohibitedActions": "Prohibited actions:",
+      "multipleProfiles": "Creating multiple or fictitious profiles",
+      "commercialUse": "Use of the website for commercial or advertising purposes",
+      "collectingInfo": "Collecting information about other users",
+      "bypassSecurity": "Attempt to bypass security systems",
+      "spamMessages": "Sending spam or mass messages",
+      "automatedTools": "Using bots or automated tools",
+      "copyingContent": "Copying content from the site without permission"
+    },
+    "section5": {
+      "title": "The Golden Points and Hearts System",
+      "systemRules": "System rules:",
+      "goodDeeds12": "Good deeds earn points in multiples of 12",
+      "goldenHeart60": "5 good deeds (60 points) = 1 golden heart",
+      "oneThird240": "20 good deeds (240 points) = one-third of a golden heart",
+      "twoThirds480": "40 good deeds (480 points) = two-thirds of a golden heart",
+      "approvalRequired": "Good deeds require approval by the site administration",
+      "changeRights": "The site reserves the right to change the points system",
+      "notTransferable": "Points and hearts are not transferable or sellable"
+    },
+    "section6": {
+      "title": "Matching algorithm and limited liability",
+      "explanationTitle": "Explanation of the adjustment system",
+      "algorithmExplanation": "Our matching algorithm is based on parameters such as: age, location, interests, gender preferences, profession, and personal description. The system does its best to offer relevant matches.",
+      "importantExplanation": "Important explanation about limited liability:",
+      "recommendationsOnly": "The adjustments are recommendations only and do not guarantee compatibility, success or any result",
+      "userResponsibility": "Each user is required to be vigilant and responsible in choosing connections and decisions",
+      "finalResponsibility": "The final responsibility is personal and exclusive - we are not responsible for the results",
+      "useDiscretion": "You should use your discretion and not rely solely on our recommendations",
+      "safetyFirst": "Safety first - this meeting is public places only"
+    },
+    "section7": {
+      "title": "Liability and indemnity",
+      "limitationTitle": "Limitation of Liability:",
+      "serviceAsIs": "The service is provided \"as is\" without warranties",
+      "notResponsible": "We are not responsible for the behavior or actions of other users",
+      "noGuarantee": "We do not guarantee the success of connections or matches",
+      "noServiceGuarantee": "There is no guarantee of uninterrupted service availability",
+      "indemnityTitle": "Indemnity:",
+      "indemnityText": "The user undertakes to indemnify the site from any damage or claim arising from improper use of the service or violation of the terms of use."
+    },
+    "section8": {
+      "title": "Enforcement and sanctions",
+      "possibleSanctions": "Possible sanctions:",
+      "warningAlert": "Warning and alert",
+      "restrictFunctionality": "Restricting certain functionality",
+      "tempSuspension": "Temporary account suspension",
+      "permanentBlock": "Permanently block an account",
+      "reportAuthorities": "Reporting to authorities in serious cases",
+      "siteReserves": "The site reserves the right to decide on sanctions depending on the severity of the violation and the specific circumstances."
+    },
+    "section9": {
+      "title": "Intellectual property",
+      "content": "All rights to the site, including design, texts, logos and code, are reserved by the site owners. Users grant the site a license to use the content they upload for the purpose of providing the service."
+    },
+    "section10": {
+      "title": "Law and jurisdiction",
+      "content": "The Terms of Use are subject to the laws of the State of Israel. In any dispute, the courts of Tel Aviv-Yafo will have exclusive jurisdiction."
+    },
+    "section11": {
+      "title": "Contact us",
+      "intro": "For questions regarding the Terms of Use or to report violations:",
+      "email": "Email",
+      "phone": "Phone"
+    },
+    "finalMessage": "Thank you for choosing Love AI. We are committed to creating a safe and respectful environment for all users."
+  },
+  "safety": {
+    "header": {
+      "badge": "Safety",
+      "title": "Safety & Security Center",
+      "subtitle": "Your safety is our top priority"
+    },
+    "profileVerification": {
+      "title": "Profile Verification",
+      "description": "Every profile goes through a comprehensive review before approval",
+      "items": {
+        "automaticVerification": "Automatic identity verification",
+        "realPhotoVerification": "Real photo verification",
+        "contentQualityControl": "Content quality control",
+        "fakeProfilePrevention": "Fake profile prevention"
+      }
+    },
+    "privacyProtection": {
+      "title": "Privacy Protection",
+      "description": "Your information is protected at the highest level",
+      "items": {
+        "advancedEncryption": "Advanced encryption of all data",
+        "profileControl": "You control who sees your profile",
+        "noSharing": "No sharing information with third parties",
+        "accountDeletion": "Complete account deletion anytime"
+      }
+    },
+    "safetyGuidelines": {
+      "title": "Safety Guidelines",
+      "description": "Tips for staying safe online",
+      "items": {
+        "neverShare": "Never share sensitive personal information",
+        "firstMeetings": "First meetings in public places",
+        "trustIntuition": "Trust your intuition",
+        "reportSuspicious": "Report suspicious behavior"
+      }
+    },
+    "reportingIssues": {
+      "title": "Reporting Issues",
+      "description": "How to report a user or inappropriate content",
+      "items": {
+        "reportButton": "Report button on every profile",
+        "professionalTeam": "Professional team for handling reports",
+        "quickResponse": "Quick response to issues",
+        "blockingUsers": "Blocking problematic users"
+      }
+    },
+    "emergency": {
+      "title": "Emergency",
+      "description": "In case of emergency, contact police: 911"
+    },
+    "contactUs": {
+      "title": "Contact Us",
+      "sendEmail": "Send Email",
+      "helpCenter": "Help Center",
+      "faq": "FAQ"
+    }
+  },
+  "community": {
+    "title": "Community Guidelines",
+    "subtitle": "Creating a safe, respectful, and enjoyable environment for everyone",
+    "description": "The LoveAI community is built on mutual respect, authenticity, and safety. These guidelines help create a positive experience for all users.",
+    "respect": {
+      "title": "Respect and Proper Behavior",
+      "item1": "Treat everyone with respect and politeness",
+      "item2": "Use clean and respectful language",
+      "item3": "Respect others' boundaries",
+      "item4": "Don't send unwanted or harassing messages"
+    },
+    "authenticity": {
+      "title": "Authenticity and Truth",
+      "item1": "Use real and recent photos of yourself",
+      "item2": "Provide accurate and truthful information about yourself",
+      "item3": "Don't impersonate someone else",
+      "item4": "Don't post photos of other people"
+    },
+    "safety": {
+      "title": "Safety and Privacy",
+      "item1": "Don't share sensitive personal information in chats",
+      "item2": "Report suspicious or inappropriate behavior",
+      "item3": "First meetings in public places only",
+      "item4": "Trust your intuition"
+    },
+    "prohibited": {
+      "title": "Prohibited Behaviors",
+      "item1": "Sexual harassment or inappropriate behavior",
+      "item2": "Racism, hate, or discrimination",
+      "item3": "Spam, advertising, or sales",
+      "item4": "Sharing illegal or harmful content"
+    },
+    "violations": {
+      "title": "Violations and Sanctions",
+      "description": "Violating the guidelines may lead to various sanctions, from warnings to permanent bans from the app.",
+      "warning": {
+        "title": "First warning",
+        "description": "First minor violation"
+      },
+      "suspension": {
+        "title": "Temporary suspension",
+        "description": "Repeat or serious violation"
+      },
+      "ban": {
+        "title": "Permanent ban",
+        "description": "Severe or repeated violation"
+      }
+    },
+    "report": {
+      "title": "How to Report",
+      "description": "If you encounter behavior that violates the guidelines, report it immediately",
+      "button": "Report an Issue"
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "subtitle": "We are committed to protecting your privacy.",
+    "lastUpdate": "Last update: 5.9.2025",
+    "informationCollection": {
+      "title": "Information collection",
+      "subtitle": "Information we collect:",
+      "items": {
+        "profile": "Profile information: name, age, city, profession, photos and personal description",
+        "contact": "Contact information: Email address and phone number (optional)",
+        "usage": "Usage information: app activity, preferences, and customizations",
+        "technical": "Technical information: IP address, device type and cookie data",
+        "content": "Content: Messages, likes, and good deeds you share"
+      }
+    },
+    "useOfInformation": {
+      "title": "Use of information",
+      "subtitle": "We use your information for:",
+      "items": {
+        "personalized": "Providing personalized dating and matchmaking services",
+        "profile": "Creating and viewing the user profile",
+        "verification": "Identity verification and profile approval",
+        "improving": "Improving and personalizing the service",
+        "fraud": "Preventing fraud and keeping users safe",
+        "contact": "Contact for service and support issues",
+        "compliance": "Compliance with legal and regulatory requirements"
+      }
+    },
+    "algorithm": {
+      "title": "Explanation of the matching algorithm and limited liability",
+      "description": {
+        "part1": "Our matching algorithm is based on the profile data, interests, age preferences, and location you provide. ",
+        "highlight": "We do our best to offer relevant matches",
+        "part2": ", but it's important to emphasize:"
+      },
+      "items": {
+        "recommendations": {
+          "part1": "The adjustments are ",
+          "highlight": "recommendations only",
+          "part2": " and do not guarantee any fit or result."
+        },
+        "vigilant": {
+          "part1": "Everyone is required to be ",
+          "highlight": "vigilant and responsible",
+          "part2": " in choosing relationships."
+        },
+        "personal": {
+          "part1": "The ultimate responsibility for decisions and actions is ",
+          "highlight": "personal and exclusive."
+        },
+        "responsible": {
+          "part1": "We are ",
+          "highlight": "not responsible",
+          "part2": " for the results of the connections or adjustments."
+        }
+      }
+    },
+    "protection": {
+      "title": "Information protection",
+      "subtitle": "Protective measures:",
+      "items": {
+        "encryption": "Advanced encryption of sensitive data",
+        "storage": "Secure storage on protected servers",
+        "access": "Limited access control to data",
+        "monitoring": "Ongoing security tracking and monitoring",
+        "filtering": "Automatic content filtering to prevent sharing of personal information",
+        "approval": "Manual approval of profiles by the management team"
+      }
+    },
+    "sharing": {
+      "title": "Sharing information with third parties",
+      "description": "We will not sell your personal information. We will only share information in the following cases:",
+      "items": {
+        "consent": "With your express consent",
+        "service": "For the purpose of providing the service (e.g., with secure technical infrastructure providers)",
+        "legal": "As required by law or court order",
+        "rights": "To protect our rights or the rights of users"
+      }
+    },
+    "rights": {
+      "title": "Your rights",
+      "subtitle": "You have the right:",
+      "items": {
+        "view": "View the personal information we hold about you",
+        "correction": "Request correction or update of incorrect information",
+        "deletion": "Request deletion of your account and information",
+        "limit": "Limit the use of your information",
+        "copy": "Get a copy of your information",
+        "revoke": "Revoke previously given consent",
+        "complaint": "File a complaint with the Privacy Protection Authority"
+      }
+    },
+    "cookies": {
+      "title": "Cookies and tracking",
+      "description": "This website uses cookies to improve your experience, analytics, and the proper functioning of the service. You can manage your cookie preferences through your browser settings."
+    },
+    "contact": {
+      "title": "Contact us",
+      "description": "For questions about our privacy policy or requests related to your personal data:",
+      "email": "Email",
+      "phone": "Phone"
+    },
+    "footer": "This Privacy Policy may be updated from time to time. We will notify you of any significant changes via the website or by email."
+  },
+  "whyWorkWithUs": {
+    "title": "Why work with us?",
+    "cards": {
+      "purpose": {
+        "title": "Purpose",
+        "description": "Work with real impact on people's lives"
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "Advanced technologies and creative solutions"
+      },
+      "greatTeam": {
+        "title": "Great team",
+        "description": "Supportive and professional work environment"
+      },
+      "growth": {
+        "title": "Growth",
+        "description": "Promotion opportunities and training"
+      }
+    }
+  },
+  "benefitsConditions": {
+    "title": "Benefits & Conditions",
+    "benefits": {
+      "competitiveSalary": "Competitive salary and stock options",
+      "flexibleHours": "Flexible working hours",
+      "trainingBudget": "Training budget",
+      "familyAtmosphere": "Family-like and supportive atmosphere",
+      "healthInsurance": "Comprehensive health insurance",
+      "hybridWork": "Hybrid work",
+      "officeMeals": "Office meals and snacks"
+    }
+  },
+  "featuresNew": {
+    "title": "Why Choose LoveAI?",
+    "subtitle": "Our platform combines advanced technology with deep understanding of human relationships",
+    "aiMatching": "AI-Based Matching",
+    "aiMatchingDesc": "Smart algorithms analyze your preferences and personality",
+    "accurateMatching": "Accurate Matching",
+    "accurateMatchingDesc": "Compatibility scoring system based on 50+ different parameters",
+    "safeEnvironment": "Safe Environment",
+    "safeEnvironmentDesc": "Verified profiles and advanced safety features",
+    "realConnections": "Real Connections",
+    "realConnectionsDesc": "Focus on meaningful connections and long-term relationships",
+    "howItWorks": "How does it work?",
+    "howItWorksDesc": "Simple 3-step process to find your love",
+    "cta": "Start now - it's free"
+  },
+
+  "caseStudies": {
+    "badge": "Detailed success stories",
+    "title": "Real case studies",
+    "subtitle": "Deep dive into the real stories of couples who found love through LoveAI",
+    "stats": {
+      "matchingAccuracy": "Matching accuracy",
+      "daysToFirstDate": "Days to a first date",
+      "monthsToCommitment": "Months to commitment",
+      "satisfaction": "Satisfaction"
+    },
+    "labels": {
+      "challenge": "The challenge:",
+      "solution": "The solution:",
+      "result": "The result:"
+    },
+    "trustIndicators": {
+      "successRate": "Success rate",
+      "averageRating": "Average rating",
+      "marriedCouples": "Couples who got married",
+      "activeUsers": "Active users"
+    },
+    "stories": [
+      {
+        "title": "Sarah & David - From Tel Aviv to Jerusalem",
+        "subtitle": "94% accuracy match",
+        "timeline": "From first meeting to wedding in 8 months",
+        "description": "Sarah, a 28-year-old software developer from Tel Aviv, and David, a 32-year-old doctor from Jerusalem, met through LoveAI after the algorithm identified a perfect match between their personalities, values, and goals.",
+        "challenge": "Both were looking for a serious relationship after unsuccessful experiences with other apps",
+        "solution": "LoveAI's AI analyzed their behavior patterns, communication preferences, and core values",
+        "result": "We got married in September 2024 in a wedding with 200 guests",
+        "quote": "LoveAI not only found us love, but understood us better than we understood ourselves"
+      },
+      {
+        "title": "Michal and Amir - the young couple",
+        "subtitle": "An engineered start to career and love",
+        "timeline": "From students to a happy family",
+        "description": "Michal and Amir, two 22-year-old students from Tel Aviv University, found love during their busy career studies.",
+        "challenge": "Balancing intensive studies, part-time work, and the search for a meaningful relationship",
+        "solution": "AI recognized the need for shared goals and similar academic values",
+        "result": "Together for two years, living together and planning a shared future",
+        "quote": "We found not only love but also partners in our dreams and goals"
+      }
+    ]
+  },
+  "appShowcase": {
+    "badge": "Our app",
+    "title": "Perfect user experience",
+    "subtitle": "Modern and intuitive design that makes finding love easy and enjoyable in the app",
+    "downloadFrom": "Download from",
+    "whyDifferent": "Why LoveAI is different?",
+    "features": {
+      "highSuccess": {
+        "title": "High success rate",
+        "description": "94% of users find a match within a month"
+      },
+      "safeCommunity": {
+        "title": "Safe community",
+        "description": "Verified profiles and a safe environment for everyone"
+      },
+      "smartMatching": {
+        "title": "Smart matching",
+        "description": "Advanced AI that understands your personality and preferences"
+      }
+    }
+  },
+  "cta": {
+    "title": "Ready to Find Your Love?",
+    "badge": "Ready For your new journey?",
+    "description": "Join thousands of satisfied users who found their soulmate",
+    "benefits": {
+      "freeRegistration": "Free Registration",
+      "verifiedProfiles": "Verified Profiles",
+      "advancedMatching": "Advanced Matching",
+      "support": "24/7 Support"
+    },
+    "startJourney": "Start Your Journey",
+    "learnMore": "Learn More",
+    "trustIndicators": {
+      "users": "Active Users",
+      "matches": "Successful Matches",
+      "satisfaction": "Satisfaction"
+    }
+  },
+  "advertisement": "Advertisement",
+  "your_advertisement_can_appear_here": "Your advertisement can appear here!",
+  "reach_audience": "Reach out to an intelligent and high-quality audience of professionals and educated people from all over the country. A leading dating site with the best of the Israeli public.",
+  "whatsapp": "WhatsApp",
+  "send_email": "Send email",
+  "learn_more": "Learn More",
+  "contact_advertiser": "Contact Advertiser",
+  "click_to_visit": "Click to visit",
+  "views": "Views",
+  "clicks": "Clicks",
+  "premium_ad": "Premium",
+  "featured_ad": "Featured",
+  "sponsored": "Sponsored",
+  "new_ad": "New",
+  "contact_us": "Contact Us",
+  "advertise_with_us": "Advertise with Us",
+  "get_quote": "Get Quote",
+  "call_now": "Call Now",
+  "subscription": {
+    "title": "Choose Your Plan",
+    "subtitle": "Get access to all premium features and find your love",
+    "chooseYourPlan": "Choose Your Plan",
+    "monthly": "Monthly",
+    "annual": "Annual",
+    "year": "year",
+    "month": "month",
+    "save20": "Save 20%",
+    "billedAnnually": "Billed annually",
+    "popular": "Popular",
+    "currentPlan": "Current Plan",
+    "choosePlan": "Choose Plan",
+    "basic": "Basic",
+    "premium": "Premium",
+    "enterprise": "Enterprise",
+    "basicDesc": "Perfect for beginners",
+    "premiumDesc": "Most popular",
+    "enterpriseDesc": "For advanced search",
+    "basicFeature1": "Up to 10 likes per day",
+    "basicFeature2": "View basic profiles",
+    "basicFeature3": "Basic chat",
+    "basicFeature4": "Email support",
+    "premiumFeature1": "Unlimited likes",
+    "premiumFeature2": "View all profiles",
+    "premiumFeature3": "Advanced chat with files",
+    "premiumFeature4": "Profile boost",
+    "premiumFeature5": "Advanced filters",
+    "premiumFeature6": "No ads",
+    "enterpriseFeature1": "All premium features",
+    "enterpriseFeature2": "Personal advisor",
+    "enterpriseFeature3": "VIP matches",
+    "enterpriseFeature4": "Exclusive events",
+    "enterpriseFeature5": "Data backup",
+    "enterpriseFeature6": "API access",
+    "enterpriseFeature7": "Priority support",
+    "goodDeedTitle": "Pay with Good Deeds",
+    "goodDeedDescription": "Get premium subscription by donating to charities",
+    "goodDeedOptions": "Donate to one of our charities and earn gold points",
+    "payWithGoodDeeds": "Pay with Good Deeds",
+    "goodDeedPayment": "Good Deeds",
+    "goodDeedPaymentDesc": "This feature will be available soon",
+    "comingSoon": "Coming Soon",
+    "paymentSoon": "Payment system will be available soon",
+    "freeForNow": "All features are currently free",
+    "securePayment": "Secure Payment",
+    "cancelAnytime": "Cancel Anytime",
+    "support247": "24/7 Support"
+  },
+  "visit_now": "Visit Now",
+  "title": "Good Deeds",
+  "subtitle": "Do good deeds, collect gold hearts and help the community",
+  "goldHearts": "Gold Hearts",
+  "points": "Points",
+  "submitGoodDeed": "Submit Good Deed",
+  "myDeeds": "My Deeds",
+  "submitProofTitle": "Submit Proof of Good Deed",
+  "goodDeedTitle": "Good Deed Title",
+  "goodDeedTitlePlaceholder": "Donation to charity, volunteering...",
+  "description": "Description",
+  "descriptionPlaceholder": "Briefly describe the good deed you did...",
+  "charity": "Charity (Optional)",
+  "selectCharity": "Select charity",
+  "redCross": "Red Cross",
+  "unicef": "UNICEF",
+  "localCharity": "Local Charity",
+  "typeOfGoodDeed": "Type of Good Deed",
+  "regularGoodDeed": "Regular good deed (12 points)",
+  "exceptionalGoodDeed": "Exceptional good deed (25 points)",
+  "volunteerWork": "Volunteer work (20 points)",
+  "proof": "Proof (Image/PDF/Video)",
+  "clickToUpload": "Click to upload file",
+  "fileTypes": "Images, PDF or video (up to 10MB)",
+  "additionalNotes": "Additional Notes (Optional)",
+  "additionalNotesPlaceholder": "Additional notes for administrators...",
+  "submitForApproval": "Submit Good Deed for Approval",
+  "approvalMessage": "Your good deed will be reviewed and approved. After approval, you'll receive your points and gold hearts!",
+  "approved": "Approved",
+  "collectGoldHearts": "Collect Gold Hearts",
+  "collectGoldHeartsDesc": "Every 50 points = 1 gold heart that advances your profile",
+  "communityVolunteering": "Community Volunteering",
+  "communityVolunteeringDesc": "Participate in volunteer activities and meet new people",
+  "charityDonations": "Charity Donations",
+  "charityDonationsDesc": "Donate to verified charities and get recognition for your generosity",
+  "socialRecognition": "Social Recognition",
+  "socialRecognitionDesc": "Receive recognition for your good deeds from the community",
+  "howItWorks": "How does it work?",
+  "step1": "Do a good deed - donate to charity, volunteer, help others",
+  "step2": "Take proof - photo of receipt, volunteer certificate, or short video",
+  "step3": "Submit through the site - fill in details and upload proof",
+  "step4": "Get approval - after review you'll receive points and gold hearts!",
+  "supportedFileTypes": "Supported File Types",
+  "images": "Images: JPG, PNG, WEBP",
+  "documents": "Documents: PDF",
+  "videos": "Videos: MP4, WebM, MOV",
+  "maxFileSize": "Maximum file size: 10MB",
+  "submitting": "Submitting...",
+  "submitSuccess": "Good deed submitted successfully! Redirecting to your deeds...",
+  "authError": "Authentication error. Please log in again.",
+  "submitError": "Error submitting good deed. Please try again.",
+  "titleRequired": "Title is required",
+  "titleLengthError": "Title must be between 3 and 200 characters",
+  "descriptionTooLong": "Description must be less than 2000 characters",
+  "fileTooLarge": "File size must be less than 10MB",
+  "invalidFileType": "Please select a valid file type (JPG, PNG, WEBP, PDF, MP4, WebM, MOV)",
+  "validationErrors": "Validation Errors",
+  "mockDeeds": {
+    "deed1": {
+      "title": "Charity Donation",
+      "description": "Donated clothes and food to the local homeless shelter"
+    },
+    "deed2": {
+      "title": "Volunteering",
+      "description": "Helped elderly people with grocery shopping"
+    },
+    "deed3": {
+      "title": "Environmental Action",
+      "description": "Organized community park cleanup event"
+    }
+  },
+  "default_ad": {
+    "title": "Your advertisement can appear here!",
+    "description": "Reach out to an intelligent and high-quality audience of professionals and educated people from all over the country. A leading dating site with the best of the Israeli public.",
+    "company": "Premium Advertising",
+    "whatsapp": "WhatsApp",
+    "email": "Send email"
+  },
+  "data": "Data",
+  "loading": "Loading",
+  "whatsapp1": "WhatsApp",
+
+  "default_ad_title": "Your advertisement can appear here!",
+  "default_ad_description": "Reach out to an intelligent and high-quality audience of professionals and educated people from all over the country. A leading dating site with the best of the Israeli public.",
+  "default_company_name": "Premium Advertising",
+  "by": "By",
+  "premium_ad_space": "Premium advertising space",
+  "of": "of",
+  "priority": "Priority",
+  "demo_slide1_love_smarter": "LoveAi – A serious dating app,",
+  "demo_slide1_live_deeper": "Powered by AI and shared values,",
+  "demo_slide1_match_by_values": "Not endless swipes.",
+  "demo_slide1_ai_platform_desc": "Our AI-powered dating platform uses cutting-edge technology to connect you with compatible partners who share your interests, Smart Dating for Real People, AI-Powered Matching for Deeper Connections, Privacy-First. Verified Users. Real Intentions.",
+  "demo_slide1_start_now": "Find your perfect match – start now!",
+  "demo_slide1_learn_more": "Discover real love powered by AI",
+  "demo_slide1_matches_this_week": "10,000+ matches in this week",
+
+  "demo_slide2_love_smarter": "Meet Your Soulmate Today,",
+  "demo_slide2_live_deeper": "Real connections, Real relationships,",
+  "demo_slide2_match_by_values": "Start your love story.",
+  "demo_slide2_ai_platform_desc": "Join thousands of singles finding meaningful relationships. Our smart matching algorithm learns your preferences to connect you with the right people at the right time.",
+  "demo_slide2_start_now": "Join now and find love!",
+  "demo_slide2_learn_more": "See how it works",
+  "demo_slide2_matches_this_week": "10,000+ new connections",
+
+  "demo_slide3_love_smarter": "Your Perfect Match Awaits,",
+  "demo_slide3_live_deeper": "Where authentic people meet,",
+  "demo_slide3_match_by_values": "Love without compromise.",
+  "demo_slide3_ai_platform_desc": "Experience dating reimagined. Connect with verified users who share your values, interests, and life goals. Say goodbye to ghosting and hello to genuine connections.",
+  "demo_slide3_start_now": "Start your journey today!",
+  "demo_slide3_learn_more": "Explore success stories",
+  "demo_slide3_matches_this_week": "10,000+ happy couples",
+
+  "demo_slide4_love_smarter": "Find Love That Lasts,",
+  "demo_slide4_live_deeper": "Intelligent matching for real people,",
+  "demo_slide4_match_by_values": "Meaningful relationships start here.",
+  "demo_slide4_ai_platform_desc": "Built for those serious about finding love. Our platform prioritizes quality over quantity, connecting you with people who truly match your lifestyle and values.",
+  "demo_slide4_start_now": "Create your profile now!",
+  "demo_slide4_learn_more": "Learn about our AI matching",
+  "demo_slide4_matches_this_week": "10,000+ active members",
+  "cookie": {
+    "title": "🍪 Cookie Consent",
+    "description": "We use cookies to enhance your browsing experience, serve personalized content, and analyze our traffic. By clicking \"Accept All\", you consent to our use of cookies.",
+    "acceptAll": "Accept All",
+    "rejectAll": "Reject All"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We're here to help! Reach out with any questions or issues",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send Message"
+    },
+    "info": {
+      "title": "Contact Information",
+      "description": "You can reach us in several ways",
+      "emailLabel": "Email",
+      "email": "support@loveai.co.il",
+      "phoneLabel": "Phone",
+      "phone": "+972-50-755-5200",
+      "addressLabel": "Address",
+      "address": "Tel Aviv, Israel",
+      "hoursLabel": "Business Hours",
+      "hours": "Sun-Thu: 9:00-18:00"
+    },
+    "supportTypes": {
+      "title": "Support Types",
+      "general": "General Questions",
+      "technical": "Technical Support",
+      "billing": "Billing Questions",
+      "safety": "Safety Report"
+    },
+    "support": "Support",
+    "success": "Message sent successfully!"
+  },
+  "payment": {
+    "completePayment": "Complete Payment",
+    "youSelected": "You selected",
+    "plan": "Plan",
+    "billing": "Billing",
+    "annual": "Annual",
+    "monthly": "Monthly",
+    "total": "Total",
+    "creditCard": "Credit Card",
+    "googlePay": "Google Pay",
+    "testMode": "Test Mode",
+    "cardDetails": "Card Details",
+    "processing": "Processing...",
+    "pay": "Pay",
+    "testCard": "Test Card",
+    "testCardInstructions": "Any future date | Any 3 digits",
+    "googlePayDescription": "Pay securely with your Google Pay account. Fast and convenient.",
+    "processingGooglePay": "Processing Google Pay...",
+    "initializingGooglePay": "Initializing Google Pay...",
+    "settingUpGooglePay": "Setting up Google Pay. Please wait a moment...",
+    "testModeDescription": "This will simulate a successful payment without charging any card. Perfect for testing the flow!",
+    "completeTestPayment": "Complete Test Payment",
+    "cancel": "Cancel",
+    "close": "Close",
+    "googlePaySuccess": "Google Pay Payment Successful! Subscribed to",
+    "paymentSuccessful": "Payment Successful! Subscribed to",
+    "googlePayNotAvailable": "Google Pay Not Available",
+    "googlePayNotAvailableDesc": "Google Pay is not available in your browser or region. Please try another payment method."
+  },
+   "coming_soon_title": "Coming Soon!",
+  "coming_soon_description": "Our iOS app is under development and will be available on the App Store soon.",
+  "coming_soon_stay_tuned": "Stay tuned for updates! 🚀"
+}
