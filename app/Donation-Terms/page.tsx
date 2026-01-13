@@ -9,6 +9,7 @@ import { useTranslation } from 'react-i18next';
 import { AccessibilityProvider } from "@/components/AccessibilityProvider";
 import { AccessibilityWidget } from "@/components/AccessibilityWidget";
 import SEOHead from '@/components/seo/SEOHead';
+import blogImage from "./Blog2.png";
 interface TimelineStep {
   id: number;
   icon: string;
@@ -568,7 +569,7 @@ export default function KindnessJourneyPage({ kindnessScore = 48 }: Props) {
               </motion.div>
               <div className="bg-white rounded-2xl shadow-lg overflow-hidden lg:flex">
                 <div className="lg:w-1/2 relative h-64 lg:h-auto">
-                  <Image src="/blog2.png" alt="Couples holding hands" fill className="object-cover" />
+                  <Image src={blogImage} alt="Couples holding hands" fill className="object-cover" />
                 </div>
                 <div className="lg:w-1/2 p-8 flex flex-col justify-center">
                   <h3 className="text-2xl font-bold mb-4">{isMounted ? t('kindnessJourney.whyKindness.title') : fallbackContent.whyKindnessTitle}</h3>

@@ -8,6 +8,12 @@ import Image from 'next/image';
 import { AccessibilityProvider } from "@/components/AccessibilityProvider";
 import { AccessibilityWidget } from "@/components/AccessibilityWidget";
 import SEOHead from '@/components/seo/SEOHead';
+import blog1Image from './Blog1.png';
+import blog2Image from './Blog2.png';
+import blog3Image from './Blog3.png';
+import blog4Image from './Blog4.png';
+import blog5Image from './Blog5.png';
+import blog6Image from './Blog6.png';
 function BlogPage() {
   const { t } = useTranslation();
   const [isMounted, setIsMounted] = useState(false);
@@ -59,7 +65,7 @@ function BlogPage() {
     {
       id: 1,
       title: isMounted ? t('blog.article1.title') : fallbackBlog.article1.title,
-      image: '/blog2.png',
+      image: blog2Image,
       content: isMounted ? t('blog.article1.content') : fallbackBlog.article1.content,
       author: isMounted ? t('blog.article1.author') : fallbackBlog.article1.author,
       tags: isMounted ? [t('tags.dating'), t('tags.relationships')] : fallbackBlog.article1.tags
@@ -67,7 +73,7 @@ function BlogPage() {
     {
       id: 2,
       title: isMounted ? t('blog.article2.title') : fallbackBlog.article2.title,
-      image: '/blog1.png', 
+      image: blog1Image, 
       content: isMounted ? t('blog.article2.content') : fallbackBlog.article2.content,    
       author: isMounted ? t('blog.article2.author') : fallbackBlog.article2.author,
       tags: isMounted ? [t('tags.relationships')] : fallbackBlog.article2.tags
@@ -75,7 +81,7 @@ function BlogPage() {
     {
       id: 3,
       title: isMounted ? t('blog.article3.title') : fallbackBlog.article3.title,
-      image: '/blog3.png',
+      image: blog3Image,
       content: isMounted ? t('blog.article3.content') : fallbackBlog.article3.content,
       author: isMounted ? t('blog.article3.author') : fallbackBlog.article3.author,
       tags: isMounted ? [t('tags.dateIdeas'), t('tags.dating')] : fallbackBlog.article3.tags
@@ -83,7 +89,7 @@ function BlogPage() {
     {
       id: 4,
       title: isMounted ? t('blog.article4.title') : fallbackBlog.article4.title,
-       image: '/blog4.png', 
+       image: blog4Image, 
       content: isMounted ? t('blog.article4.content') : fallbackBlog.article4.content,
       author: isMounted ? t('blog.article4.author') : fallbackBlog.article4.author,
       tags: isMounted ? [t('tags.relationships')] : fallbackBlog.article4.tags
@@ -91,7 +97,7 @@ function BlogPage() {
     {
       id: 5,
       title: isMounted ? t('blog.article5.title') : fallbackBlog.article5.title,
-       image: '/blog5.png',
+       image: blog5Image,
       content: isMounted ? t('blog.article5.content') : fallbackBlog.article5.content,
       author: isMounted ? t('blog.article5.author') : fallbackBlog.article5.author,
       tags: isMounted ? [t('tags.dating'), t('tags.mindfulDating')] : fallbackBlog.article5.tags
