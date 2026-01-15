@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.loveai.co.il
+
+# Sitemaps
+Sitemap: https://www.loveai.co.il/sitemap.xml

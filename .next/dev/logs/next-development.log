@@ -1,0 +1,351 @@
+[00:00:24.084] Server  LOG      ✓ Ready in 22.5s
+[00:00:36.740] Server  LOG      ○ Compiling / ...
+[00:01:02.064] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:06.390] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+      <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+        <RedirectBoundary>
+          <RedirectErrorBoundary router={{...}}>
+            <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+              <SegmentViewNode type="page" pagePath="page.tsx">
+                <SegmentTrieNode>
+                <ClientPageRoot Component={function LoveAiLanding} serverProvidedParams={{...}}>
+                  <LoveAiLanding params={Promise} searchParams={Promise}>
+                    <div className="max-w-[100...">
+                      <AccessibilityProvider>
+                        <AccessibilityWidget>
+                          <div className="fixed bott...">
+                            <button
+                              onClick={function onClick}
+                              className="rounded-full h-16 w-16 bg-sky-600 hover:bg-sky-700 shadow-2xl border-2 border..."
++                             aria-label="Открыть настройки доступности (Alt + A)"
+-                             aria-label="accessibility.openButton"
+                            >
+                              <Accessibility>
+                              <span className="sr-only">
++                               Заявление о доступности
+-                               accessibility.title
+                        ...
+              ...
+            ...
+
+[00:01:06.390] Browser WARN    Image with src "/dislike.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:06.518] Browser LOG     Full API Response: {"footer":{"company_name":"Make My Trip","description":"Tourist Places in Narkanda\\nNarkanda is a tiny town in Shimla in the Indian hill state of Himachal Pradesh. Seated on the Hindustan-Tibet Road, Narkanda is encircled by the green cover of the Himalayas and hence, renowned for its apple orchards, treks and scenic beauty.","id":"2ddd2917-7ba7-4a48-9e61-6e0de96e1c66","image_url":"https://hblimg.mmtcdn.com/content/hubble/img/narkanda/mmt/destination/m_Narkanda_l_372_902.jpg","position":"footer","target_url":"https://www.makemytrip.com/tripideas/memorable-experiences-narkanda?pdtCtx=eyJqaWQiOiJqb3VybmV5XzE3NTgwNDgyNDQ2NDlfNDQ4czk1ZHQ1Iiwic2MiOm51bGwsInBwIjoiZGVzdGluYXRpb25fY2l0eSJ9","title":"MAKE MY TRIP"},"header":{"company_name":"Ecobuild System Ltd","description":"Eco Build System Ltd. was established with the intention and vision to help find a solution to the housing crisis in the State of Israel and to take part in the construction of the Land of Israel. Although the State of Israel is a technological powerhouse that leads in the field of technology and many other fields, for some reason in the construction industry we work almost the same as they did five or six decades (50-60 years) ago.","id":"b2f72093-b4b9-4311-a750-bc5e24cc76ec","image_url":"https://i0.wp.com/ecobuild.co.il/wp-content/uploads/2020/02/new_72737.png?w=570&ssl=1","position":"header","target_url":"https://ecobuild.co.il/product/nudura-plus-series/","title":"Ecobuild"},"sidebar":{"company_name":"Grand Beach Hotel","description":"With locations in Israel's premier cities, Tel Aviv and Jerusalem and the Dead Sea, the Grand Hotels Chain are the ideal choice for your stay in Israel.\\nFounded in 2005, the Grand Hotels are well-known today for their central locations and great rates. The hotels have been recently renovated, ensuring that the hotels are up-to-date and meet all travelers' needs. Guests enjoy the elaborate Israeli breakfast buffets, relaxing outdoor pools, and outstanding service. The management has a lot of experience in hospitality, and the staff is very well trained. The Grand Hotels Israel Chain warmly welcomes each guest with a personal touch and high quality service!","id":"762071fc-9f3a-4f1f-8768-ad922a010d2d","image_url":"https://www.grandhotels-israel.com//octopus/Upload/images/Pages/grandtest1.jpg","position":"sidebar","target_url":"https://www.grandhotels-israel.com/","title":"Grand Beach Hotel"}}
+[00:01:06.518] Browser LOG     Full API Response: {"footer":{"company_name":"Make My Trip","description":"Tourist Places in Narkanda\\nNarkanda is a tiny town in Shimla in the Indian hill state of Himachal Pradesh. Seated on the Hindustan-Tibet Road, Narkanda is encircled by the green cover of the Himalayas and hence, renowned for its apple orchards, treks and scenic beauty.","id":"2ddd2917-7ba7-4a48-9e61-6e0de96e1c66","image_url":"https://hblimg.mmtcdn.com/content/hubble/img/narkanda/mmt/destination/m_Narkanda_l_372_902.jpg","position":"footer","target_url":"https://www.makemytrip.com/tripideas/memorable-experiences-narkanda?pdtCtx=eyJqaWQiOiJqb3VybmV5XzE3NTgwNDgyNDQ2NDlfNDQ4czk1ZHQ1Iiwic2MiOm51bGwsInBwIjoiZGVzdGluYXRpb25fY2l0eSJ9","title":"MAKE MY TRIP"},"header":{"company_name":"Ecobuild System Ltd","description":"Eco Build System Ltd. was established with the intention and vision to help find a solution to the housing crisis in the State of Israel and to take part in the construction of the Land of Israel. Although the State of Israel is a technological powerhouse that leads in the field of technology and many other fields, for some reason in the construction industry we work almost the same as they did five or six decades (50-60 years) ago.","id":"b2f72093-b4b9-4311-a750-bc5e24cc76ec","image_url":"https://i0.wp.com/ecobuild.co.il/wp-content/uploads/2020/02/new_72737.png?w=570&ssl=1","position":"header","target_url":"https://ecobuild.co.il/product/nudura-plus-series/","title":"Ecobuild"},"sidebar":{"company_name":"Grand Beach Hotel","description":"With locations in Israel's premier cities, Tel Aviv and Jerusalem and the Dead Sea, the Grand Hotels Chain are the ideal choice for your stay in Israel.\\nFounded in 2005, the Grand Hotels are well-known today for their central locations and great rates. The hotels have been recently renovated, ensuring that the hotels are up-to-date and meet all travelers' needs. Guests enjoy the elaborate Israeli breakfast buffets, relaxing outdoor pools, and outstanding service. The management has a lot of experience in hospitality, and the staff is very well trained. The Grand Hotels Israel Chain warmly welcomes each guest with a personal touch and high quality service!","id":"762071fc-9f3a-4f1f-8768-ad922a010d2d","image_url":"https://www.grandhotels-israel.com//octopus/Upload/images/Pages/grandtest1.jpg","position":"sidebar","target_url":"https://www.grandhotels-israel.com/","title":"Grand Beach Hotel"}}
+[00:01:06.519] Browser LOG     Full API Response: {"footer":{"company_name":"Make My Trip","description":"Tourist Places in Narkanda\\nNarkanda is a tiny town in Shimla in the Indian hill state of Himachal Pradesh. Seated on the Hindustan-Tibet Road, Narkanda is encircled by the green cover of the Himalayas and hence, renowned for its apple orchards, treks and scenic beauty.","id":"2ddd2917-7ba7-4a48-9e61-6e0de96e1c66","image_url":"https://hblimg.mmtcdn.com/content/hubble/img/narkanda/mmt/destination/m_Narkanda_l_372_902.jpg","position":"footer","target_url":"https://www.makemytrip.com/tripideas/memorable-experiences-narkanda?pdtCtx=eyJqaWQiOiJqb3VybmV5XzE3NTgwNDgyNDQ2NDlfNDQ4czk1ZHQ1Iiwic2MiOm51bGwsInBwIjoiZGVzdGluYXRpb25fY2l0eSJ9","title":"MAKE MY TRIP"},"header":{"company_name":"Ecobuild System Ltd","description":"Eco Build System Ltd. was established with the intention and vision to help find a solution to the housing crisis in the State of Israel and to take part in the construction of the Land of Israel. Although the State of Israel is a technological powerhouse that leads in the field of technology and many other fields, for some reason in the construction industry we work almost the same as they did five or six decades (50-60 years) ago.","id":"b2f72093-b4b9-4311-a750-bc5e24cc76ec","image_url":"https://i0.wp.com/ecobuild.co.il/wp-content/uploads/2020/02/new_72737.png?w=570&ssl=1","position":"header","target_url":"https://ecobuild.co.il/product/nudura-plus-series/","title":"Ecobuild"},"sidebar":{"company_name":"Grand Beach Hotel","description":"With locations in Israel's premier cities, Tel Aviv and Jerusalem and the Dead Sea, the Grand Hotels Chain are the ideal choice for your stay in Israel.\\nFounded in 2005, the Grand Hotels are well-known today for their central locations and great rates. The hotels have been recently renovated, ensuring that the hotels are up-to-date and meet all travelers' needs. Guests enjoy the elaborate Israeli breakfast buffets, relaxing outdoor pools, and outstanding service. The management has a lot of experience in hospitality, and the staff is very well trained. The Grand Hotels Israel Chain warmly welcomes each guest with a personal touch and high quality service!","id":"762071fc-9f3a-4f1f-8768-ad922a010d2d","image_url":"https://www.grandhotels-israel.com//octopus/Upload/images/Pages/grandtest1.jpg","position":"sidebar","target_url":"https://www.grandhotels-israel.com/","title":"Grand Beach Hotel"}}
+[00:01:06.519] Browser LOG     Full API Response: {"footer":{"company_name":"Make My Trip","description":"Tourist Places in Narkanda\\nNarkanda is a tiny town in Shimla in the Indian hill state of Himachal Pradesh. Seated on the Hindustan-Tibet Road, Narkanda is encircled by the green cover of the Himalayas and hence, renowned for its apple orchards, treks and scenic beauty.","id":"2ddd2917-7ba7-4a48-9e61-6e0de96e1c66","image_url":"https://hblimg.mmtcdn.com/content/hubble/img/narkanda/mmt/destination/m_Narkanda_l_372_902.jpg","position":"footer","target_url":"https://www.makemytrip.com/tripideas/memorable-experiences-narkanda?pdtCtx=eyJqaWQiOiJqb3VybmV5XzE3NTgwNDgyNDQ2NDlfNDQ4czk1ZHQ1Iiwic2MiOm51bGwsInBwIjoiZGVzdGluYXRpb25fY2l0eSJ9","title":"MAKE MY TRIP"},"header":{"company_name":"Ecobuild System Ltd","description":"Eco Build System Ltd. was established with the intention and vision to help find a solution to the housing crisis in the State of Israel and to take part in the construction of the Land of Israel. Although the State of Israel is a technological powerhouse that leads in the field of technology and many other fields, for some reason in the construction industry we work almost the same as they did five or six decades (50-60 years) ago.","id":"b2f72093-b4b9-4311-a750-bc5e24cc76ec","image_url":"https://i0.wp.com/ecobuild.co.il/wp-content/uploads/2020/02/new_72737.png?w=570&ssl=1","position":"header","target_url":"https://ecobuild.co.il/product/nudura-plus-series/","title":"Ecobuild"},"sidebar":{"company_name":"Grand Beach Hotel","description":"With locations in Israel's premier cities, Tel Aviv and Jerusalem and the Dead Sea, the Grand Hotels Chain are the ideal choice for your stay in Israel.\\nFounded in 2005, the Grand Hotels are well-known today for their central locations and great rates. The hotels have been recently renovated, ensuring that the hotels are up-to-date and meet all travelers' needs. Guests enjoy the elaborate Israeli breakfast buffets, relaxing outdoor pools, and outstanding service. The management has a lot of experience in hospitality, and the staff is very well trained. The Grand Hotels Israel Chain warmly welcomes each guest with a personal touch and high quality service!","id":"762071fc-9f3a-4f1f-8768-ad922a010d2d","image_url":"https://www.grandhotels-israel.com//octopus/Upload/images/Pages/grandtest1.jpg","position":"sidebar","target_url":"https://www.grandhotels-israel.com/","title":"Grand Beach Hotel"}}
+[00:01:06.519] Browser LOG     Full API Response: {"footer":{"company_name":"Make My Trip","description":"Tourist Places in Narkanda\\nNarkanda is a tiny town in Shimla in the Indian hill state of Himachal Pradesh. Seated on the Hindustan-Tibet Road, Narkanda is encircled by the green cover of the Himalayas and hence, renowned for its apple orchards, treks and scenic beauty.","id":"2ddd2917-7ba7-4a48-9e61-6e0de96e1c66","image_url":"https://hblimg.mmtcdn.com/content/hubble/img/narkanda/mmt/destination/m_Narkanda_l_372_902.jpg","position":"footer","target_url":"https://www.makemytrip.com/tripideas/memorable-experiences-narkanda?pdtCtx=eyJqaWQiOiJqb3VybmV5XzE3NTgwNDgyNDQ2NDlfNDQ4czk1ZHQ1Iiwic2MiOm51bGwsInBwIjoiZGVzdGluYXRpb25fY2l0eSJ9","title":"MAKE MY TRIP"},"header":{"company_name":"Ecobuild System Ltd","description":"Eco Build System Ltd. was established with the intention and vision to help find a solution to the housing crisis in the State of Israel and to take part in the construction of the Land of Israel. Although the State of Israel is a technological powerhouse that leads in the field of technology and many other fields, for some reason in the construction industry we work almost the same as they did five or six decades (50-60 years) ago.","id":"b2f72093-b4b9-4311-a750-bc5e24cc76ec","image_url":"https://i0.wp.com/ecobuild.co.il/wp-content/uploads/2020/02/new_72737.png?w=570&ssl=1","position":"header","target_url":"https://ecobuild.co.il/product/nudura-plus-series/","title":"Ecobuild"},"sidebar":{"company_name":"Grand Beach Hotel","description":"With locations in Israel's premier cities, Tel Aviv and Jerusalem and the Dead Sea, the Grand Hotels Chain are the ideal choice for your stay in Israel.\\nFounded in 2005, the Grand Hotels are well-known today for their central locations and great rates. The hotels have been recently renovated, ensuring that the hotels are up-to-date and meet all travelers' needs. Guests enjoy the elaborate Israeli breakfast buffets, relaxing outdoor pools, and outstanding service. The management has a lot of experience in hospitality, and the staff is very well trained. The Grand Hotels Israel Chain warmly welcomes each guest with a personal touch and high quality service!","id":"762071fc-9f3a-4f1f-8768-ad922a010d2d","image_url":"https://www.grandhotels-israel.com//octopus/Upload/images/Pages/grandtest1.jpg","position":"sidebar","target_url":"https://www.grandhotels-israel.com/","title":"Grand Beach Hotel"}}
+[00:01:06.519] Browser LOG     Full API Response: {"footer":{"company_name":"Make My Trip","description":"Tourist Places in Narkanda\\nNarkanda is a tiny town in Shimla in the Indian hill state of Himachal Pradesh. Seated on the Hindustan-Tibet Road, Narkanda is encircled by the green cover of the Himalayas and hence, renowned for its apple orchards, treks and scenic beauty.","id":"2ddd2917-7ba7-4a48-9e61-6e0de96e1c66","image_url":"https://hblimg.mmtcdn.com/content/hubble/img/narkanda/mmt/destination/m_Narkanda_l_372_902.jpg","position":"footer","target_url":"https://www.makemytrip.com/tripideas/memorable-experiences-narkanda?pdtCtx=eyJqaWQiOiJqb3VybmV5XzE3NTgwNDgyNDQ2NDlfNDQ4czk1ZHQ1Iiwic2MiOm51bGwsInBwIjoiZGVzdGluYXRpb25fY2l0eSJ9","title":"MAKE MY TRIP"},"header":{"company_name":"Ecobuild System Ltd","description":"Eco Build System Ltd. was established with the intention and vision to help find a solution to the housing crisis in the State of Israel and to take part in the construction of the Land of Israel. Although the State of Israel is a technological powerhouse that leads in the field of technology and many other fields, for some reason in the construction industry we work almost the same as they did five or six decades (50-60 years) ago.","id":"b2f72093-b4b9-4311-a750-bc5e24cc76ec","image_url":"https://i0.wp.com/ecobuild.co.il/wp-content/uploads/2020/02/new_72737.png?w=570&ssl=1","position":"header","target_url":"https://ecobuild.co.il/product/nudura-plus-series/","title":"Ecobuild"},"sidebar":{"company_name":"Grand Beach Hotel","description":"With locations in Israel's premier cities, Tel Aviv and Jerusalem and the Dead Sea, the Grand Hotels Chain are the ideal choice for your stay in Israel.\\nFounded in 2005, the Grand Hotels are well-known today for their central locations and great rates. The hotels have been recently renovated, ensuring that the hotels are up-to-date and meet all travelers' needs. Guests enjoy the elaborate Israeli breakfast buffets, relaxing outdoor pools, and outstanding service. The management has a lot of experience in hospitality, and the staff is very well trained. The Grand Hotels Israel Chain warmly welcomes each guest with a personal touch and high quality service!","id":"762071fc-9f3a-4f1f-8768-ad922a010d2d","image_url":"https://www.grandhotels-israel.com//octopus/Upload/images/Pages/grandtest1.jpg","position":"sidebar","target_url":"https://www.grandhotels-israel.com/","title":"Grand Beach Hotel"}}
+[00:01:12.198] Server  LOG      ○ Compiling /blog ...
+[00:01:23.835] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:01:31.381] Browser WARN    Image with src "/blog3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:31.965] Browser WARN    Image with src "/blog5.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:32.881] Browser WARN    Image with src "/blog4.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:35.132] Browser WARN    Image with src "/blog1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:05:10.629] Browser WARN    Image with src "/_next/static/media/Blog1.a39d52cb.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:05:20.337] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:22.377] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/blog" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+            <SegmentViewNode type="page" pagePath="blog/page.tsx">
+              <SegmentTrieNode>
+              <ClientPageRoot Component={function BlogPage} serverProvidedParams={{...}}>
+                <BlogPage params={Promise} searchParams={Promise}>
+                  <JSXStyle>
+                  <PolicyLayout>
+                    <main>
+                      <FloatingHearts>
+                      <NavComponent>
+                      <AccessibilityProvider>
+                        <AccessibilityWidget>
+                          <div className="fixed bott...">
+                            <button
+                              onClick={function onClick}
+                              className="rounded-full h-16 w-16 bg-sky-600 hover:bg-sky-700 shadow-2xl border-2 border..."
++                             aria-label="Open Accessibility Settings (Alt + A)"
+-                             aria-label="accessibility.openButton"
+                            >
+                              <Accessibility>
+                              <span className="sr-only">
++                               Accessibility Statement
+-                               accessibility.title
+                        ...
+                      ...
+            ...
+          ...
+
+[00:05:22.377] Browser WARN    Image with src "/_next/static/media/Blog1.a39d52cb.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:05:22.377] Browser WARN    Image with src "/blog3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:05:22.377] Browser WARN    Image with src "/blog4.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:05:22.377] Browser WARN    Image with src "/blog5.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:07:49.719] Browser WARN    Image with src "/_next/static/media/Blog3.d5686c23.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:07:53.125] Browser WARN    Image with src "/_next/static/media/Blog5.d34f4611.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:08:01.773] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:03.683] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/blog" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+            <SegmentViewNode type="page" pagePath="blog/page.tsx">
+              <SegmentTrieNode>
+              <ClientPageRoot Component={function BlogPage} serverProvidedParams={{...}}>
+                <BlogPage params={Promise} searchParams={Promise}>
+                  <JSXStyle>
+                  <PolicyLayout>
+                    <main>
+                      <FloatingHearts>
+                      <NavComponent>
+                      <AccessibilityProvider>
+                        <AccessibilityWidget>
+                          <div className="fixed bott...">
+                            <button
+                              onClick={function onClick}
+                              className="rounded-full h-16 w-16 bg-sky-600 hover:bg-sky-700 shadow-2xl border-2 border..."
++                             aria-label="Open Accessibility Settings (Alt + A)"
+-                             aria-label="accessibility.openButton"
+                            >
+                              <Accessibility>
+                              <span className="sr-only">
++                               Accessibility Statement
+-                               accessibility.title
+                        ...
+                      ...
+            ...
+          ...
+
+[00:08:03.683] Browser WARN    Image with src "/_next/static/media/Blog1.a39d52cb.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:08:03.683] Browser WARN    Image with src "/_next/static/media/Blog3.d5686c23.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:08:03.683] Browser WARN    Image with src "/_next/static/media/Blog4.2450f252.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:08:03.683] Browser WARN    Image with src "/_next/static/media/Blog5.d34f4611.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:08:23.310] Server  LOG      ○ Compiling /_not-found ...
+[00:08:25.735] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/blog" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+            <SegmentViewNode type="page" pagePath="blog/page.tsx">
+              <SegmentTrieNode>
+              <ClientPageRoot Component={function BlogPage} serverProvidedParams={{...}}>
+                <BlogPage params={Promise} searchParams={Promise}>
+                  <JSXStyle>
+                  <PolicyLayout>
+                    <main>
+                      <FloatingHearts>
+                      <NavComponent>
+                      <AccessibilityProvider>
+                        <AccessibilityWidget>
+                          <div className="fixed bott...">
+                            <button
+                              onClick={function onClick}
+                              className="rounded-full h-16 w-16 bg-sky-600 hover:bg-sky-700 shadow-2xl border-2 border..."
++                             aria-label="Open Accessibility Settings (Alt + A)"
+-                             aria-label="accessibility.openButton"
+                            >
+                              <Accessibility>
+                              <span className="sr-only">
++                               Accessibility Statement
+-                               accessibility.title
+                        ...
+                      ...
+            ...
+          ...
+
+[00:08:29.396] Browser WARN    Image with src "/_next/static/media/Blog3.d5686c23.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:08:29.396] Browser WARN    Image with src "/_next/static/media/Blog1.a39d52cb.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:08:29.396] Browser WARN    Image with src "/_next/static/media/Blog4.2450f252.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:08:34.410] Browser WARN    Image with src "/_next/static/media/Blog5.d34f4611.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:08:36.117] Browser WARN    Image with src "/_next/static/media/Blog2.c8235a92.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:08:40.954] Server  WARN    react-i18next:: You will need to pass in an i18next instance by using initReactI18next
+[00:08:43.975] Server  LOG      ○ Compiling /about ...
+[00:08:57.131] Server  LOG      ○ Compiling /Donation-Terms ...
+[00:09:09.130] Server  WARN    react-i18next:: You will need to pass in an i18next instance by using initReactI18next
+[00:09:12.229] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:09:12.229] Browser WARN    Image with src "/ch5.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:09:12.229] Browser WARN    Image with src "/ch6.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:09:12.229] Browser WARN    Image with src "/ch4.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:09:12.229] Browser WARN    Image with src "/ch7.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:09:12.229] Browser WARN    Image with src "/ch2.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:09:12.229] Browser WARN    Image with src "/ch3.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:09:12.229] Browser WARN    Image with src "/ch1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:09:13.909] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:09:14.644] Browser WARN    Image with src "/ch2.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:09:14.644] Browser WARN    Image with src "/ch1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:09:14.644] Browser WARN    Image with src "/ch3.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:09:14.644] Browser WARN    Image with src "/prof.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:09:14.644] Browser WARN    Image with src "/ch4.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:09:14.644] Browser WARN    Image with src "/ch5.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:09:14.644] Browser WARN    Image with src "/ch6.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:09:14.644] Browser WARN    Image with src "/ch7.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:09:14.644] Browser WARN    Image with src "/blog2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:09:14.644] Browser WARN    Image with src "/dosome.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:09:14.644] Browser WARN    Image with src "/earn.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:09:14.644] Browser WARN    Image with src "/createprof.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:09:15.180] Browser WARN    Image with src "/blog2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:09:25.332] Browser WARN    Image with src "/createprof.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:09:25.332] Browser WARN    Image with src "/dosome.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:09:25.332] Browser WARN    Image with src "/prof.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:09:25.332] Browser WARN    Image with src "/earn.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:10:52.542] Browser WARN    Image with src "/_next/static/media/Blog2.c8235a92.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:12:10.601] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:10.868] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/Donation-..." tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} ...>
+            <SegmentViewNode type="page" pagePath="Donation-T...">
+              <SegmentTrieNode>
+              <ClientPageRoot Component={function KindnessJourneyPage} serverProvidedParams={{...}}>
+                <KindnessJourneyPage params={Promise} searchParams={Promise}>
+                  <JSXStyle>
+                  <PolicyLayout>
+                    <main>
+                      <FloatingHearts>
+                      <NavComponent>
+                      <AccessibilityProvider>
+                        <AccessibilityWidget>
+                          <div className="fixed bott...">
+                            <button
+                              onClick={function onClick}
+                              className="rounded-full h-16 w-16 bg-sky-600 hover:bg-sky-700 shadow-2xl border-2 border..."
++                             aria-label="Open Accessibility Settings (Alt + A)"
+-                             aria-label="accessibility.openButton"
+                            >
+                              <Accessibility>
+                              <span className="sr-only">
++                               Accessibility Statement
+-                               accessibility.title
+                        ...
+                      ...
+            ...
+          ...
+
+[00:12:12.744] Browser WARN    Image with src "/prof.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:12:12.744] Browser WARN    Image with src "/earn.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:12:12.744] Browser WARN    Image with src "/createprof.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:12:12.744] Browser WARN    Image with src "/ch1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:12:12.744] Browser WARN    Image with src "/dosome.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:12:12.744] Browser WARN    Image with src "/ch3.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:12:12.744] Browser WARN    Image with src "/ch2.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:12:12.744] Browser WARN    Image with src "/ch4.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:12:12.744] Browser WARN    Image with src "/ch7.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:12:12.744] Browser WARN    Image with src "/ch5.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:12:12.744] Browser WARN    Image with src "/ch6.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:12:12.744] Browser WARN    Image with src "/_next/static/media/Blog2.c8235a92.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:12:13.277] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/Donation-..." tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} ...>
+            <SegmentViewNode type="page" pagePath="Donation-T...">
+              <SegmentTrieNode>
+              <ClientPageRoot Component={function KindnessJourneyPage} serverProvidedParams={{...}}>
+                <KindnessJourneyPage params={Promise} searchParams={Promise}>
+                  <JSXStyle>
+                  <PolicyLayout>
+                    <main>
+                      <FloatingHearts>
+                      <NavComponent>
+                      <AccessibilityProvider>
+                        <AccessibilityWidget>
+                          <div className="fixed bott...">
+                            <button
+                              onClick={function onClick}
+                              className="rounded-full h-16 w-16 bg-sky-600 hover:bg-sky-700 shadow-2xl border-2 border..."
++                             aria-label="Open Accessibility Settings (Alt + A)"
+-                             aria-label="accessibility.openButton"
+                            >
+                              <Accessibility>
+                              <span className="sr-only">
++                               Accessibility Statement
+-                               accessibility.title
+                        ...
+                      ...
+            ...
+          ...
+
+[00:12:13.277] Browser WARN    Image with src "/createprof.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:12:13.277] Browser WARN    Image with src "/dosome.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:12:13.277] Browser WARN    Image with src "/prof.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:12:13.277] Browser WARN    Image with src "/earn.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:12:13.277] Browser WARN    Image with src "/ch1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:12:13.277] Browser WARN    Image with src "/ch2.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:12:13.277] Browser WARN    Image with src "/ch3.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:12:13.277] Browser WARN    Image with src "/ch4.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:12:13.277] Browser WARN    Image with src "/ch5.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:12:13.277] Browser WARN    Image with src "/ch6.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:12:13.277] Browser WARN    Image with src "/ch7.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:12:13.277] Browser WARN    Image with src "/_next/static/media/Blog2.c8235a92.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes

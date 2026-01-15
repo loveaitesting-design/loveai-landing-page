@@ -1,0 +1,106 @@
+{
+  "app/page.tsx -> @/components/AdBanner/AdBanner": {
+    "id": "app/page.tsx -> @/components/AdBanner/AdBanner",
+    "files": [
+      "static/chunks/_app-pages-browser_components_AdBanner_AdBanner_tsx.js"
+    ]
+  },
+  "app/page.tsx -> @/components/AdvancedFeaturesSection/AdvanceDatingFeatures": {
+    "id": "app/page.tsx -> @/components/AdvancedFeaturesSection/AdvanceDatingFeatures",
+    "files": [
+      "static/chunks/_app-pages-browser_components_AdvancedFeaturesSection_AdvanceDatingFeatures_tsx.js"
+    ]
+  },
+  "app/page.tsx -> @/components/AdvancedFeaturesSection/AdvancedFeaturesSection": {
+    "id": "app/page.tsx -> @/components/AdvancedFeaturesSection/AdvancedFeaturesSection",
+    "files": [
+      "static/chunks/_app-pages-browser_components_AdvancedFeaturesSection_AdvancedFeaturesSection_tsx.js"
+    ]
+  },
+  "app/page.tsx -> @/components/AiAnalysisSection/AiAnalysisSection": {
+    "id": "app/page.tsx -> @/components/AiAnalysisSection/AiAnalysisSection",
+    "files": [
+      "static/chunks/_app-pages-browser_components_AiAnalysisSection_AiAnalysisSection_tsx.js"
+    ]
+  },
+  "app/page.tsx -> @/components/BannerSection/BannerSection": {
+    "id": "app/page.tsx -> @/components/BannerSection/BannerSection",
+    "files": [
+      "static/css/_app-pages-browser_components_BannerSection_BannerSection_tsx.css",
+      "static/chunks/_app-pages-browser_components_BannerSection_BannerSection_tsx.js"
+    ]
+  },
+  "app/page.tsx -> @/components/CTA/CTA": {
+    "id": "app/page.tsx -> @/components/CTA/CTA",
+    "files": [
+      "static/chunks/_app-pages-browser_components_CTA_CTA_tsx.js"
+    ]
+  },
+  "app/page.tsx -> @/components/CaseStudies/CaseStudies": {
+    "id": "app/page.tsx -> @/components/CaseStudies/CaseStudies",
+    "files": [
+      "static/chunks/_app-pages-browser_components_CaseStudies_CaseStudies_tsx.js"
+    ]
+  },
+  "app/page.tsx -> @/components/DownloadSection/DownloadSection": {
+    "id": "app/page.tsx -> @/components/DownloadSection/DownloadSection",
+    "files": [
+      "static/chunks/_app-pages-browser_components_DownloadSection_DownloadSection_tsx.js"
+    ]
+  },
+  "app/page.tsx -> @/components/DownloadSection1/PromoSection": {
+    "id": "app/page.tsx -> @/components/DownloadSection1/PromoSection",
+    "files": [
+      "static/chunks/_app-pages-browser_components_DownloadSection1_PromoSection_tsx.js"
+    ]
+  },
+  "app/page.tsx -> @/components/Features/Features": {
+    "id": "app/page.tsx -> @/components/Features/Features",
+    "files": [
+      "static/chunks/_app-pages-browser_components_Features_Features_tsx.js"
+    ]
+  },
+  "app/page.tsx -> @/components/FindMatchSection/FindMatchSection": {
+    "id": "app/page.tsx -> @/components/FindMatchSection/FindMatchSection",
+    "files": [
+      "static/chunks/_app-pages-browser_components_FindMatchSection_FindMatchSection_tsx.js"
+    ]
+  },
+  "app/page.tsx -> @/components/FloatingHearts/FloatingHearts": {
+    "id": "app/page.tsx -> @/components/FloatingHearts/FloatingHearts",
+    "files": [
+      "static/chunks/_app-pages-browser_components_FloatingHearts_FloatingHearts_tsx.js"
+    ]
+  },
+  "app/page.tsx -> @/components/Footer/Footer": {
+    "id": "app/page.tsx -> @/components/Footer/Footer",
+    "files": [
+      "static/chunks/_app-pages-browser_components_Footer_Footer_tsx.js"
+    ]
+  },
+  "app/page.tsx -> @/components/IsForSection/IsForSection": {
+    "id": "app/page.tsx -> @/components/IsForSection/IsForSection",
+    "files": [
+      "static/chunks/_app-pages-browser_components_IsForSection_IsForSection_tsx.js"
+    ]
+  },
+  "app/page.tsx -> @/components/LoveAIBanner/Promo": {
+    "id": "app/page.tsx -> @/components/LoveAIBanner/Promo",
+    "files": [
+      "static/chunks/_app-pages-browser_components_LoveAIBanner_Promo_tsx.js"
+    ]
+  },
+  "app/page.tsx -> @/components/SuccessStoriesSection/SuccessStoriesSection": {
+    "id": "app/page.tsx -> @/components/SuccessStoriesSection/SuccessStoriesSection",
+    "files": [
+      "static/css/_app-pages-browser_components_SuccessStoriesSection_SuccessStoriesSection_tsx.css",
+      "static/chunks/_app-pages-browser_components_SuccessStoriesSection_SuccessStoriesSection_tsx.js"
+    ]
+  },
+  "app/page.tsx -> @/components/Testinomials/Testimonials": {
+    "id": "app/page.tsx -> @/components/Testinomials/Testimonials",
+    "files": [
+      "static/chunks/_app-pages-browser_components_Testinomials_Testimonials_tsx.js"
+    ]
+  }
+}
