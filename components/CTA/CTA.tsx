@@ -66,7 +66,7 @@ const CTA = () => {
     asChild
   >
     <a
-      href="https://www.loveai.co.il/signup"
+      href="https://www.loveai.co.il/login"
       className="flex items-center justify-center gap-2"
     >
       <Heart className="w-5 h-5" />

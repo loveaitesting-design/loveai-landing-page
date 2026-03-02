@@ -11,6 +11,7 @@ const nextConfig = {
   // },
   images: {
     formats: ["image/avif", "image/webp"], // ✅ Use optimized formats
+    qualities: [75, 80, 85, 90, 95, 100],
   },
   // output: 'export',
   compress: true,

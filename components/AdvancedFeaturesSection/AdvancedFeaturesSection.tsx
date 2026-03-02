@@ -173,7 +173,7 @@ export default function AdvancedFeaturesSection() {
 
   return (
     // <div className="bg-[linear-gradient(87.72deg,_#FFDFDF_4.11%,_#D5F8FF_102.78%)] py-12">
-          <div className="bg-white py-12">
+          <div id="features" className="bg-white py-12">
 
       <div className="container mx-auto px-4 md:px-8">
         {/* Heading */}

@@ -88,6 +88,10 @@ const FloatingHearts = dynamic(
     ssr: false, // ❗ animations should only run client-side
   }
 );
+
+import { AccessibilityWidget } from "@/components/AccessibilityWidget"; 
+import { AccessibilityProvider } from "@/components/AccessibilityProvider";
+
 const Features = dynamic(() => import("@/components/Features/Features"));
 const Testimonials = dynamic(
   () => import("@/components/Testinomials/Testimonials")
@@ -95,6 +99,9 @@ const Testimonials = dynamic(
 const CaseStudies = dynamic(
   () => import("@/components/CaseStudies/CaseStudies")
 );
+import { organizationSchema, appSchema, faqSchema } from "@/components/seo/schema";
+import SEOHead from "@/components/seo/SEOHead";
+
 const CTA = dynamic(() => import("@/components/CTA/CTA"));
 const AdBanner = dynamic(() => import("@/components/AdBanner/AdBanner"));
 export default function LoveAiLanding() {
@@ -102,6 +109,11 @@ export default function LoveAiLanding() {
 
   return (
     <div className="max-w-[100dvw] overflow-hidden mx-auto">
+            <AccessibilityProvider>
+
+      <AccessibilityWidget/>
+            <SEOHead title="LoveAi - Find Real Love with AI" url="https://www.loveai.co.il/" />
+
       <NavComponent />
       <FloatingHearts />
       <BannerSection />
@@ -110,18 +122,21 @@ export default function LoveAiLanding() {
 <AdBanner position="header" />
       <FindMatchSection />
       <AdvancedFeaturesSection />
-      <AdBanner position="footer"/>
+      <AdBanner position="sidebar"/>
 
-      {/* <Features /> */}
+      <Features />
       <Testimonials />
       <CaseStudies />
       <CTA />
+      <AdBanner position="footer"/>
+
       {/* <AdvanceDatingFeatures /> */}
-      <PromoSection />
+      {/* <PromoSection /> */}
       {/* <FindMatchSection /> */}
-      <SuccessStoriesSection />
+      {/* <SuccessStoriesSection /> */}
       {/* <DownloadSection /> */}
       <Footer />
+      </AccessibilityProvider>
     </div>
   );
 }

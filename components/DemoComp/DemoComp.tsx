@@ -44,7 +44,7 @@ export default function DemoComp() {
 
            <div className="flex gap-4 mb-8">
   <a
-    href="https://www.loveai.co.il/signup"
+    href="https://www.loveai.co.il/login"
     target="_blank"
     className="block"
   >
@@ -58,7 +58,7 @@ export default function DemoComp() {
 
 <div className="flex gap-4 mb-8">
   <a
-    href="https://www.loveai.co.il/signup"
+    href="https://www.loveai.co.il/login"
     target="_blank"
     className="block"
   >

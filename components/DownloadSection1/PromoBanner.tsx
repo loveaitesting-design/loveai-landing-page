@@ -153,7 +153,7 @@ const PromoBanner: React.FC<PromoBannerProps> = ({
           </div>
           
           {/* CTA Button */}
-          <a href="https://www.loveai.co.il/login" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.loveai.co.il" target="_blank" rel="noopener noreferrer">
             <Button 
               variant="modern"
               size="lg"
@@ -167,7 +167,7 @@ const PromoBanner: React.FC<PromoBannerProps> = ({
           {/* App Store Badges */}
           <div className="flex gap-4 items-center mt-6">
             <a 
-              href="https://play.google.com/store/apps/details?id=com.dating.loveai" 
+              href="https://play.google.com/store/search?q=love%20ai&c=apps" 
               target="_blank" 
               rel="noopener noreferrer"
               className="hover:scale-105 transition-transform duration-300 animate-fade-in delay-700"
@@ -220,7 +220,7 @@ const PromoBanner: React.FC<PromoBannerProps> = ({
           <h3 className="text-2xl font-bold mb-3 animate-scale-in">{text.title}</h3>
           <p className="text-white/90 mb-4 animate-fade-in delay-300">{text.subtitle}</p>
           
-          <a href="https://www.loveai.co.il/login" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.loveai.co.il" target="_blank" rel="noopener noreferrer">
             <Button variant="futuristic" size="sm" className="w-full animate-bounce hover:animate-pulse mb-4">
               {text.cta}
               <Heart className="w-4 h-4 ml-2 animate-pulse" />
@@ -230,7 +230,7 @@ const PromoBanner: React.FC<PromoBannerProps> = ({
           {/* App Store Badges */}
           <div className="flex gap-2 items-center justify-center">
             <a 
-              href="https://play.google.com/store/apps/details?id=com.dating.loveai"
+              href="https://play.google.com/store/search?q=love%20ai&c=apps"
               target="_blank" 
               rel="noopener noreferrer"
               className="hover:scale-105 transition-transform duration-300"
@@ -281,7 +281,7 @@ const PromoBanner: React.FC<PromoBannerProps> = ({
           </span>
         </div>
         <div className="flex flex-col gap-2">
-          <a href="https://www.loveai.co.il/login" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.loveai.co.il" target="_blank" rel="noopener noreferrer">
             <Button variant="outline" size="sm" className="border-purple-300 text-purple-700 hover:bg-purple-50 animate-bounce hover:animate-pulse w-full">
               {text.cta}
             </Button>
@@ -290,7 +290,7 @@ const PromoBanner: React.FC<PromoBannerProps> = ({
           {/* App Store Badges */}
           <div className="flex gap-1">
             <a 
-              href="https://play.google.com/store/apps/details?id=com.dating.loveai" 
+              href="https://play.google.com/store/search?q=love%20ai&c=apps" 
               target="_blank" 
               rel="noopener noreferrer"
               className="hover:scale-105 transition-transform duration-300"
@@ -342,7 +342,7 @@ const PromoBanner: React.FC<PromoBannerProps> = ({
           <div className="text-xs bg-gradient-to-r from-yellow-400 to-orange-500 text-white px-2 py-1 rounded-full inline-block mb-3 animate-pulse">
             {text.freeOffer}
           </div>
-          <a href="https://www.loveai.co.il/login" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.loveai.co.il" target="_blank" rel="noopener noreferrer">
             <Button variant="premium" size="sm" className="w-full animate-bounce hover:animate-pulse mb-3">
               {text.cta}
             </Button>
@@ -351,7 +351,7 @@ const PromoBanner: React.FC<PromoBannerProps> = ({
           {/* App Store Badges */}
           <div className="flex gap-2 items-center justify-center">
             <a 
-              href="https://play.google.com/store/apps/details?id=com.dating.loveai" 
+              href="https://play.google.com/store/search?q=love%20ai&c=apps" 
               target="_blank" 
               rel="noopener noreferrer"
               className="hover:scale-105 transition-transform duration-300"

@@ -4,7 +4,9 @@ import TeamsComp from "@/components/TermsCommon/TeamsComp"
 import PolicyLayout from '@/components/PolicyLayout';
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-
+import { AccessibilityProvider } from "@/components/AccessibilityProvider";
+import { AccessibilityWidget } from "@/components/AccessibilityWidget";
+import SEOHead from "@/components/seo/SEOHead";
 export default function Page() {
     const { t, ready } = useTranslation();
     const [isMounted, setIsMounted] = useState(false);
@@ -518,9 +520,14 @@ export default function Page() {
 
     return (
         <PolicyLayout>
+             <AccessibilityProvider>
+                                        <AccessibilityWidget/>
+                                                    <SEOHead title="LoveAi - Find Real Love with AI" url="https://www.loveai.co.il/" />
+                                        
             <div className="pt-[72px]" style={{ background: 'white' }}>
                 <TeamsComp terms={terms} />
             </div>
+            </AccessibilityProvider>
         </PolicyLayout>
     )
 }

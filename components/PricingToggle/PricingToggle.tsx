@@ -21,7 +21,7 @@ export default function PricingToggle({
         `}
             >
                 <div
-                    className={`bg-white w-5 h-5 rounded-full shadow-md transform transition-transform duration-300
+                    className={`bg-black w-5 h-5 rounded-full shadow-md transform transition-transform duration-300
             ${isYearly ? 'translate-x-7' : 'translate-x-0'}
           `}
                 />

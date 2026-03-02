@@ -58,7 +58,8 @@ const caseStudies = Array.isArray(rawCaseStudies) ? rawCaseStudies : [];
                   <div>
                     <h4 className="font-semibold mb-4 flex items-center gap-2 text-sky-600">
                       <TrendingUp className="w-5 h-5" />
-                      data
+                                           {t('data')}
+
                     </h4>
                     
                     <div className="space-y-4">
